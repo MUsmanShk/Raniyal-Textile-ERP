@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="YarnContractLedger" targetNamespace="http://tempuri.org/YarnContractLedger.xsd" xmlns:mstns="http://tempuri.org/YarnContractLedger.xsd" xmlns="http://tempuri.org/YarnContractLedger.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="MachineEyesConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MachineEyesConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.MachineEyes.Properties.Settings.GlobalReference.Default.MachineEyesConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Vw_Rep_ContractLedgerTableAdapter" GeneratorDataComponentClassName="Vw_Rep_ContractLedgerTableAdapter" Name="Vw_Rep_ContractLedger" UserDataComponentName="Vw_Rep_ContractLedgerTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MachineEyesConnectionString (Settings)" DbObjectName="MachineEyes.dbo.QP_YarnContracts" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT YarnContractNumber, ContractType, ContractDate, YarnSupplierID, YarnSupplierName, AgentID, AgentName, AgentCommissionRate, YarnCount, YarnCottonOrigin, YarnDesc, Ply, YarnBrand, YarnBlend, YarnConeWeight, ConesPerBag, PricePerLbs, QtyBags, LbsPerBag, DeliveryDueDate, DeliveryTerms, PaymentTerms, AgentContractRef, isImport, ContractStatusID, WHT, Remarks FROM dbo.QP_YarnContracts</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="YarnContractNumber" DataSetColumn="YarnContractNumber" />
+              <Mapping SourceColumn="ContractType" DataSetColumn="ContractType" />
+              <Mapping SourceColumn="ContractDate" DataSetColumn="ContractDate" />
+              <Mapping SourceColumn="YarnSupplierID" DataSetColumn="YarnSupplierID" />
+              <Mapping SourceColumn="YarnSupplierName" DataSetColumn="YarnSupplierName" />
+              <Mapping SourceColumn="AgentID" DataSetColumn="AgentID" />
+              <Mapping SourceColumn="AgentName" DataSetColumn="AgentName" />
+              <Mapping SourceColumn="AgentCommissionRate" DataSetColumn="AgentCommissionRate" />
+              <Mapping SourceColumn="YarnCount" DataSetColumn="YarnCount" />
+              <Mapping SourceColumn="YarnCottonOrigin" DataSetColumn="YarnCottonOrigin" />
+              <Mapping SourceColumn="YarnDesc" DataSetColumn="YarnDesc" />
+              <Mapping SourceColumn="Ply" DataSetColumn="Ply" />
+              <Mapping SourceColumn="YarnBrand" DataSetColumn="YarnBrand" />
+              <Mapping SourceColumn="YarnBlend" DataSetColumn="YarnBlend" />
+              <Mapping SourceColumn="YarnConeWeight" DataSetColumn="YarnConeWeight" />
+              <Mapping SourceColumn="ConesPerBag" DataSetColumn="ConesPerBag" />
+              <Mapping SourceColumn="PricePerLbs" DataSetColumn="PricePerLbs" />
+              <Mapping SourceColumn="QtyBags" DataSetColumn="QtyBags" />
+              <Mapping SourceColumn="LbsPerBag" DataSetColumn="LbsPerBag" />
+              <Mapping SourceColumn="DeliveryDueDate" DataSetColumn="DeliveryDueDate" />
+              <Mapping SourceColumn="DeliveryTerms" DataSetColumn="DeliveryTerms" />
+              <Mapping SourceColumn="PaymentTerms" DataSetColumn="PaymentTerms" />
+              <Mapping SourceColumn="AgentContractRef" DataSetColumn="AgentContractRef" />
+              <Mapping SourceColumn="isImport" DataSetColumn="isImport" />
+              <Mapping SourceColumn="ContractStatusID" DataSetColumn="ContractStatusID" />
+              <Mapping SourceColumn="WHT" DataSetColumn="WHT" />
+              <Mapping SourceColumn="Remarks" DataSetColumn="Remarks" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="YarnContractLedger" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="YarnContractLedger" msprop:Generator_UserDSName="YarnContractLedger">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Vw_Rep_ContractLedger" msprop:Generator_TableClassName="Vw_Rep_ContractLedgerDataTable" msprop:Generator_TableVarName="tableVw_Rep_ContractLedger" msprop:Generator_TablePropName="Vw_Rep_ContractLedger" msprop:Generator_RowDeletingName="Vw_Rep_ContractLedgerRowDeleting" msprop:Generator_UserTableName="Vw_Rep_ContractLedger" msprop:Generator_RowChangingName="Vw_Rep_ContractLedgerRowChanging" msprop:Generator_RowEvHandlerName="Vw_Rep_ContractLedgerRowChangeEventHandler" msprop:Generator_RowDeletedName="Vw_Rep_ContractLedgerRowDeleted" msprop:Generator_RowEvArgName="Vw_Rep_ContractLedgerRowChangeEvent" msprop:Generator_RowChangedName="Vw_Rep_ContractLedgerRowChanged" msprop:Generator_RowClassName="Vw_Rep_ContractLedgerRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="YarnContractNumber" msprop:Generator_ColumnVarNameInTable="columnYarnContractNumber" msprop:Generator_ColumnPropNameInRow="YarnContractNumber" msprop:Generator_ColumnPropNameInTable="YarnContractNumberColumn" msprop:Generator_UserColumnName="YarnContractNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ContractType" msprop:Generator_ColumnVarNameInTable="columnContractType" msprop:Generator_ColumnPropNameInRow="ContractType" msprop:Generator_ColumnPropNameInTable="ContractTypeColumn" msprop:Generator_UserColumnName="ContractType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ContractDate" msprop:Generator_ColumnVarNameInTable="columnContractDate" msprop:Generator_ColumnPropNameInRow="ContractDate" msprop:Generator_ColumnPropNameInTable="ContractDateColumn" msprop:Generator_UserColumnName="ContractDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="YarnSupplierID" msprop:Generator_ColumnVarNameInTable="columnYarnSupplierID" msprop:Generator_ColumnPropNameInRow="YarnSupplierID" msprop:Generator_ColumnPropNameInTable="YarnSupplierIDColumn" msprop:Generator_UserColumnName="YarnSupplierID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YarnSupplierName" msprop:Generator_ColumnVarNameInTable="columnYarnSupplierName" msprop:Generator_ColumnPropNameInRow="YarnSupplierName" msprop:Generator_ColumnPropNameInTable="YarnSupplierNameColumn" msprop:Generator_UserColumnName="YarnSupplierName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AgentID" msprop:Generator_ColumnVarNameInTable="columnAgentID" msprop:Generator_ColumnPropNameInRow="AgentID" msprop:Generator_ColumnPropNameInTable="AgentIDColumn" msprop:Generator_UserColumnName="AgentID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AgentName" msprop:Generator_ColumnVarNameInTable="columnAgentName" msprop:Generator_ColumnPropNameInRow="AgentName" msprop:Generator_ColumnPropNameInTable="AgentNameColumn" msprop:Generator_UserColumnName="AgentName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AgentCommissionRate" msprop:Generator_ColumnVarNameInTable="columnAgentCommissionRate" msprop:Generator_ColumnPropNameInRow="AgentCommissionRate" msprop:Generator_ColumnPropNameInTable="AgentCommissionRateColumn" msprop:Generator_UserColumnName="AgentCommissionRate" type="xs:decimal" minOccurs="0" />
+              <xs:element name="YarnCount" msprop:Generator_ColumnVarNameInTable="columnYarnCount" msprop:Generator_ColumnPropNameInRow="YarnCount" msprop:Generator_ColumnPropNameInTable="YarnCountColumn" msprop:Generator_UserColumnName="YarnCount" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YarnCottonOrigin" msprop:Generator_ColumnVarNameInTable="columnYarnCottonOrigin" msprop:Generator_ColumnPropNameInRow="YarnCottonOrigin" msprop:Generator_ColumnPropNameInTable="YarnCottonOriginColumn" msprop:Generator_UserColumnName="YarnCottonOrigin" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YarnDesc" msprop:Generator_ColumnVarNameInTable="columnYarnDesc" msprop:Generator_ColumnPropNameInRow="YarnDesc" msprop:Generator_ColumnPropNameInTable="YarnDescColumn" msprop:Generator_UserColumnName="YarnDesc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Ply" msprop:Generator_ColumnVarNameInTable="columnPly" msprop:Generator_ColumnPropNameInRow="Ply" msprop:Generator_ColumnPropNameInTable="PlyColumn" msprop:Generator_UserColumnName="Ply" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="YarnBrand" msprop:Generator_ColumnVarNameInTable="columnYarnBrand" msprop:Generator_ColumnPropNameInRow="YarnBrand" msprop:Generator_ColumnPropNameInTable="YarnBrandColumn" msprop:Generator_UserColumnName="YarnBrand" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YarnBlend" msprop:Generator_ColumnVarNameInTable="columnYarnBlend" msprop:Generator_ColumnPropNameInRow="YarnBlend" msprop:Generator_ColumnPropNameInTable="YarnBlendColumn" msprop:Generator_UserColumnName="YarnBlend" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YarnConeWeight" msprop:Generator_ColumnVarNameInTable="columnYarnConeWeight" msprop:Generator_ColumnPropNameInRow="YarnConeWeight" msprop:Generator_ColumnPropNameInTable="YarnConeWeightColumn" msprop:Generator_UserColumnName="YarnConeWeight" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ConesPerBag" msprop:Generator_ColumnVarNameInTable="columnConesPerBag" msprop:Generator_ColumnPropNameInRow="ConesPerBag" msprop:Generator_ColumnPropNameInTable="ConesPerBagColumn" msprop:Generator_UserColumnName="ConesPerBag" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PricePerLbs" msprop:Generator_ColumnVarNameInTable="columnPricePerLbs" msprop:Generator_ColumnPropNameInRow="PricePerLbs" msprop:Generator_ColumnPropNameInTable="PricePerLbsColumn" msprop:Generator_UserColumnName="PricePerLbs" type="xs:decimal" minOccurs="0" />
+              <xs:element name="QtyBags" msprop:Generator_ColumnVarNameInTable="columnQtyBags" msprop:Generator_ColumnPropNameInRow="QtyBags" msprop:Generator_ColumnPropNameInTable="QtyBagsColumn" msprop:Generator_UserColumnName="QtyBags" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LbsPerBag" msprop:Generator_ColumnVarNameInTable="columnLbsPerBag" msprop:Generator_ColumnPropNameInRow="LbsPerBag" msprop:Generator_ColumnPropNameInTable="LbsPerBagColumn" msprop:Generator_UserColumnName="LbsPerBag" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DeliveryDueDate" msprop:Generator_ColumnVarNameInTable="columnDeliveryDueDate" msprop:Generator_ColumnPropNameInRow="DeliveryDueDate" msprop:Generator_ColumnPropNameInTable="DeliveryDueDateColumn" msprop:Generator_UserColumnName="DeliveryDueDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DeliveryTerms" msprop:Generator_ColumnVarNameInTable="columnDeliveryTerms" msprop:Generator_ColumnPropNameInRow="DeliveryTerms" msprop:Generator_ColumnPropNameInTable="DeliveryTermsColumn" msprop:Generator_UserColumnName="DeliveryTerms" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PaymentTerms" msprop:Generator_ColumnVarNameInTable="columnPaymentTerms" msprop:Generator_ColumnPropNameInRow="PaymentTerms" msprop:Generator_ColumnPropNameInTable="PaymentTermsColumn" msprop:Generator_UserColumnName="PaymentTerms" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AgentContractRef" msprop:Generator_ColumnVarNameInTable="columnAgentContractRef" msprop:Generator_ColumnPropNameInRow="AgentContractRef" msprop:Generator_ColumnPropNameInTable="AgentContractRefColumn" msprop:Generator_UserColumnName="AgentContractRef" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="isImport" msprop:Generator_ColumnVarNameInTable="columnisImport" msprop:Generator_ColumnPropNameInRow="isImport" msprop:Generator_ColumnPropNameInTable="isImportColumn" msprop:Generator_UserColumnName="isImport" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ContractStatusID" msprop:Generator_ColumnVarNameInTable="columnContractStatusID" msprop:Generator_ColumnPropNameInRow="ContractStatusID" msprop:Generator_ColumnPropNameInTable="ContractStatusIDColumn" msprop:Generator_UserColumnName="ContractStatusID" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="WHT" msprop:Generator_ColumnVarNameInTable="columnWHT" msprop:Generator_ColumnPropNameInRow="WHT" msprop:Generator_ColumnPropNameInTable="WHTColumn" msprop:Generator_UserColumnName="WHT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Remarks" msprop:Generator_ColumnVarNameInTable="columnRemarks" msprop:Generator_ColumnPropNameInRow="Remarks" msprop:Generator_ColumnPropNameInTable="RemarksColumn" msprop:Generator_UserColumnName="Remarks" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Vw_Rep_ContractLedger" />
+      <xs:field xpath="mstns:YarnContractNumber" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

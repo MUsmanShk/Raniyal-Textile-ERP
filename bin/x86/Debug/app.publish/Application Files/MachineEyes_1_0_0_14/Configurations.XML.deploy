@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<MachineEyesConfigs>
+   <ServiceDir>/MachineEyesService.asmx</ServiceDir>
+  <UserID>1</UserID>
+  <zbState>2</zbState>
+  <UserPWD>4TmFJiFek+MUpzaC+TYvYQ==</UserPWD>
+ <AutoLogin>0</AutoLogin>
+ <DefaultShed>0</DefaultShed>
+ <PORT>COM5</PORT>
+ <DispSeconds>10</DispSeconds>
+<ServiceIP_01>http://127.0.0.1:3128</ServiceIP_01>
+<GooglePlugin>/Locx/PluginHost.html</GooglePlugin>
+
+<FinYear_02>2014</FinYear_02>
+<FinYear_02>2013</FinYear_02>
+</MachineEyesConfigs>

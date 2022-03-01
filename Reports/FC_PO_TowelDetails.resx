@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Detail.Name" xml:space="preserve">
+    <value>Detail</value>
+  </metadata>
+  <metadata name="xrTable2.Name" xml:space="preserve">
+    <value>xrTable2</value>
+  </metadata>
+  <metadata name="xrTableRow2.Name" xml:space="preserve">
+    <value>xrTableRow2</value>
+  </metadata>
+  <metadata name="xrTableCell1.Name" xml:space="preserve">
+    <value>xrTableCell1</value>
+  </metadata>
+  <metadata name="xrLine6.Name" xml:space="preserve">
+    <value>xrLine6</value>
+  </metadata>
+  <metadata name="xrLabel17.Name" xml:space="preserve">
+    <value>xrLabel17</value>
+  </metadata>
+  <metadata name="xrLine5.Name" xml:space="preserve">
+    <value>xrLine5</value>
+  </metadata>
+  <metadata name="xrLabel8.Name" xml:space="preserve">
+    <value>xrLabel8</value>
+  </metadata>
+  <metadata name="PileLbs_0.Name" xml:space="preserve">
+    <value>PileLbs_0</value>
+  </metadata>
+  <metadata name="PileCount_1.Name" xml:space="preserve">
+    <value>PileCount_1</value>
+  </metadata>
+  <metadata name="xrLabel15.Name" xml:space="preserve">
+    <value>xrLabel15</value>
+  </metadata>
+  <metadata name="PileBlend_0.Name" xml:space="preserve">
+    <value>PileBlend_0</value>
+  </metadata>
+  <metadata name="PileBlend_1.Name" xml:space="preserve">
+    <value>PileBlend_1</value>
+  </metadata>
+  <metadata name="PilePly_1.Name" xml:space="preserve">
+    <value>PilePly_1</value>
+  </metadata>
+  <metadata name="PileBags_1.Name" xml:space="preserve">
+    <value>PileBags_1</value>
+  </metadata>
+  <metadata name="PileRatio_1.Name" xml:space="preserve">
+    <value>PileRatio_1</value>
+  </metadata>
+  <metadata name="PileCount_0.Name" xml:space="preserve">
+    <value>PileCount_0</value>
+  </metadata>
+  <metadata name="PileDesc_1.Name" xml:space="preserve">
+    <value>PileDesc_1</value>
+  </metadata>
+  <metadata name="PilePly_0.Name" xml:space="preserve">
+    <value>PilePly_0</value>
+  </metadata>
+  <metadata name="PileBags_0.Name" xml:space="preserve">
+    <value>PileBags_0</value>
+  </metadata>
+  <metadata name="PileDesc_0.Name" xml:space="preserve">
+    <value>PileDesc_0</value>
+  </metadata>
+  <metadata name="PileLbs_1.Name" xml:space="preserve">
+    <value>PileLbs_1</value>
+  </metadata>
+  <metadata name="PileRatio_0.Name" xml:space="preserve">
+    <value>PileRatio_0</value>
+  </metadata>
+  <metadata name="xrLabel21.Name" xml:space="preserve">
+    <value>xrLabel21</value>
+  </metadata>
+  <metadata name="WPP.Name" xml:space="preserve">
+    <value>WPP</value>
+  </metadata>
+  <metadata name="xrLabel18.Name" xml:space="preserve">
+    <value>xrLabel18</value>
+  </metadata>
+  <metadata name="WastageAllowed.Name" xml:space="preserve">
+    <value>WastageAllowed</value>
+  </metadata>
+  <metadata name="xrLabel16.Name" xml:space="preserve">
+    <value>xrLabel16</value>
+  </metadata>
+  <metadata name="QuantityLbs.Name" xml:space="preserve">
+    <value>QuantityLbs</value>
+  </metadata>
+  <metadata name="xrLabel14.Name" xml:space="preserve">
+    <value>xrLabel14</value>
+  </metadata>
+  <metadata name="xrLabel12.Name" xml:space="preserve">
+    <value>xrLabel12</value>
+  </metadata>
+  <metadata name="xrLine4.Name" xml:space="preserve">
+    <value>xrLine4</value>
+  </metadata>
+  <metadata name="xrLabel11.Name" xml:space="preserve">
+    <value>xrLabel11</value>
+  </metadata>
+  <metadata name="xrLine3.Name" xml:space="preserve">
+    <value>xrLine3</value>
+  </metadata>
+  <metadata name="xrLabel9.Name" xml:space="preserve">
+    <value>xrLabel9</value>
+  </metadata>
+  <metadata name="FancyDesc_0.Name" xml:space="preserve">
+    <value>FancyDesc_0</value>
+  </metadata>
+  <metadata name="FancyLbs_0.Name" xml:space="preserve">
+    <value>FancyLbs_0</value>
+  </metadata>
+  <metadata name="FancyCount_1.Name" xml:space="preserve">
+    <value>FancyCount_1</value>
+  </metadata>
+  <metadata name="xrLabel10.Name" xml:space="preserve">
+    <value>xrLabel10</value>
+  </metadata>
+  <metadata name="FancyBlend_1.Name" xml:space="preserve">
+    <value>FancyBlend_1</value>
+  </metadata>
+  <metadata name="FancyPly_1.Name" xml:space="preserve">
+    <value>FancyPly_1</value>
+  </metadata>
+  <metadata name="FancyBlend_0.Name" xml:space="preserve">
+    <value>FancyBlend_0</value>
+  </metadata>
+  <metadata name="FancyBags_0.Name" xml:space="preserve">
+    <value>FancyBags_0</value>
+  </metadata>
+  <metadata name="FancyBags_1.Name" xml:space="preserve">
+    <value>FancyBags_1</value>
+  </metadata>
+  <metadata name="FancyCount_0.Name" xml:space="preserve">
+    <value>FancyCount_0</value>
+  </metadata>
+  <metadata name="FancyDesc_1.Name" xml:space="preserve">
+    <value>FancyDesc_1</value>
+  </metadata>
+  <metadata name="FancyLbs_1.Name" xml:space="preserve">
+    <value>FancyLbs_1</value>
+  </metadata>
+  <metadata name="FancyRatio_0.Name" xml:space="preserve">
+    <value>FancyRatio_0</value>
+  </metadata>
+  <metadata name="FancyRatio_1.Name" xml:space="preserve">
+    <value>FancyRatio_1</value>
+  </metadata>
+  <metadata name="FancyPly_0.Name" xml:space="preserve">
+    <value>FancyPly_0</value>
+  </metadata>
+  <metadata name="xrLabel5.Name" xml:space="preserve">
+    <value>xrLabel5</value>
+  </metadata>
+  <metadata name="WeftCount_2.Name" xml:space="preserve">
+    <value>WeftCount_2</value>
+  </metadata>
+  <metadata name="WeftDesc_0.Name" xml:space="preserve">
+    <value>WeftDesc_0</value>
+  </metadata>
+  <metadata name="WeftLbs_0.Name" xml:space="preserve">
+    <value>WeftLbs_0</value>
+  </metadata>
+  <metadata name="WeftCount_1.Name" xml:space="preserve">
+    <value>WeftCount_1</value>
+  </metadata>
+  <metadata name="xrLabel6.Name" xml:space="preserve">
+    <value>xrLabel6</value>
+  </metadata>
+  <metadata name="WeftBlend_2.Name" xml:space="preserve">
+    <value>WeftBlend_2</value>
+  </metadata>
+  <metadata name="WeftBlend_1.Name" xml:space="preserve">
+    <value>WeftBlend_1</value>
+  </metadata>
+  <metadata name="WeftPly_1.Name" xml:space="preserve">
+    <value>WeftPly_1</value>
+  </metadata>
+  <metadata name="WeftLbs_1.Name" xml:space="preserve">
+    <value>WeftLbs_1</value>
+  </metadata>
+  <metadata name="WeftBags_0.Name" xml:space="preserve">
+    <value>WeftBags_0</value>
+  </metadata>
+  <metadata name="WeftPly_2.Name" xml:space="preserve">
+    <value>WeftPly_2</value>
+  </metadata>
+  <metadata name="WeftBags_2.Name" xml:space="preserve">
+    <value>WeftBags_2</value>
+  </metadata>
+  <metadata name="WeftBags_1.Name" xml:space="preserve">
+    <value>WeftBags_1</value>
+  </metadata>
+  <metadata name="WeftBlend_0.Name" xml:space="preserve">
+    <value>WeftBlend_0</value>
+  </metadata>
+  <metadata name="WeftDesc_1.Name" xml:space="preserve">
+    <value>WeftDesc_1</value>
+  </metadata>
+  <metadata name="xrLabel3.Name" xml:space="preserve">
+    <value>xrLabel3</value>
+  </metadata>
+  <metadata name="WeftDesc_2.Name" xml:space="preserve">
+    <value>WeftDesc_2</value>
+  </metadata>
+  <metadata name="WeftCount_0.Name" xml:space="preserve">
+    <value>WeftCount_0</value>
+  </metadata>
+  <metadata name="WeftLbs_2.Name" xml:space="preserve">
+    <value>WeftLbs_2</value>
+  </metadata>
+  <metadata name="WeftRatio_0.Name" xml:space="preserve">
+    <value>WeftRatio_0</value>
+  </metadata>
+  <metadata name="WeftRatio_2.Name" xml:space="preserve">
+    <value>WeftRatio_2</value>
+  </metadata>
+  <metadata name="WeftRatio_1.Name" xml:space="preserve">
+    <value>WeftRatio_1</value>
+  </metadata>
+  <metadata name="WeftPly_0.Name" xml:space="preserve">
+    <value>WeftPly_0</value>
+  </metadata>
+  <metadata name="xrLine2.Name" xml:space="preserve">
+    <value>xrLine2</value>
+  </metadata>
+  <metadata name="xrLabel2.Name" xml:space="preserve">
+    <value>xrLabel2</value>
+  </metadata>
+  <metadata name="xrLine1.Name" xml:space="preserve">
+    <value>xrLine1</value>
+  </metadata>
+  <metadata name="xrLine7.Name" xml:space="preserve">
+    <value>xrLine7</value>
+  </metadata>
+  <metadata name="xrLabel59.Name" xml:space="preserve">
+    <value>xrLabel59</value>
+  </metadata>
+  <metadata name="xrLine8.Name" xml:space="preserve">
+    <value>xrLine8</value>
+  </metadata>
+  <metadata name="xrLabel1.Name" xml:space="preserve">
+    <value>xrLabel1</value>
+  </metadata>
+  <metadata name="Currency.Name" xml:space="preserve">
+    <value>Currency</value>
+  </metadata>
+  <metadata name="Amount.Name" xml:space="preserve">
+    <value>Amount</value>
+  </metadata>
+  <metadata name="Rate.Name" xml:space="preserve">
+    <value>Rate</value>
+  </metadata>
+  <metadata name="QuantityPcs.Name" xml:space="preserve">
+    <value>QuantityPcs</value>
+  </metadata>
+  <metadata name="ArticleShortName.Name" xml:space="preserve">
+    <value>ArticleShortName</value>
+  </metadata>
+  <metadata name="ArticleNumber.Name" xml:space="preserve">
+    <value>ArticleNumber</value>
+  </metadata>
+  <metadata name="xrLabel64.Name" xml:space="preserve">
+    <value>xrLabel64</value>
+  </metadata>
+  <metadata name="xrLabel62.Name" xml:space="preserve">
+    <value>xrLabel62</value>
+  </metadata>
+  <metadata name="xrLabel7.Name" xml:space="preserve">
+    <value>xrLabel7</value>
+  </metadata>
+  <metadata name="WarpLbs_1.Name" xml:space="preserve">
+    <value>WarpLbs_1</value>
+  </metadata>
+  <metadata name="WarpBags_2.Name" xml:space="preserve">
+    <value>WarpBags_2</value>
+  </metadata>
+  <metadata name="WarpBags_1.Name" xml:space="preserve">
+    <value>WarpBags_1</value>
+  </metadata>
+  <metadata name="WarpDesc_2.Name" xml:space="preserve">
+    <value>WarpDesc_2</value>
+  </metadata>
+  <metadata name="WarpDesc_1.Name" xml:space="preserve">
+    <value>WarpDesc_1</value>
+  </metadata>
+  <metadata name="WarpSlash_2.Name" xml:space="preserve">
+    <value>WarpSlash_2</value>
+  </metadata>
+  <metadata name="WarpPly_2.Name" xml:space="preserve">
+    <value>WarpPly_2</value>
+  </metadata>
+  <metadata name="WarpCount_2.Name" xml:space="preserve">
+    <value>WarpCount_2</value>
+  </metadata>
+  <metadata name="WarpSlash_1.Name" xml:space="preserve">
+    <value>WarpSlash_1</value>
+  </metadata>
+  <metadata name="WarpPly_1.Name" xml:space="preserve">
+    <value>WarpPly_1</value>
+  </metadata>
+  <metadata name="WarpCount_1.Name" xml:space="preserve">
+    <value>WarpCount_1</value>
+  </metadata>
+  <metadata name="WarpSlash_0.Name" xml:space="preserve">
+    <value>WarpSlash_0</value>
+  </metadata>
+  <metadata name="WarpBlend_1.Name" xml:space="preserve">
+    <value>WarpBlend_1</value>
+  </metadata>
+  <metadata name="WarpBlend_0.Name" xml:space="preserve">
+    <value>WarpBlend_0</value>
+  </metadata>
+  <metadata name="xrLabel13.Name" xml:space="preserve">
+    <value>xrLabel13</value>
+  </metadata>
+  <metadata name="WarpBlend_2.Name" xml:space="preserve">
+    <value>WarpBlend_2</value>
+  </metadata>
+  <metadata name="WarpPly_0.Name" xml:space="preserve">
+    <value>WarpPly_0</value>
+  </metadata>
+  <metadata name="WarpCount_0.Name" xml:space="preserve">
+    <value>WarpCount_0</value>
+  </metadata>
+  <metadata name="WarpLbs_2.Name" xml:space="preserve">
+    <value>WarpLbs_2</value>
+  </metadata>
+  <metadata name="WarpRatio_2.Name" xml:space="preserve">
+    <value>WarpRatio_2</value>
+  </metadata>
+  <metadata name="WarpRatio_1.Name" xml:space="preserve">
+    <value>WarpRatio_1</value>
+  </metadata>
+  <metadata name="xrLabel4.Name" xml:space="preserve">
+    <value>xrLabel4</value>
+  </metadata>
+  <metadata name="WarpRatio_0.Name" xml:space="preserve">
+    <value>WarpRatio_0</value>
+  </metadata>
+  <metadata name="xrLabel73.Name" xml:space="preserve">
+    <value>xrLabel73</value>
+  </metadata>
+  <metadata name="WarpLbs_0.Name" xml:space="preserve">
+    <value>WarpLbs_0</value>
+  </metadata>
+  <metadata name="xrLabel74.Name" xml:space="preserve">
+    <value>xrLabel74</value>
+  </metadata>
+  <metadata name="WarpBags_0.Name" xml:space="preserve">
+    <value>WarpBags_0</value>
+  </metadata>
+  <metadata name="xrLabel76.Name" xml:space="preserve">
+    <value>xrLabel76</value>
+  </metadata>
+  <metadata name="WarpDesc_0.Name" xml:space="preserve">
+    <value>WarpDesc_0</value>
+  </metadata>
+  <metadata name="TopMargin.Name" xml:space="preserve">
+    <value>TopMargin</value>
+  </metadata>
+  <metadata name="BottomMargin.Name" xml:space="preserve">
+    <value>BottomMargin</value>
+  </metadata>
+  <metadata name="$this.Name" xml:space="preserve">
+    <value>FC_PO_TowelDetails</value>
+  </metadata>
+</root>

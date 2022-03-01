@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Detail.Name" xml:space="preserve">
+    <value>Detail</value>
+  </metadata>
+  <metadata name="TopMargin.Name" xml:space="preserve">
+    <value>TopMargin</value>
+  </metadata>
+  <metadata name="BottomMargin.Name" xml:space="preserve">
+    <value>BottomMargin</value>
+  </metadata>
+  <metadata name="ReportHeader.Name" xml:space="preserve">
+    <value>ReportHeader</value>
+  </metadata>
+  <metadata name="xrLabel89.Name" xml:space="preserve">
+    <value>xrLabel89</value>
+  </metadata>
+  <metadata name="xrLabel88.Name" xml:space="preserve">
+    <value>xrLabel88</value>
+  </metadata>
+  <metadata name="xrLabel87.Name" xml:space="preserve">
+    <value>xrLabel87</value>
+  </metadata>
+  <metadata name="xrLabel86.Name" xml:space="preserve">
+    <value>xrLabel86</value>
+  </metadata>
+  <metadata name="xrLabel85.Name" xml:space="preserve">
+    <value>xrLabel85</value>
+  </metadata>
+  <metadata name="xrLabel72.Name" xml:space="preserve">
+    <value>xrLabel72</value>
+  </metadata>
+  <metadata name="xrLabel83.Name" xml:space="preserve">
+    <value>xrLabel83</value>
+  </metadata>
+  <metadata name="xrLabel84.Name" xml:space="preserve">
+    <value>xrLabel84</value>
+  </metadata>
+  <metadata name="xrLabel81.Name" xml:space="preserve">
+    <value>xrLabel81</value>
+  </metadata>
+  <metadata name="xrLabel82.Name" xml:space="preserve">
+    <value>xrLabel82</value>
+  </metadata>
+  <metadata name="xrLabel79.Name" xml:space="preserve">
+    <value>xrLabel79</value>
+  </metadata>
+  <metadata name="xrLabel80.Name" xml:space="preserve">
+    <value>xrLabel80</value>
+  </metadata>
+  <metadata name="xrLabel77.Name" xml:space="preserve">
+    <value>xrLabel77</value>
+  </metadata>
+  <metadata name="xrLabel78.Name" xml:space="preserve">
+    <value>xrLabel78</value>
+  </metadata>
+  <metadata name="xrLabel76.Name" xml:space="preserve">
+    <value>xrLabel76</value>
+  </metadata>
+  <metadata name="xrLabel75.Name" xml:space="preserve">
+    <value>xrLabel75</value>
+  </metadata>
+  <metadata name="xrLabel74.Name" xml:space="preserve">
+    <value>xrLabel74</value>
+  </metadata>
+  <metadata name="xrLabel73.Name" xml:space="preserve">
+    <value>xrLabel73</value>
+  </metadata>
+  <metadata name="L_B_Other.Name" xml:space="preserve">
+    <value>L_B_Other</value>
+  </metadata>
+  <metadata name="L_T_Total.Name" xml:space="preserve">
+    <value>L_T_Total</value>
+  </metadata>
+  <metadata name="L_T_PowerOff.Name" xml:space="preserve">
+    <value>L_T_PowerOff</value>
+  </metadata>
+  <metadata name="L_B_LongStop_9.Name" xml:space="preserve">
+    <value>L_B_LongStop_9</value>
+  </metadata>
+  <metadata name="L_C_Other.Name" xml:space="preserve">
+    <value>L_C_Other</value>
+  </metadata>
+  <metadata name="L_C_Total.Name" xml:space="preserve">
+    <value>L_C_Total</value>
+  </metadata>
+  <metadata name="L_C_PowerOff.Name" xml:space="preserve">
+    <value>L_C_PowerOff</value>
+  </metadata>
+  <metadata name="L_C_LongStop_9.Name" xml:space="preserve">
+    <value>L_C_LongStop_9</value>
+  </metadata>
+  <metadata name="L_T_Other.Name" xml:space="preserve">
+    <value>L_T_Other</value>
+  </metadata>
+  <metadata name="L_B_Total.Name" xml:space="preserve">
+    <value>L_B_Total</value>
+  </metadata>
+  <metadata name="L_B_PowerOff.Name" xml:space="preserve">
+    <value>L_B_PowerOff</value>
+  </metadata>
+  <metadata name="L_T_LongStop_9.Name" xml:space="preserve">
+    <value>L_T_LongStop_9</value>
+  </metadata>
+  <metadata name="L_B_LongStop_5.Name" xml:space="preserve">
+    <value>L_B_LongStop_5</value>
+  </metadata>
+  <metadata name="L_C_LongStop_7.Name" xml:space="preserve">
+    <value>L_C_LongStop_7</value>
+  </metadata>
+  <metadata name="L_C_LongStop_8.Name" xml:space="preserve">
+    <value>L_C_LongStop_8</value>
+  </metadata>
+  <metadata name="L_T_LongStop_7.Name" xml:space="preserve">
+    <value>L_T_LongStop_7</value>
+  </metadata>
+  <metadata name="L_T_LongStop_8.Name" xml:space="preserve">
+    <value>L_T_LongStop_8</value>
+  </metadata>
+  <metadata name="L_T_LongStop_6.Name" xml:space="preserve">
+    <value>L_T_LongStop_6</value>
+  </metadata>
+  <metadata name="L_B_LongStop_8.Name" xml:space="preserve">
+    <value>L_B_LongStop_8</value>
+  </metadata>
+  <metadata name="L_B_LongStop_6.Name" xml:space="preserve">
+    <value>L_B_LongStop_6</value>
+  </metadata>
+  <metadata name="L_T_LongStop_5.Name" xml:space="preserve">
+    <value>L_T_LongStop_5</value>
+  </metadata>
+  <metadata name="L_C_LongStop_6.Name" xml:space="preserve">
+    <value>L_C_LongStop_6</value>
+  </metadata>
+  <metadata name="L_C_LongStop_5.Name" xml:space="preserve">
+    <value>L_C_LongStop_5</value>
+  </metadata>
+  <metadata name="L_B_LongStop_7.Name" xml:space="preserve">
+    <value>L_B_LongStop_7</value>
+  </metadata>
+  <metadata name="L_T_Knotting.Name" xml:space="preserve">
+    <value>L_T_Knotting</value>
+  </metadata>
+  <metadata name="L_T_Article.Name" xml:space="preserve">
+    <value>L_T_Article</value>
+  </metadata>
+  <metadata name="L_T_Electrical.Name" xml:space="preserve">
+    <value>L_T_Electrical</value>
+  </metadata>
+  <metadata name="L_T_Mechanical.Name" xml:space="preserve">
+    <value>L_T_Mechanical</value>
+  </metadata>
+  <metadata name="L_C_Knotting.Name" xml:space="preserve">
+    <value>L_C_Knotting</value>
+  </metadata>
+  <metadata name="L_C_Article.Name" xml:space="preserve">
+    <value>L_C_Article</value>
+  </metadata>
+  <metadata name="L_C_Electrical.Name" xml:space="preserve">
+    <value>L_C_Electrical</value>
+  </metadata>
+  <metadata name="L_C_Mechanical.Name" xml:space="preserve">
+    <value>L_C_Mechanical</value>
+  </metadata>
+  <metadata name="L_B_Knotting.Name" xml:space="preserve">
+    <value>L_B_Knotting</value>
+  </metadata>
+  <metadata name="L_B_Article.Name" xml:space="preserve">
+    <value>L_B_Article</value>
+  </metadata>
+  <metadata name="L_B_Electrical.Name" xml:space="preserve">
+    <value>L_B_Electrical</value>
+  </metadata>
+  <metadata name="L_B_Mechanical.Name" xml:space="preserve">
+    <value>L_B_Mechanical</value>
+  </metadata>
+  <metadata name="LongStopLabel_LongStop_Total.Name" xml:space="preserve">
+    <value>LongStopLabel_LongStop_Total</value>
+  </metadata>
+  <metadata name="L_A_Total.Name" xml:space="preserve">
+    <value>L_A_Total</value>
+  </metadata>
+  <metadata name="LongStopLabel_Other.Name" xml:space="preserve">
+    <value>LongStopLabel_Other</value>
+  </metadata>
+  <metadata name="L_A_Other.Name" xml:space="preserve">
+    <value>L_A_Other</value>
+  </metadata>
+  <metadata name="LongStopLabel_LongStop_8.Name" xml:space="preserve">
+    <value>LongStopLabel_LongStop_8</value>
+  </metadata>
+  <metadata name="L_A_LongStop_7.Name" xml:space="preserve">
+    <value>L_A_LongStop_7</value>
+  </metadata>
+  <metadata name="L_A_LongStop_8.Name" xml:space="preserve">
+    <value>L_A_LongStop_8</value>
+  </metadata>
+  <metadata name="L_A_LongStop_9.Name" xml:space="preserve">
+    <value>L_A_LongStop_9</value>
+  </metadata>
+  <metadata name="LongStopLabel_LongStop_9.Name" xml:space="preserve">
+    <value>LongStopLabel_LongStop_9</value>
+  </metadata>
+  <metadata name="L_A_LongStop_5.Name" xml:space="preserve">
+    <value>L_A_LongStop_5</value>
+  </metadata>
+  <metadata name="LongStopLabel_LongStop_5.Name" xml:space="preserve">
+    <value>LongStopLabel_LongStop_5</value>
+  </metadata>
+  <metadata name="LongStopLabel_LongStop_6.Name" xml:space="preserve">
+    <value>LongStopLabel_LongStop_6</value>
+  </metadata>
+  <metadata name="LongStopLabel_LongStop_7.Name" xml:space="preserve">
+    <value>LongStopLabel_LongStop_7</value>
+  </metadata>
+  <metadata name="L_A_LongStop_6.Name" xml:space="preserve">
+    <value>L_A_LongStop_6</value>
+  </metadata>
+  <metadata name="L_A_PowerOff.Name" xml:space="preserve">
+    <value>L_A_PowerOff</value>
+  </metadata>
+  <metadata name="LongStopLabel_PowerOff.Name" xml:space="preserve">
+    <value>LongStopLabel_PowerOff</value>
+  </metadata>
+  <metadata name="L_A_Article.Name" xml:space="preserve">
+    <value>L_A_Article</value>
+  </metadata>
+  <metadata name="LongStopLabel_Article.Name" xml:space="preserve">
+    <value>LongStopLabel_Article</value>
+  </metadata>
+  <metadata name="L_A_Knotting.Name" xml:space="preserve">
+    <value>L_A_Knotting</value>
+  </metadata>
+  <metadata name="LongStopLabel_Knotting.Name" xml:space="preserve">
+    <value>LongStopLabel_Knotting</value>
+  </metadata>
+  <metadata name="L_A_Electrical.Name" xml:space="preserve">
+    <value>L_A_Electrical</value>
+  </metadata>
+  <metadata name="LongStopLabel_Electrical.Name" xml:space="preserve">
+    <value>LongStopLabel_Electrical</value>
+  </metadata>
+  <metadata name="LongStopLabel_Mechanical.Name" xml:space="preserve">
+    <value>LongStopLabel_Mechanical</value>
+  </metadata>
+  <metadata name="L_A_Mechanical.Name" xml:space="preserve">
+    <value>L_A_Mechanical</value>
+  </metadata>
+  <metadata name="xrLabel14.Name" xml:space="preserve">
+    <value>xrLabel14</value>
+  </metadata>
+  <metadata name="CMPX.Name" xml:space="preserve">
+    <value>CMPX</value>
+  </metadata>
+  <metadata name="T_WarpCMPX.Name" xml:space="preserve">
+    <value>T_WarpCMPX</value>
+  </metadata>
+  <metadata name="T_OtherCMPX.Name" xml:space="preserve">
+    <value>T_OtherCMPX</value>
+  </metadata>
+  <metadata name="T_WeftCMPX.Name" xml:space="preserve">
+    <value>T_WeftCMPX</value>
+  </metadata>
+  <metadata name="T_TotalCMPX.Name" xml:space="preserve">
+    <value>T_TotalCMPX</value>
+  </metadata>
+  <metadata name="C_WeftPerHour.Name" xml:space="preserve">
+    <value>C_WeftPerHour</value>
+  </metadata>
+  <metadata name="C_WarpPerHour.Name" xml:space="preserve">
+    <value>C_WarpPerHour</value>
+  </metadata>
+  <metadata name="C_OtherStops.Name" xml:space="preserve">
+    <value>C_OtherStops</value>
+  </metadata>
+  <metadata name="C_TotalStops.Name" xml:space="preserve">
+    <value>C_TotalStops</value>
+  </metadata>
+  <metadata name="C_WarpLoss.Name" xml:space="preserve">
+    <value>C_WarpLoss</value>
+  </metadata>
+  <metadata name="C_OtherPerHour.Name" xml:space="preserve">
+    <value>C_OtherPerHour</value>
+  </metadata>
+  <metadata name="C_TotalPerHour.Name" xml:space="preserve">
+    <value>C_TotalPerHour</value>
+  </metadata>
+  <metadata name="C_TotalLoss.Name" xml:space="preserve">
+    <value>C_TotalLoss</value>
+  </metadata>
+  <metadata name="xrLabel12.Name" xml:space="preserve">
+    <value>xrLabel12</value>
+  </metadata>
+  <metadata name="xrLabel13.Name" xml:space="preserve">
+    <value>xrLabel13</value>
+  </metadata>
+  <metadata name="xrLabel10.Name" xml:space="preserve">
+    <value>xrLabel10</value>
+  </metadata>
+  <metadata name="xrLabel11.Name" xml:space="preserve">
+    <value>xrLabel11</value>
+  </metadata>
+  <metadata name="C_WeftLoss.Name" xml:space="preserve">
+    <value>C_WeftLoss</value>
+  </metadata>
+  <metadata name="C_WarpStops.Name" xml:space="preserve">
+    <value>C_WarpStops</value>
+  </metadata>
+  <metadata name="C_WeftStops.Name" xml:space="preserve">
+    <value>C_WeftStops</value>
+  </metadata>
+  <metadata name="C_OtherLoss.Name" xml:space="preserve">
+    <value>C_OtherLoss</value>
+  </metadata>
+  <metadata name="T_OtherPerHour.Name" xml:space="preserve">
+    <value>T_OtherPerHour</value>
+  </metadata>
+  <metadata name="T_WarpLoss.Name" xml:space="preserve">
+    <value>T_WarpLoss</value>
+  </metadata>
+  <metadata name="T_TotalLoss.Name" xml:space="preserve">
+    <value>T_TotalLoss</value>
+  </metadata>
+  <metadata name="T_TotalPerHour.Name" xml:space="preserve">
+    <value>T_TotalPerHour</value>
+  </metadata>
+  <metadata name="T_WarpPerHour.Name" xml:space="preserve">
+    <value>T_WarpPerHour</value>
+  </metadata>
+  <metadata name="T_WeftPerHour.Name" xml:space="preserve">
+    <value>T_WeftPerHour</value>
+  </metadata>
+  <metadata name="T_TotalStops.Name" xml:space="preserve">
+    <value>T_TotalStops</value>
+  </metadata>
+  <metadata name="T_OtherStops.Name" xml:space="preserve">
+    <value>T_OtherStops</value>
+  </metadata>
+  <metadata name="T_WarpStops.Name" xml:space="preserve">
+    <value>T_WarpStops</value>
+  </metadata>
+  <metadata name="T_WeftLoss.Name" xml:space="preserve">
+    <value>T_WeftLoss</value>
+  </metadata>
+  <metadata name="T_OtherLoss.Name" xml:space="preserve">
+    <value>T_OtherLoss</value>
+  </metadata>
+  <metadata name="T_WeftStops.Name" xml:space="preserve">
+    <value>T_WeftStops</value>
+  </metadata>
+  <metadata name="B_OtherPerHour.Name" xml:space="preserve">
+    <value>B_OtherPerHour</value>
+  </metadata>
+  <metadata name="B_WarpLoss.Name" xml:space="preserve">
+    <value>B_WarpLoss</value>
+  </metadata>
+  <metadata name="B_TotalLoss.Name" xml:space="preserve">
+    <value>B_TotalLoss</value>
+  </metadata>
+  <metadata name="B_TotalPerHour.Name" xml:space="preserve">
+    <value>B_TotalPerHour</value>
+  </metadata>
+  <metadata name="B_WarpPerHour.Name" xml:space="preserve">
+    <value>B_WarpPerHour</value>
+  </metadata>
+  <metadata name="B_WeftPerHour.Name" xml:space="preserve">
+    <value>B_WeftPerHour</value>
+  </metadata>
+  <metadata name="B_TotalStops.Name" xml:space="preserve">
+    <value>B_TotalStops</value>
+  </metadata>
+  <metadata name="B_OtherStops.Name" xml:space="preserve">
+    <value>B_OtherStops</value>
+  </metadata>
+  <metadata name="B_WarpStops.Name" xml:space="preserve">
+    <value>B_WarpStops</value>
+  </metadata>
+  <metadata name="B_WeftLoss.Name" xml:space="preserve">
+    <value>B_WeftLoss</value>
+  </metadata>
+  <metadata name="B_OtherLoss.Name" xml:space="preserve">
+    <value>B_OtherLoss</value>
+  </metadata>
+  <metadata name="B_WeftStops.Name" xml:space="preserve">
+    <value>B_WeftStops</value>
+  </metadata>
+  <metadata name="A_TotalperHour.Name" xml:space="preserve">
+    <value>A_TotalperHour</value>
+  </metadata>
+  <metadata name="A_WarpPerHour.Name" xml:space="preserve">
+    <value>A_WarpPerHour</value>
+  </metadata>
+  <metadata name="A_WeftPerHour.Name" xml:space="preserve">
+    <value>A_WeftPerHour</value>
+  </metadata>
+  <metadata name="A_OtherPerHour.Name" xml:space="preserve">
+    <value>A_OtherPerHour</value>
+  </metadata>
+  <metadata name="A_WarpLoss.Name" xml:space="preserve">
+    <value>A_WarpLoss</value>
+  </metadata>
+  <metadata name="A_TotalLoss.Name" xml:space="preserve">
+    <value>A_TotalLoss</value>
+  </metadata>
+  <metadata name="A_WeftLoss.Name" xml:space="preserve">
+    <value>A_WeftLoss</value>
+  </metadata>
+  <metadata name="A_OtherLoss.Name" xml:space="preserve">
+    <value>A_OtherLoss</value>
+  </metadata>
+  <metadata name="A_WeftStops.Name" xml:space="preserve">
+    <value>A_WeftStops</value>
+  </metadata>
+  <metadata name="A_WarpStops.Name" xml:space="preserve">
+    <value>A_WarpStops</value>
+  </metadata>
+  <metadata name="xrLabel55.Name" xml:space="preserve">
+    <value>xrLabel55</value>
+  </metadata>
+  <metadata name="A_OtherStops.Name" xml:space="preserve">
+    <value>A_OtherStops</value>
+  </metadata>
+  <metadata name="xrLabel63.Name" xml:space="preserve">
+    <value>xrLabel63</value>
+  </metadata>
+  <metadata name="A_TotalStops.Name" xml:space="preserve">
+    <value>A_TotalStops</value>
+  </metadata>
+  <metadata name="xrLabel65.Name" xml:space="preserve">
+    <value>xrLabel65</value>
+  </metadata>
+  <metadata name="xrLabel64.Name" xml:space="preserve">
+    <value>xrLabel64</value>
+  </metadata>
+  <metadata name="xrLabel8.Name" xml:space="preserve">
+    <value>xrLabel8</value>
+  </metadata>
+  <metadata name="xrLabel9.Name" xml:space="preserve">
+    <value>xrLabel9</value>
+  </metadata>
+  <metadata name="xrLabel6.Name" xml:space="preserve">
+    <value>xrLabel6</value>
+  </metadata>
+  <metadata name="xrLabel7.Name" xml:space="preserve">
+    <value>xrLabel7</value>
+  </metadata>
+  <metadata name="xrLabel4.Name" xml:space="preserve">
+    <value>xrLabel4</value>
+  </metadata>
+  <metadata name="xrLabel5.Name" xml:space="preserve">
+    <value>xrLabel5</value>
+  </metadata>
+  <metadata name="xrLabel2.Name" xml:space="preserve">
+    <value>xrLabel2</value>
+  </metadata>
+  <metadata name="xrLabel3.Name" xml:space="preserve">
+    <value>xrLabel3</value>
+  </metadata>
+  <metadata name="xrLabel1.Name" xml:space="preserve">
+    <value>xrLabel1</value>
+  </metadata>
+  <metadata name="xrLabel61.Name" xml:space="preserve">
+    <value>xrLabel61</value>
+  </metadata>
+  <metadata name="xrLabel62.Name" xml:space="preserve">
+    <value>xrLabel62</value>
+  </metadata>
+  <metadata name="xrLabel60.Name" xml:space="preserve">
+    <value>xrLabel60</value>
+  </metadata>
+  <metadata name="xrLabel49.Name" xml:space="preserve">
+    <value>xrLabel49</value>
+  </metadata>
+  <metadata name="xrLabel59.Name" xml:space="preserve">
+    <value>xrLabel59</value>
+  </metadata>
+  <metadata name="$this.Name" xml:space="preserve">
+    <value>Efficiency_DailyLoss_SubReport</value>
+  </metadata>
+</root>

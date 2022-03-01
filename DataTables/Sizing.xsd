@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Sizing" targetNamespace="http://tempuri.org/Sizing.xsd" xmlns:mstns="http://tempuri.org/Sizing.xsd" xmlns="http://tempuri.org/Sizing.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Data Source=RMB-DEV-01;Initial Catalog=MachineEyes;Integrated Security=True;Persist Security Info=False" IsAppSettingsProperty="false" Modifier="Assembly" Name="RMB-DEV-01.MachineEyes" ParameterPrefix="@" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="QP_Sizing_DetailsTableAdapter" GeneratorDataComponentClassName="QP_Sizing_DetailsTableAdapter" Name="QP_Sizing_Details" UserDataComponentName="QP_Sizing_DetailsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="RMB-DEV-01.MachineEyes" DbObjectName="MachineEyes.dbo.QP_Sizing_Details" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select * from QP_Sizing_Details</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="indexno" DataSetColumn="indexno" />
+              <Mapping SourceColumn="SetNo" DataSetColumn="SetNo" />
+              <Mapping SourceColumn="BeamNumber" DataSetColumn="BeamNumber" />
+              <Mapping SourceColumn="BeamLength" DataSetColumn="BeamLength" />
+              <Mapping SourceColumn="Speed" DataSetColumn="Speed" />
+              <Mapping SourceColumn="Pressure" DataSetColumn="Pressure" />
+              <Mapping SourceColumn="SizerID" DataSetColumn="SizerID" />
+              <Mapping SourceColumn="Shift" DataSetColumn="Shift" />
+              <Mapping SourceColumn="WGross" DataSetColumn="WGross" />
+              <Mapping SourceColumn="Remarks" DataSetColumn="Remarks" />
+              <Mapping SourceColumn="PicksProduced" DataSetColumn="PicksProduced" />
+              <Mapping SourceColumn="MetersProduced" DataSetColumn="MetersProduced" />
+              <Mapping SourceColumn="Knotted" DataSetColumn="Knotted" />
+              <Mapping SourceColumn="SizerName" DataSetColumn="SizerName" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PP_Sizing_YarninfoTableAdapter" GeneratorDataComponentClassName="PP_Sizing_YarninfoTableAdapter" Name="PP_Sizing_Yarninfo" UserDataComponentName="PP_Sizing_YarninfoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="RMB-DEV-01.MachineEyes" DbObjectName="MachineEyes.dbo.PP_Sizing_Yarninfo" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [PP_Sizing_Yarninfo] WHERE (([indexno] = @Original_indexno) AND ((@IsNull_Setno = 1 AND [Setno] IS NULL) OR ([Setno] = @Original_Setno)) AND ((@IsNull_YarnBagsType = 1 AND [YarnBagsType] IS NULL) OR ([YarnBagsType] = @Original_YarnBagsType)) AND ((@IsNull_YarnCount = 1 AND [YarnCount] IS NULL) OR ([YarnCount] = @Original_YarnCount)) AND ((@IsNull_YarnPly = 1 AND [YarnPly] IS NULL) OR ([YarnPly] = @Original_YarnPly)) AND ((@IsNull_YarnBlend = 1 AND [YarnBlend] IS NULL) OR ([YarnBlend] = @Original_YarnBlend)) AND ((@IsNull_YarnDesc = 1 AND [YarnDesc] IS NULL) OR ([YarnDesc] = @Original_YarnDesc)) AND ((@IsNull_YarnBrand = 1 AND [YarnBrand] IS NULL) OR ([YarnBrand] = @Original_YarnBrand)) AND ((@IsNull_YarnColor = 1 AND [YarnColor] IS NULL) OR ([YarnColor] = @Original_YarnColor)) AND ((@IsNull_NoOfEnds = 1 AND [NoOfEnds] IS NULL) OR ([NoOfEnds] = @Original_NoOfEnds)) AND ((@IsNull_BagsConsumed = 1 AND [BagsConsumed] IS NULL) OR ([BagsConsumed] = @Original_BagsConsumed)) AND ((@IsNull_ConesConsumed = 1 AND [ConesConsumed] IS NULL) OR ([ConesConsumed] = @Original_ConesConsumed)) AND ((@IsNull_LbsConsumed = 1 AND [LbsConsumed] IS NULL) OR ([LbsConsumed] = @Original_LbsConsumed)) AND ((@IsNull_BagsLeftOver = 1 AND [BagsLeftOver] IS NULL) OR ([BagsLeftOver] = @Original_BagsLeftOver)) AND ((@IsNull_ConesLeftOver = 1 AND [ConesLeftOver] IS NULL) OR ([ConesLeftOver] = @Original_ConesLeftOver)) AND ((@IsNull_LbsLeftOver = 1 AND [LbsLeftOver] IS NULL) OR ([LbsLeftOver] = @Original_LbsLeftOver)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@Original_indexno" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="indexno" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Setno" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Setno" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Setno" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Setno" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_YarnBagsType" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="YarnBagsType" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_YarnBagsType" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnBagsType" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_YarnCount" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="YarnCount" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_YarnCount" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnCount" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_YarnPly" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="YarnPly" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_YarnPly" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnPly" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_YarnBlend" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="YarnBlend" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_YarnBlend" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnBlend" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_YarnDesc" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="YarnDesc" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_YarnDesc" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnDesc" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_YarnBrand" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="YarnBrand" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_YarnBrand" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnBrand" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_YarnColor" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="YarnColor" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_YarnColor" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnColor" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_NoOfEnds" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="NoOfEnds" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@Original_NoOfEnds" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="NoOfEnds" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_BagsConsumed" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="BagsConsumed" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Original_BagsConsumed" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="BagsConsumed" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_ConesConsumed" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ConesConsumed" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Original_ConesConsumed" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="ConesConsumed" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_LbsConsumed" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="LbsConsumed" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Original_LbsConsumed" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="LbsConsumed" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_BagsLeftOver" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="BagsLeftOver" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Original_BagsLeftOver" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="BagsLeftOver" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_ConesLeftOver" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ConesLeftOver" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Original_ConesLeftOver" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="ConesLeftOver" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_LbsLeftOver" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="LbsLeftOver" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Original_LbsLeftOver" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="LbsLeftOver" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [PP_Sizing_Yarninfo] ([Setno], [YarnBagsType], [YarnCount], [YarnPly], [YarnBlend], [YarnDesc], [YarnBrand], [YarnColor], [NoOfEnds], [BagsConsumed], [ConesConsumed], [LbsConsumed], [BagsLeftOver], [ConesLeftOver], [LbsLeftOver]) VALUES (@Setno, @YarnBagsType, @YarnCount, @YarnPly, @YarnBlend, @YarnDesc, @YarnBrand, @YarnColor, @NoOfEnds, @BagsConsumed, @ConesConsumed, @LbsConsumed, @BagsLeftOver, @ConesLeftOver, @LbsLeftOver);
+SELECT indexno, Setno, YarnBagsType, YarnCount, YarnPly, YarnBlend, YarnDesc, YarnBrand, YarnColor, NoOfEnds, BagsConsumed, ConesConsumed, LbsConsumed, BagsLeftOver, ConesLeftOver, LbsLeftOver FROM PP_Sizing_Yarninfo WHERE (indexno = SCOPE_IDENTITY())</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Setno" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Setno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@YarnBagsType" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnBagsType" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@YarnCount" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnCount" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@YarnPly" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnPly" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@YarnBlend" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnBlend" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@YarnDesc" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnDesc" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@YarnBrand" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnBrand" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@YarnColor" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnColor" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@NoOfEnds" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="NoOfEnds" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@BagsConsumed" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="BagsConsumed" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@ConesConsumed" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="ConesConsumed" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@LbsConsumed" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="LbsConsumed" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@BagsLeftOver" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="BagsLeftOver" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@ConesLeftOver" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="ConesLeftOver" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@LbsLeftOver" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="LbsLeftOver" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select * from PP_Sizing_Yarninfo</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [PP_Sizing_Yarninfo] SET [Setno] = @Setno, [YarnBagsType] = @YarnBagsType, [YarnCount] = @YarnCount, [YarnPly] = @YarnPly, [YarnBlend] = @YarnBlend, [YarnDesc] = @YarnDesc, [YarnBrand] = @YarnBrand, [YarnColor] = @YarnColor, [NoOfEnds] = @NoOfEnds, [BagsConsumed] = @BagsConsumed, [ConesConsumed] = @ConesConsumed, [LbsConsumed] = @LbsConsumed, [BagsLeftOver] = @BagsLeftOver, [ConesLeftOver] = @ConesLeftOver, [LbsLeftOver] = @LbsLeftOver WHERE (([indexno] = @Original_indexno) AND ((@IsNull_Setno = 1 AND [Setno] IS NULL) OR ([Setno] = @Original_Setno)) AND ((@IsNull_YarnBagsType = 1 AND [YarnBagsType] IS NULL) OR ([YarnBagsType] = @Original_YarnBagsType)) AND ((@IsNull_YarnCount = 1 AND [YarnCount] IS NULL) OR ([YarnCount] = @Original_YarnCount)) AND ((@IsNull_YarnPly = 1 AND [YarnPly] IS NULL) OR ([YarnPly] = @Original_YarnPly)) AND ((@IsNull_YarnBlend = 1 AND [YarnBlend] IS NULL) OR ([YarnBlend] = @Original_YarnBlend)) AND ((@IsNull_YarnDesc = 1 AND [YarnDesc] IS NULL) OR ([YarnDesc] = @Original_YarnDesc)) AND ((@IsNull_YarnBrand = 1 AND [YarnBrand] IS NULL) OR ([YarnBrand] = @Original_YarnBrand)) AND ((@IsNull_YarnColor = 1 AND [YarnColor] IS NULL) OR ([YarnColor] = @Original_YarnColor)) AND ((@IsNull_NoOfEnds = 1 AND [NoOfEnds] IS NULL) OR ([NoOfEnds] = @Original_NoOfEnds)) AND ((@IsNull_BagsConsumed = 1 AND [BagsConsumed] IS NULL) OR ([BagsConsumed] = @Original_BagsConsumed)) AND ((@IsNull_ConesConsumed = 1 AND [ConesConsumed] IS NULL) OR ([ConesConsumed] = @Original_ConesConsumed)) AND ((@IsNull_LbsConsumed = 1 AND [LbsConsumed] IS NULL) OR ([LbsConsumed] = @Original_LbsConsumed)) AND ((@IsNull_BagsLeftOver = 1 AND [BagsLeftOver] IS NULL) OR ([BagsLeftOver] = @Original_BagsLeftOver)) AND ((@IsNull_ConesLeftOver = 1 AND [ConesLeftOver] IS NULL) OR ([ConesLeftOver] = @Original_ConesLeftOver)) AND ((@IsNull_LbsLeftOver = 1 AND [LbsLeftOver] IS NULL) OR ([LbsLeftOver] = @Original_LbsLeftOver)));
+SELECT indexno, Setno, YarnBagsType, YarnCount, YarnPly, YarnBlend, YarnDesc, YarnBrand, YarnColor, NoOfEnds, BagsConsumed, ConesConsumed, LbsConsumed, BagsLeftOver, ConesLeftOver, LbsLeftOver FROM PP_Sizing_Yarninfo WHERE (indexno = @indexno)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Setno" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Setno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@YarnBagsType" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnBagsType" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@YarnCount" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnCount" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@YarnPly" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnPly" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@YarnBlend" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnBlend" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@YarnDesc" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnDesc" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@YarnBrand" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnBrand" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@YarnColor" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnColor" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@NoOfEnds" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="NoOfEnds" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@BagsConsumed" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="BagsConsumed" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@ConesConsumed" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="ConesConsumed" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@LbsConsumed" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="LbsConsumed" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@BagsLeftOver" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="BagsLeftOver" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@ConesLeftOver" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="ConesLeftOver" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@LbsLeftOver" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="LbsLeftOver" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@Original_indexno" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="indexno" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Setno" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Setno" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Setno" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Setno" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_YarnBagsType" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="YarnBagsType" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_YarnBagsType" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnBagsType" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_YarnCount" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="YarnCount" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_YarnCount" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnCount" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_YarnPly" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="YarnPly" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_YarnPly" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnPly" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_YarnBlend" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="YarnBlend" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_YarnBlend" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnBlend" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_YarnDesc" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="YarnDesc" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_YarnDesc" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnDesc" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_YarnBrand" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="YarnBrand" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_YarnBrand" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnBrand" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_YarnColor" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="YarnColor" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_YarnColor" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="YarnColor" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_NoOfEnds" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="NoOfEnds" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@Original_NoOfEnds" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="NoOfEnds" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_BagsConsumed" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="BagsConsumed" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Original_BagsConsumed" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="BagsConsumed" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_ConesConsumed" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ConesConsumed" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Original_ConesConsumed" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="ConesConsumed" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_LbsConsumed" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="LbsConsumed" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Original_LbsConsumed" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="LbsConsumed" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_BagsLeftOver" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="BagsLeftOver" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Original_BagsLeftOver" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="BagsLeftOver" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_ConesLeftOver" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ConesLeftOver" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Original_ConesLeftOver" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="ConesLeftOver" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_LbsLeftOver" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="LbsLeftOver" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Original_LbsLeftOver" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="LbsLeftOver" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="indexno" ColumnName="indexno" DataSourceName="MachineEyes.dbo.PP_Sizing_Yarninfo" DataTypeServer="numeric" DbType="Decimal" Direction="Input" ParameterName="@indexno" Precision="18" ProviderType="Decimal" Scale="0" Size="9" SourceColumn="indexno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="indexno" DataSetColumn="indexno" />
+              <Mapping SourceColumn="Setno" DataSetColumn="Setno" />
+              <Mapping SourceColumn="YarnBagsType" DataSetColumn="YarnBagsType" />
+              <Mapping SourceColumn="YarnCount" DataSetColumn="YarnCount" />
+              <Mapping SourceColumn="YarnPly" DataSetColumn="YarnPly" />
+              <Mapping SourceColumn="YarnBlend" DataSetColumn="YarnBlend" />
+              <Mapping SourceColumn="YarnDesc" DataSetColumn="YarnDesc" />
+              <Mapping SourceColumn="YarnBrand" DataSetColumn="YarnBrand" />
+              <Mapping SourceColumn="YarnColor" DataSetColumn="YarnColor" />
+              <Mapping SourceColumn="NoOfEnds" DataSetColumn="NoOfEnds" />
+              <Mapping SourceColumn="BagsConsumed" DataSetColumn="BagsConsumed" />
+              <Mapping SourceColumn="ConesConsumed" DataSetColumn="ConesConsumed" />
+              <Mapping SourceColumn="LbsConsumed" DataSetColumn="LbsConsumed" />
+              <Mapping SourceColumn="BagsLeftOver" DataSetColumn="BagsLeftOver" />
+              <Mapping SourceColumn="ConesLeftOver" DataSetColumn="ConesLeftOver" />
+              <Mapping SourceColumn="LbsLeftOver" DataSetColumn="LbsLeftOver" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Sizing" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Sizing" msprop:Generator_UserDSName="Sizing">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="QP_Sizing_Details" msprop:Generator_TableClassName="QP_Sizing_DetailsDataTable" msprop:Generator_TableVarName="tableQP_Sizing_Details" msprop:Generator_TablePropName="QP_Sizing_Details" msprop:Generator_RowDeletingName="QP_Sizing_DetailsRowDeleting" msprop:Generator_UserTableName="QP_Sizing_Details" msprop:Generator_RowChangingName="QP_Sizing_DetailsRowChanging" msprop:Generator_RowEvHandlerName="QP_Sizing_DetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="QP_Sizing_DetailsRowDeleted" msprop:Generator_RowEvArgName="QP_Sizing_DetailsRowChangeEvent" msprop:Generator_RowChangedName="QP_Sizing_DetailsRowChanged" msprop:Generator_RowClassName="QP_Sizing_DetailsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="indexno" msprop:Generator_ColumnVarNameInTable="columnindexno" msprop:Generator_ColumnPropNameInRow="indexno" msprop:Generator_ColumnPropNameInTable="indexnoColumn" msprop:Generator_UserColumnName="indexno" type="xs:decimal" />
+              <xs:element name="SetNo" msprop:Generator_ColumnVarNameInTable="columnSetNo" msprop:Generator_ColumnPropNameInRow="SetNo" msprop:Generator_ColumnPropNameInTable="SetNoColumn" msprop:Generator_UserColumnName="SetNo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BeamNumber" msprop:Generator_ColumnVarNameInTable="columnBeamNumber" msprop:Generator_ColumnPropNameInRow="BeamNumber" msprop:Generator_ColumnPropNameInTable="BeamNumberColumn" msprop:Generator_UserColumnName="BeamNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BeamLength" msprop:Generator_ColumnVarNameInTable="columnBeamLength" msprop:Generator_ColumnPropNameInRow="BeamLength" msprop:Generator_ColumnPropNameInTable="BeamLengthColumn" msprop:Generator_UserColumnName="BeamLength" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Speed" msprop:Generator_ColumnVarNameInTable="columnSpeed" msprop:Generator_ColumnPropNameInRow="Speed" msprop:Generator_ColumnPropNameInTable="SpeedColumn" msprop:Generator_UserColumnName="Speed" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Pressure" msprop:Generator_ColumnVarNameInTable="columnPressure" msprop:Generator_ColumnPropNameInRow="Pressure" msprop:Generator_ColumnPropNameInTable="PressureColumn" msprop:Generator_UserColumnName="Pressure" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SizerID" msprop:Generator_ColumnVarNameInTable="columnSizerID" msprop:Generator_ColumnPropNameInRow="SizerID" msprop:Generator_ColumnPropNameInTable="SizerIDColumn" msprop:Generator_UserColumnName="SizerID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Shift" msprop:Generator_ColumnVarNameInTable="columnShift" msprop:Generator_ColumnPropNameInRow="Shift" msprop:Generator_ColumnPropNameInTable="ShiftColumn" msprop:Generator_UserColumnName="Shift" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WGross" msprop:Generator_ColumnVarNameInTable="columnWGross" msprop:Generator_ColumnPropNameInRow="WGross" msprop:Generator_ColumnPropNameInTable="WGrossColumn" msprop:Generator_UserColumnName="WGross" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Remarks" msprop:Generator_ColumnVarNameInTable="columnRemarks" msprop:Generator_ColumnPropNameInRow="Remarks" msprop:Generator_ColumnPropNameInTable="RemarksColumn" msprop:Generator_UserColumnName="Remarks" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PicksProduced" msprop:Generator_ColumnVarNameInTable="columnPicksProduced" msprop:Generator_ColumnPropNameInRow="PicksProduced" msprop:Generator_ColumnPropNameInTable="PicksProducedColumn" msprop:Generator_UserColumnName="PicksProduced" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MetersProduced" msprop:Generator_ColumnVarNameInTable="columnMetersProduced" msprop:Generator_ColumnPropNameInRow="MetersProduced" msprop:Generator_ColumnPropNameInTable="MetersProducedColumn" msprop:Generator_UserColumnName="MetersProduced" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Knotted" msprop:Generator_ColumnVarNameInTable="columnKnotted" msprop:Generator_ColumnPropNameInRow="Knotted" msprop:Generator_ColumnPropNameInTable="KnottedColumn" msprop:Generator_UserColumnName="Knotted" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="SizerName" msprop:Generator_ColumnVarNameInTable="columnSizerName" msprop:Generator_ColumnPropNameInRow="SizerName" msprop:Generator_ColumnPropNameInTable="SizerNameColumn" msprop:Generator_UserColumnName="SizerName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PP_Sizing_Yarninfo" msprop:Generator_TableClassName="PP_Sizing_YarninfoDataTable" msprop:Generator_TableVarName="tablePP_Sizing_Yarninfo" msprop:Generator_TablePropName="PP_Sizing_Yarninfo" msprop:Generator_RowDeletingName="PP_Sizing_YarninfoRowDeleting" msprop:Generator_UserTableName="PP_Sizing_Yarninfo" msprop:Generator_RowChangingName="PP_Sizing_YarninfoRowChanging" msprop:Generator_RowEvHandlerName="PP_Sizing_YarninfoRowChangeEventHandler" msprop:Generator_RowDeletedName="PP_Sizing_YarninfoRowDeleted" msprop:Generator_RowEvArgName="PP_Sizing_YarninfoRowChangeEvent" msprop:Generator_RowChangedName="PP_Sizing_YarninfoRowChanged" msprop:Generator_RowClassName="PP_Sizing_YarninfoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="indexno" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnindexno" msprop:Generator_ColumnPropNameInRow="indexno" msprop:Generator_ColumnPropNameInTable="indexnoColumn" msprop:Generator_UserColumnName="indexno" type="xs:decimal" />
+              <xs:element name="Setno" msprop:Generator_ColumnVarNameInTable="columnSetno" msprop:Generator_ColumnPropNameInRow="Setno" msprop:Generator_ColumnPropNameInTable="SetnoColumn" msprop:Generator_UserColumnName="Setno" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YarnBagsType" msprop:Generator_ColumnVarNameInTable="columnYarnBagsType" msprop:Generator_ColumnPropNameInRow="YarnBagsType" msprop:Generator_ColumnPropNameInTable="YarnBagsTypeColumn" msprop:Generator_UserColumnName="YarnBagsType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YarnCount" msprop:Generator_ColumnVarNameInTable="columnYarnCount" msprop:Generator_ColumnPropNameInRow="YarnCount" msprop:Generator_ColumnPropNameInTable="YarnCountColumn" msprop:Generator_UserColumnName="YarnCount" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YarnPly" msprop:Generator_ColumnVarNameInTable="columnYarnPly" msprop:Generator_ColumnPropNameInRow="YarnPly" msprop:Generator_ColumnPropNameInTable="YarnPlyColumn" msprop:Generator_UserColumnName="YarnPly" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YarnBlend" msprop:Generator_ColumnVarNameInTable="columnYarnBlend" msprop:Generator_ColumnPropNameInRow="YarnBlend" msprop:Generator_ColumnPropNameInTable="YarnBlendColumn" msprop:Generator_UserColumnName="YarnBlend" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YarnDesc" msprop:Generator_ColumnVarNameInTable="columnYarnDesc" msprop:Generator_ColumnPropNameInRow="YarnDesc" msprop:Generator_ColumnPropNameInTable="YarnDescColumn" msprop:Generator_UserColumnName="YarnDesc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YarnBrand" msprop:Generator_ColumnVarNameInTable="columnYarnBrand" msprop:Generator_ColumnPropNameInRow="YarnBrand" msprop:Generator_ColumnPropNameInTable="YarnBrandColumn" msprop:Generator_UserColumnName="YarnBrand" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YarnColor" msprop:Generator_ColumnVarNameInTable="columnYarnColor" msprop:Generator_ColumnPropNameInRow="YarnColor" msprop:Generator_ColumnPropNameInTable="YarnColorColumn" msprop:Generator_UserColumnName="YarnColor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NoOfEnds" msprop:Generator_ColumnVarNameInTable="columnNoOfEnds" msprop:Generator_ColumnPropNameInRow="NoOfEnds" msprop:Generator_ColumnPropNameInTable="NoOfEndsColumn" msprop:Generator_UserColumnName="NoOfEnds" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BagsConsumed" msprop:Generator_ColumnVarNameInTable="columnBagsConsumed" msprop:Generator_ColumnPropNameInRow="BagsConsumed" msprop:Generator_ColumnPropNameInTable="BagsConsumedColumn" msprop:Generator_UserColumnName="BagsConsumed" type="xs:double" minOccurs="0" />
+              <xs:element name="ConesConsumed" msprop:Generator_ColumnVarNameInTable="columnConesConsumed" msprop:Generator_ColumnPropNameInRow="ConesConsumed" msprop:Generator_ColumnPropNameInTable="ConesConsumedColumn" msprop:Generator_UserColumnName="ConesConsumed" type="xs:double" minOccurs="0" />
+              <xs:element name="LbsConsumed" msprop:Generator_ColumnVarNameInTable="columnLbsConsumed" msprop:Generator_ColumnPropNameInRow="LbsConsumed" msprop:Generator_ColumnPropNameInTable="LbsConsumedColumn" msprop:Generator_UserColumnName="LbsConsumed" type="xs:double" minOccurs="0" />
+              <xs:element name="BagsLeftOver" msprop:Generator_ColumnVarNameInTable="columnBagsLeftOver" msprop:Generator_ColumnPropNameInRow="BagsLeftOver" msprop:Generator_ColumnPropNameInTable="BagsLeftOverColumn" msprop:Generator_UserColumnName="BagsLeftOver" type="xs:double" minOccurs="0" />
+              <xs:element name="ConesLeftOver" msprop:Generator_ColumnVarNameInTable="columnConesLeftOver" msprop:Generator_ColumnPropNameInRow="ConesLeftOver" msprop:Generator_ColumnPropNameInTable="ConesLeftOverColumn" msprop:Generator_UserColumnName="ConesLeftOver" type="xs:double" minOccurs="0" />
+              <xs:element name="LbsLeftOver" msprop:Generator_ColumnVarNameInTable="columnLbsLeftOver" msprop:Generator_ColumnPropNameInRow="LbsLeftOver" msprop:Generator_ColumnPropNameInTable="LbsLeftOverColumn" msprop:Generator_UserColumnName="LbsLeftOver" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:QP_Sizing_Details" />
+      <xs:field xpath="mstns:SetNo" />
+      <xs:field xpath="mstns:BeamNumber" />
+    </xs:unique>
+    <xs:unique name="PP_Sizing_Yarninfo_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PP_Sizing_Yarninfo" />
+      <xs:field xpath="mstns:indexno" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

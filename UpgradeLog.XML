@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="RibbonSimplePad">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\All Users\Documents\DevExpress 2010.1 Demos\Components\XtraBars\CS\RibbonSimplePad\RibbonSimplePad.sln">
+</Property><Property Name="Date" Value="Wednesday, June 27, 2012">
+</Property><Property Name="Time" Value="14:21 PM">
+</Property></Properties><Event ErrorLevel="0" Project="RibbonSimplePad" Source="RibbonSimplePad.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="RibbonSimplePad" Source="RibbonSimplePad.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="RibbonSimplePad.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="RibbonSimplePad.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="RibbonSimplePad" Source="RibbonSimplePad.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

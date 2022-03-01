@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Tables_Accounts" targetNamespace="http://tempuri.org/Tables_Accounts.xsd" xmlns:mstns="http://tempuri.org/Tables_Accounts.xsd" xmlns="http://tempuri.org/Tables_Accounts.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Data Source=RMB-DEV-01;Initial Catalog=MachineEyes;Integrated Security=True;Persist Security Info=False" IsAppSettingsProperty="false" Modifier="Assembly" Name="RMB-DEV-01.MachineEyes" ParameterPrefix="@" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Accounts_VouchersTableAdapter" GeneratorDataComponentClassName="Accounts_VouchersTableAdapter" Name="Accounts_Vouchers" UserDataComponentName="Accounts_VouchersTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="RMB-DEV-01.MachineEyes" DbObjectName="MachineEyes.dbo.Accounts_Vouchers" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select * from Accounts_Vouchers</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="VNumber" DataSetColumn="VNumber" />
+              <Mapping SourceColumn="VType" DataSetColumn="VType" />
+              <Mapping SourceColumn="VCat" DataSetColumn="VCat" />
+              <Mapping SourceColumn="VYear" DataSetColumn="VYear" />
+              <Mapping SourceColumn="VDate" DataSetColumn="VDate" />
+              <Mapping SourceColumn="VStatus" DataSetColumn="VStatus" />
+              <Mapping SourceColumn="AccountID_V" DataSetColumn="AccountID_V" />
+              <Mapping SourceColumn="VParticulars" DataSetColumn="VParticulars" />
+              <Mapping SourceColumn="VRefInvoiceNumber" DataSetColumn="VRefInvoiceNumber" />
+              <Mapping SourceColumn="VRefDeliveryChallanNumber" DataSetColumn="VRefDeliveryChallanNumber" />
+              <Mapping SourceColumn="vRefBillNumber" DataSetColumn="vRefBillNumber" />
+              <Mapping SourceColumn="VRefChequeNumber" DataSetColumn="VRefChequeNumber" />
+              <Mapping SourceColumn="VDebitAmount" DataSetColumn="VDebitAmount" />
+              <Mapping SourceColumn="VCreditAmount" DataSetColumn="VCreditAmount" />
+              <Mapping SourceColumn="AccountName_V" DataSetColumn="AccountName_V" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Accounts_Sales_SubTableAdapter" GeneratorDataComponentClassName="Accounts_Sales_SubTableAdapter" Name="Accounts_Sales_Sub" UserDataComponentName="Accounts_Sales_SubTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="RMB-DEV-01.MachineEyes" DbObjectName="MachineEyes.dbo.Accounts_Sales_Sub" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select * from Accounts_Sales_Sub</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="iIndex" DataSetColumn="iIndex" />
+              <Mapping SourceColumn="iNumber" DataSetColumn="iNumber" />
+              <Mapping SourceColumn="AccountID" DataSetColumn="AccountID" />
+              <Mapping SourceColumn="Rate" DataSetColumn="Rate" />
+              <Mapping SourceColumn="Qty" DataSetColumn="Qty" />
+              <Mapping SourceColumn="GSTRate" DataSetColumn="GSTRate" />
+              <Mapping SourceColumn="PackingListNumber" DataSetColumn="PackingListNumber" />
+              <Mapping SourceColumn="DeliveryChallanNumber" DataSetColumn="DeliveryChallanNumber" />
+              <Mapping SourceColumn="GatePassNumber" DataSetColumn="GatePassNumber" />
+              <Mapping SourceColumn="ArticleNumber" DataSetColumn="ArticleNumber" />
+              <Mapping SourceColumn="ArticleName" DataSetColumn="ArticleName" />
+              <Mapping SourceColumn="Unit" DataSetColumn="Unit" />
+              <Mapping SourceColumn="AccountName_V" DataSetColumn="AccountName_V" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Accounts_TrialBalance_SixColumns_VTableAdapter" GeneratorDataComponentClassName="Accounts_TrialBalance_SixColumns_VTableAdapter" Name="Accounts_TrialBalance_SixColumns_V" UserDataComponentName="Accounts_TrialBalance_SixColumns_VTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="RMB-DEV-01.MachineEyes" DbObjectName="MachineEyes.dbo.Accounts_Vouchers" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     AccountID_V, AccountName_V, SUM(CASE WHEN vDate &lt; '2013-07-01T14:46:59' THEN vDebitAmount ELSE 0 END) AS sDebit, 
+                      SUM(CASE WHEN vDate &lt; '2013-07-01T14:46:59' THEN vCreditAmount ELSE 0 END) AS sCredit, SUM(CASE WHEN vDate &gt;= '2013-07-01T14:46:59' AND 
+                      vDate &lt;= '2013-07-01T14:46:59' THEN vDebitAmount ELSE 0 END) AS dDebit, SUM(CASE WHEN vDate &gt;= '2013-07-01T14:46:59' AND 
+                      vDate &lt;= '2013-07-01T14:46:59' THEN vCreditAmount ELSE 0 END) AS dCredit, SUM(CASE WHEN vDate &gt; '2013-07-01T14:46:59' THEN vDebitAmount ELSE 0 END) 
+                      AS eDebit, SUM(CASE WHEN vDate &gt; '2013-07-01T14:46:59' THEN vCreditAmount ELSE 0 END) AS eCredit
+FROM         dbo.Accounts_Vouchers
+GROUP BY AccountID_V, AccountName_V</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="AccountID_V" DataSetColumn="AccountID_V" />
+              <Mapping SourceColumn="AccountName_V" DataSetColumn="AccountName_V" />
+              <Mapping SourceColumn="sDebit" DataSetColumn="sDebit" />
+              <Mapping SourceColumn="sCredit" DataSetColumn="sCredit" />
+              <Mapping SourceColumn="dDebit" DataSetColumn="dDebit" />
+              <Mapping SourceColumn="dCredit" DataSetColumn="dCredit" />
+              <Mapping SourceColumn="eDebit" DataSetColumn="eDebit" />
+              <Mapping SourceColumn="eCredit" DataSetColumn="eCredit" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Accounts_Vouchers_OpeningTableAdapter" GeneratorDataComponentClassName="Accounts_Vouchers_OpeningTableAdapter" Name="Accounts_Vouchers_Opening" UserDataComponentName="Accounts_Vouchers_OpeningTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="RMB-DEV-01.MachineEyes" DbObjectName="MachineEyes.dbo.Accounts_Vouchers_Opening" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select * from Accounts_Vouchers_Opening</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="VNumber" DataSetColumn="VNumber" />
+              <Mapping SourceColumn="AccountID_V" DataSetColumn="AccountID_V" />
+              <Mapping SourceColumn="AccountName_V" DataSetColumn="AccountName_V" />
+              <Mapping SourceColumn="AccountID_IV" DataSetColumn="AccountID_IV" />
+              <Mapping SourceColumn="AccountName_IV" DataSetColumn="AccountName_IV" />
+              <Mapping SourceColumn="AccountID_III" DataSetColumn="AccountID_III" />
+              <Mapping SourceColumn="AccountName_III" DataSetColumn="AccountName_III" />
+              <Mapping SourceColumn="AccountID_II" DataSetColumn="AccountID_II" />
+              <Mapping SourceColumn="AccountName_II" DataSetColumn="AccountName_II" />
+              <Mapping SourceColumn="AccountID_I" DataSetColumn="AccountID_I" />
+              <Mapping SourceColumn="AccountName_I" DataSetColumn="AccountName_I" />
+              <Mapping SourceColumn="VParticulars" DataSetColumn="VParticulars" />
+              <Mapping SourceColumn="VDebitAmount" DataSetColumn="VDebitAmount" />
+              <Mapping SourceColumn="VCreditAmount" DataSetColumn="VCreditAmount" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Accounts_Vouchers_DailyCashAndBankTableAdapter" GeneratorDataComponentClassName="Accounts_Vouchers_DailyCashAndBankTableAdapter" Name="Accounts_Vouchers_DailyCashAndBank" UserDataComponentName="Accounts_Vouchers_DailyCashAndBankTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="RMB-DEV-01.MachineEyes" DbObjectName="MachineEyes.dbo.Accounts_Vouchers_DailyCashAndBank" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select * from Accounts_Vouchers_DailyCashAndBank where isHead=0  and vNumber in(select vNumber from AC_Voucher_Main where vDate='0001-01-01T00:00:00' and vnumber in(select vnumber from Accounts_Vouchers_DailyCashAndBank where AccountID_IV in('0102001002','0102001001')))</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="VNumber" DataSetColumn="VNumber" />
+              <Mapping SourceColumn="AccountID_V" DataSetColumn="AccountID_V" />
+              <Mapping SourceColumn="AccountName_V" DataSetColumn="AccountName_V" />
+              <Mapping SourceColumn="AccountID_IV" DataSetColumn="AccountID_IV" />
+              <Mapping SourceColumn="CatRemarks" DataSetColumn="CatRemarks" />
+              <Mapping SourceColumn="VDebitAmount" DataSetColumn="VDebitAmount" />
+              <Mapping SourceColumn="VCreditAmount" DataSetColumn="VCreditAmount" />
+              <Mapping SourceColumn="isHead" DataSetColumn="isHead" />
+              <Mapping SourceColumn="CashReceipt" DataSetColumn="CashReceipt" />
+              <Mapping SourceColumn="BankReceipt" DataSetColumn="BankReceipt" />
+              <Mapping SourceColumn="CashPayment" DataSetColumn="CashPayment" />
+              <Mapping SourceColumn="BankPayment" DataSetColumn="BankPayment" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Accounts_Vouchers_L5TableAdapter" GeneratorDataComponentClassName="Accounts_Vouchers_L5TableAdapter" Name="Accounts_Vouchers_L5" UserDataComponentName="Accounts_Vouchers_L5TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="RMB-DEV-01.MachineEyes" DbObjectName="MachineEyes.dbo.Accounts_Vouchers_L5" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select * from Accounts_Vouchers_L5 where vnumber='3432423432434'</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="VSubNumber" DataSetColumn="VSubNumber" />
+              <Mapping SourceColumn="VNumber" DataSetColumn="VNumber" />
+              <Mapping SourceColumn="AccountID_V" DataSetColumn="AccountID_V" />
+              <Mapping SourceColumn="AccountName_V" DataSetColumn="AccountName_V" />
+              <Mapping SourceColumn="VDebitAmount" DataSetColumn="VDebitAmount" />
+              <Mapping SourceColumn="VCreditAmount" DataSetColumn="VCreditAmount" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Tables_Accounts" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Tables_Accounts" msprop:Generator_UserDSName="Tables_Accounts">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Accounts_Vouchers" msprop:Generator_TableClassName="Accounts_VouchersDataTable" msprop:Generator_TableVarName="tableAccounts_Vouchers" msprop:Generator_TablePropName="Accounts_Vouchers" msprop:Generator_RowDeletingName="Accounts_VouchersRowDeleting" msprop:Generator_UserTableName="Accounts_Vouchers" msprop:Generator_RowChangingName="Accounts_VouchersRowChanging" msprop:Generator_RowEvHandlerName="Accounts_VouchersRowChangeEventHandler" msprop:Generator_RowDeletedName="Accounts_VouchersRowDeleted" msprop:Generator_RowEvArgName="Accounts_VouchersRowChangeEvent" msprop:Generator_RowChangedName="Accounts_VouchersRowChanged" msprop:Generator_RowClassName="Accounts_VouchersRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VNumber" msprop:Generator_ColumnVarNameInTable="columnVNumber" msprop:Generator_ColumnPropNameInRow="VNumber" msprop:Generator_ColumnPropNameInTable="VNumberColumn" msprop:Generator_UserColumnName="VNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VType" msprop:Generator_ColumnVarNameInTable="columnVType" msprop:Generator_ColumnPropNameInRow="VType" msprop:Generator_ColumnPropNameInTable="VTypeColumn" msprop:Generator_UserColumnName="VType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VCat" msprop:Generator_ColumnVarNameInTable="columnVCat" msprop:Generator_ColumnPropNameInRow="VCat" msprop:Generator_ColumnPropNameInTable="VCatColumn" msprop:Generator_UserColumnName="VCat" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VYear" msprop:Generator_ColumnVarNameInTable="columnVYear" msprop:Generator_ColumnPropNameInRow="VYear" msprop:Generator_ColumnPropNameInTable="VYearColumn" msprop:Generator_UserColumnName="VYear" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VDate" msprop:Generator_ColumnVarNameInTable="columnVDate" msprop:Generator_ColumnPropNameInRow="VDate" msprop:Generator_ColumnPropNameInTable="VDateColumn" msprop:Generator_UserColumnName="VDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="VStatus" msprop:Generator_ColumnVarNameInTable="columnVStatus" msprop:Generator_ColumnPropNameInRow="VStatus" msprop:Generator_ColumnPropNameInTable="VStatusColumn" msprop:Generator_UserColumnName="VStatus" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountID_V" msprop:Generator_ColumnVarNameInTable="columnAccountID_V" msprop:Generator_ColumnPropNameInRow="AccountID_V" msprop:Generator_ColumnPropNameInTable="AccountID_VColumn" msprop:Generator_UserColumnName="AccountID_V" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VParticulars" msprop:Generator_ColumnVarNameInTable="columnVParticulars" msprop:Generator_ColumnPropNameInRow="VParticulars" msprop:Generator_ColumnPropNameInTable="VParticularsColumn" msprop:Generator_UserColumnName="VParticulars" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="160" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VRefInvoiceNumber" msprop:Generator_ColumnVarNameInTable="columnVRefInvoiceNumber" msprop:Generator_ColumnPropNameInRow="VRefInvoiceNumber" msprop:Generator_ColumnPropNameInTable="VRefInvoiceNumberColumn" msprop:Generator_UserColumnName="VRefInvoiceNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VRefDeliveryChallanNumber" msprop:Generator_ColumnVarNameInTable="columnVRefDeliveryChallanNumber" msprop:Generator_ColumnPropNameInRow="VRefDeliveryChallanNumber" msprop:Generator_ColumnPropNameInTable="VRefDeliveryChallanNumberColumn" msprop:Generator_UserColumnName="VRefDeliveryChallanNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="vRefBillNumber" msprop:Generator_ColumnVarNameInTable="columnvRefBillNumber" msprop:Generator_ColumnPropNameInRow="vRefBillNumber" msprop:Generator_ColumnPropNameInTable="vRefBillNumberColumn" msprop:Generator_UserColumnName="vRefBillNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VRefChequeNumber" msprop:Generator_ColumnVarNameInTable="columnVRefChequeNumber" msprop:Generator_ColumnPropNameInRow="VRefChequeNumber" msprop:Generator_ColumnPropNameInTable="VRefChequeNumberColumn" msprop:Generator_UserColumnName="VRefChequeNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VDebitAmount" msprop:Generator_ColumnVarNameInTable="columnVDebitAmount" msprop:Generator_ColumnPropNameInRow="VDebitAmount" msprop:Generator_ColumnPropNameInTable="VDebitAmountColumn" msprop:Generator_UserColumnName="VDebitAmount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="VCreditAmount" msprop:Generator_ColumnVarNameInTable="columnVCreditAmount" msprop:Generator_ColumnPropNameInRow="VCreditAmount" msprop:Generator_ColumnPropNameInTable="VCreditAmountColumn" msprop:Generator_UserColumnName="VCreditAmount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AccountName_V" msprop:Generator_ColumnVarNameInTable="columnAccountName_V" msprop:Generator_ColumnPropNameInRow="AccountName_V" msprop:Generator_ColumnPropNameInTable="AccountName_VColumn" msprop:Generator_UserColumnName="AccountName_V" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Accounts_Sales_Sub" msprop:Generator_TableClassName="Accounts_Sales_SubDataTable" msprop:Generator_TableVarName="tableAccounts_Sales_Sub" msprop:Generator_TablePropName="Accounts_Sales_Sub" msprop:Generator_RowDeletingName="Accounts_Sales_SubRowDeleting" msprop:Generator_UserTableName="Accounts_Sales_Sub" msprop:Generator_RowChangingName="Accounts_Sales_SubRowChanging" msprop:Generator_RowEvHandlerName="Accounts_Sales_SubRowChangeEventHandler" msprop:Generator_RowDeletedName="Accounts_Sales_SubRowDeleted" msprop:Generator_RowEvArgName="Accounts_Sales_SubRowChangeEvent" msprop:Generator_RowChangedName="Accounts_Sales_SubRowChanged" msprop:Generator_RowClassName="Accounts_Sales_SubRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="iIndex" msprop:Generator_ColumnVarNameInTable="columniIndex" msprop:Generator_ColumnPropNameInRow="iIndex" msprop:Generator_ColumnPropNameInTable="iIndexColumn" msprop:Generator_UserColumnName="iIndex" type="xs:decimal" />
+              <xs:element name="iNumber" msprop:Generator_ColumnVarNameInTable="columniNumber" msprop:Generator_ColumnPropNameInRow="iNumber" msprop:Generator_ColumnPropNameInTable="iNumberColumn" msprop:Generator_UserColumnName="iNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountID" msprop:Generator_ColumnVarNameInTable="columnAccountID" msprop:Generator_ColumnPropNameInRow="AccountID" msprop:Generator_ColumnPropNameInTable="AccountIDColumn" msprop:Generator_UserColumnName="AccountID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Rate" msprop:Generator_ColumnVarNameInTable="columnRate" msprop:Generator_ColumnPropNameInRow="Rate" msprop:Generator_ColumnPropNameInTable="RateColumn" msprop:Generator_UserColumnName="Rate" type="xs:double" minOccurs="0" />
+              <xs:element name="Qty" msprop:Generator_ColumnVarNameInTable="columnQty" msprop:Generator_ColumnPropNameInRow="Qty" msprop:Generator_ColumnPropNameInTable="QtyColumn" msprop:Generator_UserColumnName="Qty" type="xs:double" minOccurs="0" />
+              <xs:element name="GSTRate" msprop:Generator_ColumnVarNameInTable="columnGSTRate" msprop:Generator_ColumnPropNameInRow="GSTRate" msprop:Generator_ColumnPropNameInTable="GSTRateColumn" msprop:Generator_UserColumnName="GSTRate" type="xs:double" minOccurs="0" />
+              <xs:element name="PackingListNumber" msprop:Generator_ColumnVarNameInTable="columnPackingListNumber" msprop:Generator_ColumnPropNameInRow="PackingListNumber" msprop:Generator_ColumnPropNameInTable="PackingListNumberColumn" msprop:Generator_UserColumnName="PackingListNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DeliveryChallanNumber" msprop:Generator_ColumnVarNameInTable="columnDeliveryChallanNumber" msprop:Generator_ColumnPropNameInRow="DeliveryChallanNumber" msprop:Generator_ColumnPropNameInTable="DeliveryChallanNumberColumn" msprop:Generator_UserColumnName="DeliveryChallanNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GatePassNumber" msprop:Generator_ColumnVarNameInTable="columnGatePassNumber" msprop:Generator_ColumnPropNameInRow="GatePassNumber" msprop:Generator_ColumnPropNameInTable="GatePassNumberColumn" msprop:Generator_UserColumnName="GatePassNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ArticleNumber" msprop:Generator_ColumnVarNameInTable="columnArticleNumber" msprop:Generator_ColumnPropNameInRow="ArticleNumber" msprop:Generator_ColumnPropNameInTable="ArticleNumberColumn" msprop:Generator_UserColumnName="ArticleNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ArticleName" msprop:Generator_ColumnVarNameInTable="columnArticleName" msprop:Generator_ColumnPropNameInRow="ArticleName" msprop:Generator_ColumnPropNameInTable="ArticleNameColumn" msprop:Generator_UserColumnName="ArticleName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="160" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Unit" msprop:Generator_ColumnVarNameInTable="columnUnit" msprop:Generator_ColumnPropNameInRow="Unit" msprop:Generator_ColumnPropNameInTable="UnitColumn" msprop:Generator_UserColumnName="Unit" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountName_V" msprop:Generator_ColumnVarNameInTable="columnAccountName_V" msprop:Generator_ColumnPropNameInRow="AccountName_V" msprop:Generator_ColumnPropNameInTable="AccountName_VColumn" msprop:Generator_UserColumnName="AccountName_V" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Accounts_TrialBalance_SixColumns_V" msprop:Generator_TableClassName="Accounts_TrialBalance_SixColumns_VDataTable" msprop:Generator_TableVarName="tableAccounts_TrialBalance_SixColumns_V" msprop:Generator_TablePropName="Accounts_TrialBalance_SixColumns_V" msprop:Generator_RowDeletingName="Accounts_TrialBalance_SixColumns_VRowDeleting" msprop:Generator_UserTableName="Accounts_TrialBalance_SixColumns_V" msprop:Generator_RowChangingName="Accounts_TrialBalance_SixColumns_VRowChanging" msprop:Generator_RowEvHandlerName="Accounts_TrialBalance_SixColumns_VRowChangeEventHandler" msprop:Generator_RowDeletedName="Accounts_TrialBalance_SixColumns_VRowDeleted" msprop:Generator_RowEvArgName="Accounts_TrialBalance_SixColumns_VRowChangeEvent" msprop:Generator_RowChangedName="Accounts_TrialBalance_SixColumns_VRowChanged" msprop:Generator_RowClassName="Accounts_TrialBalance_SixColumns_VRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AccountID_V" msprop:Generator_ColumnVarNameInTable="columnAccountID_V" msprop:Generator_ColumnPropNameInRow="AccountID_V" msprop:Generator_ColumnPropNameInTable="AccountID_VColumn" msprop:Generator_UserColumnName="AccountID_V" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountName_V" msprop:Generator_ColumnVarNameInTable="columnAccountName_V" msprop:Generator_ColumnPropNameInRow="AccountName_V" msprop:Generator_ColumnPropNameInTable="AccountName_VColumn" msprop:Generator_UserColumnName="AccountName_V" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sDebit" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnsDebit" msprop:Generator_ColumnPropNameInRow="sDebit" msprop:Generator_ColumnPropNameInTable="sDebitColumn" msprop:Generator_UserColumnName="sDebit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="sCredit" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnsCredit" msprop:Generator_ColumnPropNameInRow="sCredit" msprop:Generator_ColumnPropNameInTable="sCreditColumn" msprop:Generator_UserColumnName="sCredit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="dDebit" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columndDebit" msprop:Generator_ColumnPropNameInRow="dDebit" msprop:Generator_ColumnPropNameInTable="dDebitColumn" msprop:Generator_UserColumnName="dDebit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="dCredit" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columndCredit" msprop:Generator_ColumnPropNameInRow="dCredit" msprop:Generator_ColumnPropNameInTable="dCreditColumn" msprop:Generator_UserColumnName="dCredit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="eDebit" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columneDebit" msprop:Generator_ColumnPropNameInRow="eDebit" msprop:Generator_ColumnPropNameInTable="eDebitColumn" msprop:Generator_UserColumnName="eDebit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="eCredit" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columneCredit" msprop:Generator_ColumnPropNameInRow="eCredit" msprop:Generator_ColumnPropNameInTable="eCreditColumn" msprop:Generator_UserColumnName="eCredit" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Accounts_Vouchers_Opening" msprop:Generator_TableClassName="Accounts_Vouchers_OpeningDataTable" msprop:Generator_TableVarName="tableAccounts_Vouchers_Opening" msprop:Generator_TablePropName="Accounts_Vouchers_Opening" msprop:Generator_RowDeletingName="Accounts_Vouchers_OpeningRowDeleting" msprop:Generator_UserTableName="Accounts_Vouchers_Opening" msprop:Generator_RowChangingName="Accounts_Vouchers_OpeningRowChanging" msprop:Generator_RowEvHandlerName="Accounts_Vouchers_OpeningRowChangeEventHandler" msprop:Generator_RowDeletedName="Accounts_Vouchers_OpeningRowDeleted" msprop:Generator_RowEvArgName="Accounts_Vouchers_OpeningRowChangeEvent" msprop:Generator_RowChangedName="Accounts_Vouchers_OpeningRowChanged" msprop:Generator_RowClassName="Accounts_Vouchers_OpeningRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VNumber" msprop:Generator_ColumnVarNameInTable="columnVNumber" msprop:Generator_ColumnPropNameInRow="VNumber" msprop:Generator_ColumnPropNameInTable="VNumberColumn" msprop:Generator_UserColumnName="VNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountID_V" msprop:Generator_ColumnVarNameInTable="columnAccountID_V" msprop:Generator_ColumnPropNameInRow="AccountID_V" msprop:Generator_ColumnPropNameInTable="AccountID_VColumn" msprop:Generator_UserColumnName="AccountID_V" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountName_V" msprop:Generator_ColumnVarNameInTable="columnAccountName_V" msprop:Generator_ColumnPropNameInRow="AccountName_V" msprop:Generator_ColumnPropNameInTable="AccountName_VColumn" msprop:Generator_UserColumnName="AccountName_V" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountID_IV" msprop:Generator_ColumnVarNameInTable="columnAccountID_IV" msprop:Generator_ColumnPropNameInRow="AccountID_IV" msprop:Generator_ColumnPropNameInTable="AccountID_IVColumn" msprop:Generator_UserColumnName="AccountID_IV" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountName_IV" msprop:Generator_ColumnVarNameInTable="columnAccountName_IV" msprop:Generator_ColumnPropNameInRow="AccountName_IV" msprop:Generator_ColumnPropNameInTable="AccountName_IVColumn" msprop:Generator_UserColumnName="AccountName_IV" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountID_III" msprop:Generator_ColumnVarNameInTable="columnAccountID_III" msprop:Generator_ColumnPropNameInRow="AccountID_III" msprop:Generator_ColumnPropNameInTable="AccountID_IIIColumn" msprop:Generator_UserColumnName="AccountID_III" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="7" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountName_III" msprop:Generator_ColumnVarNameInTable="columnAccountName_III" msprop:Generator_ColumnPropNameInRow="AccountName_III" msprop:Generator_ColumnPropNameInTable="AccountName_IIIColumn" msprop:Generator_UserColumnName="AccountName_III" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountID_II" msprop:Generator_ColumnVarNameInTable="columnAccountID_II" msprop:Generator_ColumnPropNameInRow="AccountID_II" msprop:Generator_ColumnPropNameInTable="AccountID_IIColumn" msprop:Generator_UserColumnName="AccountID_II" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountName_II" msprop:Generator_ColumnVarNameInTable="columnAccountName_II" msprop:Generator_ColumnPropNameInRow="AccountName_II" msprop:Generator_ColumnPropNameInTable="AccountName_IIColumn" msprop:Generator_UserColumnName="AccountName_II" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountID_I" msprop:Generator_ColumnVarNameInTable="columnAccountID_I" msprop:Generator_ColumnPropNameInRow="AccountID_I" msprop:Generator_ColumnPropNameInTable="AccountID_IColumn" msprop:Generator_UserColumnName="AccountID_I" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountName_I" msprop:Generator_ColumnVarNameInTable="columnAccountName_I" msprop:Generator_ColumnPropNameInRow="AccountName_I" msprop:Generator_ColumnPropNameInTable="AccountName_IColumn" msprop:Generator_UserColumnName="AccountName_I" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VParticulars" msprop:Generator_ColumnVarNameInTable="columnVParticulars" msprop:Generator_ColumnPropNameInRow="VParticulars" msprop:Generator_ColumnPropNameInTable="VParticularsColumn" msprop:Generator_UserColumnName="VParticulars" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VDebitAmount" msprop:Generator_ColumnVarNameInTable="columnVDebitAmount" msprop:Generator_ColumnPropNameInRow="VDebitAmount" msprop:Generator_ColumnPropNameInTable="VDebitAmountColumn" msprop:Generator_UserColumnName="VDebitAmount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="VCreditAmount" msprop:Generator_ColumnVarNameInTable="columnVCreditAmount" msprop:Generator_ColumnPropNameInRow="VCreditAmount" msprop:Generator_ColumnPropNameInTable="VCreditAmountColumn" msprop:Generator_UserColumnName="VCreditAmount" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Accounts_Vouchers_DailyCashAndBank" msprop:Generator_TableClassName="Accounts_Vouchers_DailyCashAndBankDataTable" msprop:Generator_TableVarName="tableAccounts_Vouchers_DailyCashAndBank" msprop:Generator_TablePropName="Accounts_Vouchers_DailyCashAndBank" msprop:Generator_RowDeletingName="Accounts_Vouchers_DailyCashAndBankRowDeleting" msprop:Generator_UserTableName="Accounts_Vouchers_DailyCashAndBank" msprop:Generator_RowChangingName="Accounts_Vouchers_DailyCashAndBankRowChanging" msprop:Generator_RowEvHandlerName="Accounts_Vouchers_DailyCashAndBankRowChangeEventHandler" msprop:Generator_RowDeletedName="Accounts_Vouchers_DailyCashAndBankRowDeleted" msprop:Generator_RowEvArgName="Accounts_Vouchers_DailyCashAndBankRowChangeEvent" msprop:Generator_RowChangedName="Accounts_Vouchers_DailyCashAndBankRowChanged" msprop:Generator_RowClassName="Accounts_Vouchers_DailyCashAndBankRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VNumber" msprop:Generator_ColumnVarNameInTable="columnVNumber" msprop:Generator_ColumnPropNameInRow="VNumber" msprop:Generator_ColumnPropNameInTable="VNumberColumn" msprop:Generator_UserColumnName="VNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountID_V" msprop:Generator_ColumnVarNameInTable="columnAccountID_V" msprop:Generator_ColumnPropNameInRow="AccountID_V" msprop:Generator_ColumnPropNameInTable="AccountID_VColumn" msprop:Generator_UserColumnName="AccountID_V" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountName_V" msprop:Generator_ColumnVarNameInTable="columnAccountName_V" msprop:Generator_ColumnPropNameInRow="AccountName_V" msprop:Generator_ColumnPropNameInTable="AccountName_VColumn" msprop:Generator_UserColumnName="AccountName_V" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountID_IV" msprop:Generator_ColumnVarNameInTable="columnAccountID_IV" msprop:Generator_ColumnPropNameInRow="AccountID_IV" msprop:Generator_ColumnPropNameInTable="AccountID_IVColumn" msprop:Generator_UserColumnName="AccountID_IV" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CatRemarks" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCatRemarks" msprop:Generator_ColumnPropNameInRow="CatRemarks" msprop:Generator_ColumnPropNameInTable="CatRemarksColumn" msprop:Generator_UserColumnName="CatRemarks" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="668" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VDebitAmount" msprop:Generator_ColumnVarNameInTable="columnVDebitAmount" msprop:Generator_ColumnPropNameInRow="VDebitAmount" msprop:Generator_ColumnPropNameInTable="VDebitAmountColumn" msprop:Generator_UserColumnName="VDebitAmount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="VCreditAmount" msprop:Generator_ColumnVarNameInTable="columnVCreditAmount" msprop:Generator_ColumnPropNameInRow="VCreditAmount" msprop:Generator_ColumnPropNameInTable="VCreditAmountColumn" msprop:Generator_UserColumnName="VCreditAmount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="isHead" msprop:Generator_ColumnVarNameInTable="columnisHead" msprop:Generator_ColumnPropNameInRow="isHead" msprop:Generator_ColumnPropNameInTable="isHeadColumn" msprop:Generator_UserColumnName="isHead" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="CashReceipt" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCashReceipt" msprop:Generator_ColumnPropNameInRow="CashReceipt" msprop:Generator_ColumnPropNameInTable="CashReceiptColumn" msprop:Generator_UserColumnName="CashReceipt" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BankReceipt" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnBankReceipt" msprop:Generator_ColumnPropNameInRow="BankReceipt" msprop:Generator_ColumnPropNameInTable="BankReceiptColumn" msprop:Generator_UserColumnName="BankReceipt" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CashPayment" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCashPayment" msprop:Generator_ColumnPropNameInRow="CashPayment" msprop:Generator_ColumnPropNameInTable="CashPaymentColumn" msprop:Generator_UserColumnName="CashPayment" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BankPayment" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnBankPayment" msprop:Generator_ColumnPropNameInRow="BankPayment" msprop:Generator_ColumnPropNameInTable="BankPaymentColumn" msprop:Generator_UserColumnName="BankPayment" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Accounts_Vouchers_L5" msprop:Generator_TableClassName="Accounts_Vouchers_L5DataTable" msprop:Generator_TableVarName="tableAccounts_Vouchers_L5" msprop:Generator_TablePropName="Accounts_Vouchers_L5" msprop:Generator_RowDeletingName="Accounts_Vouchers_L5RowDeleting" msprop:Generator_UserTableName="Accounts_Vouchers_L5" msprop:Generator_RowChangingName="Accounts_Vouchers_L5RowChanging" msprop:Generator_RowEvHandlerName="Accounts_Vouchers_L5RowChangeEventHandler" msprop:Generator_RowDeletedName="Accounts_Vouchers_L5RowDeleted" msprop:Generator_RowEvArgName="Accounts_Vouchers_L5RowChangeEvent" msprop:Generator_RowChangedName="Accounts_Vouchers_L5RowChanged" msprop:Generator_RowClassName="Accounts_Vouchers_L5Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VSubNumber" msprop:Generator_ColumnVarNameInTable="columnVSubNumber" msprop:Generator_ColumnPropNameInRow="VSubNumber" msprop:Generator_ColumnPropNameInTable="VSubNumberColumn" msprop:Generator_UserColumnName="VSubNumber" type="xs:decimal" />
+              <xs:element name="VNumber" msprop:Generator_ColumnVarNameInTable="columnVNumber" msprop:Generator_ColumnPropNameInRow="VNumber" msprop:Generator_ColumnPropNameInTable="VNumberColumn" msprop:Generator_UserColumnName="VNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountID_V" msprop:Generator_ColumnVarNameInTable="columnAccountID_V" msprop:Generator_ColumnPropNameInRow="AccountID_V" msprop:Generator_ColumnPropNameInTable="AccountID_VColumn" msprop:Generator_UserColumnName="AccountID_V" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountName_V" msprop:Generator_ColumnVarNameInTable="columnAccountName_V" msprop:Generator_ColumnPropNameInRow="AccountName_V" msprop:Generator_ColumnPropNameInTable="AccountName_VColumn" msprop:Generator_UserColumnName="AccountName_V" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VDebitAmount" msprop:Generator_ColumnVarNameInTable="columnVDebitAmount" msprop:Generator_ColumnPropNameInRow="VDebitAmount" msprop:Generator_ColumnPropNameInTable="VDebitAmountColumn" msprop:Generator_UserColumnName="VDebitAmount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="VCreditAmount" msprop:Generator_ColumnVarNameInTable="columnVCreditAmount" msprop:Generator_ColumnPropNameInRow="VCreditAmount" msprop:Generator_ColumnPropNameInTable="VCreditAmountColumn" msprop:Generator_UserColumnName="VCreditAmount" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Accounts_Vouchers" />
+      <xs:field xpath="mstns:VNumber" />
+    </xs:unique>
+    <xs:unique name="Accounts_Sales_Sub_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Accounts_Sales_Sub" />
+      <xs:field xpath="mstns:iIndex" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="Accounts_Vouchers_Accounts_Vouchers_L5" msdata:parent="Accounts_Vouchers" msdata:child="Accounts_Vouchers_L5" msdata:parentkey="VNumber" msdata:childkey="VNumber" msprop:Generator_UserChildTable="Accounts_Vouchers_L5" msprop:Generator_ChildPropName="GetAccounts_Vouchers_L5Rows" msprop:Generator_ParentPropName="Accounts_VouchersRow" msprop:Generator_UserRelationName="Accounts_Vouchers_Accounts_Vouchers_L5" msprop:Generator_RelationVarName="relationAccounts_Vouchers_Accounts_Vouchers_L5" msprop:Generator_UserParentTable="Accounts_Vouchers" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

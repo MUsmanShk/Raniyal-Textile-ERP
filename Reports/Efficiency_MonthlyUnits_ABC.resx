@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Detail.Name" xml:space="preserve">
+    <value>Detail</value>
+  </metadata>
+  <metadata name="Units32.Name" xml:space="preserve">
+    <value>Units32</value>
+  </metadata>
+  <metadata name="Units31.Name" xml:space="preserve">
+    <value>Units31</value>
+  </metadata>
+  <metadata name="Units30.Name" xml:space="preserve">
+    <value>Units30</value>
+  </metadata>
+  <metadata name="Units29.Name" xml:space="preserve">
+    <value>Units29</value>
+  </metadata>
+  <metadata name="Units28.Name" xml:space="preserve">
+    <value>Units28</value>
+  </metadata>
+  <metadata name="Units27.Name" xml:space="preserve">
+    <value>Units27</value>
+  </metadata>
+  <metadata name="Units26.Name" xml:space="preserve">
+    <value>Units26</value>
+  </metadata>
+  <metadata name="Units25.Name" xml:space="preserve">
+    <value>Units25</value>
+  </metadata>
+  <metadata name="Units24.Name" xml:space="preserve">
+    <value>Units24</value>
+  </metadata>
+  <metadata name="Units23.Name" xml:space="preserve">
+    <value>Units23</value>
+  </metadata>
+  <metadata name="Units22.Name" xml:space="preserve">
+    <value>Units22</value>
+  </metadata>
+  <metadata name="Units21.Name" xml:space="preserve">
+    <value>Units21</value>
+  </metadata>
+  <metadata name="Units20.Name" xml:space="preserve">
+    <value>Units20</value>
+  </metadata>
+  <metadata name="Units19.Name" xml:space="preserve">
+    <value>Units19</value>
+  </metadata>
+  <metadata name="Units18.Name" xml:space="preserve">
+    <value>Units18</value>
+  </metadata>
+  <metadata name="Units17.Name" xml:space="preserve">
+    <value>Units17</value>
+  </metadata>
+  <metadata name="Units16.Name" xml:space="preserve">
+    <value>Units16</value>
+  </metadata>
+  <metadata name="Units15.Name" xml:space="preserve">
+    <value>Units15</value>
+  </metadata>
+  <metadata name="Units14.Name" xml:space="preserve">
+    <value>Units14</value>
+  </metadata>
+  <metadata name="Units13.Name" xml:space="preserve">
+    <value>Units13</value>
+  </metadata>
+  <metadata name="Units12.Name" xml:space="preserve">
+    <value>Units12</value>
+  </metadata>
+  <metadata name="Units11.Name" xml:space="preserve">
+    <value>Units11</value>
+  </metadata>
+  <metadata name="Units10.Name" xml:space="preserve">
+    <value>Units10</value>
+  </metadata>
+  <metadata name="Units9.Name" xml:space="preserve">
+    <value>Units9</value>
+  </metadata>
+  <metadata name="Units8.Name" xml:space="preserve">
+    <value>Units8</value>
+  </metadata>
+  <metadata name="Units7.Name" xml:space="preserve">
+    <value>Units7</value>
+  </metadata>
+  <metadata name="Units6.Name" xml:space="preserve">
+    <value>Units6</value>
+  </metadata>
+  <metadata name="Units5.Name" xml:space="preserve">
+    <value>Units5</value>
+  </metadata>
+  <metadata name="Units4.Name" xml:space="preserve">
+    <value>Units4</value>
+  </metadata>
+  <metadata name="Units3.Name" xml:space="preserve">
+    <value>Units3</value>
+  </metadata>
+  <metadata name="Units2.Name" xml:space="preserve">
+    <value>Units2</value>
+  </metadata>
+  <metadata name="LoomNumber.Name" xml:space="preserve">
+    <value>LoomNumber</value>
+  </metadata>
+  <metadata name="RPM.Name" xml:space="preserve">
+    <value>RPM</value>
+  </metadata>
+  <metadata name="Units1.Name" xml:space="preserve">
+    <value>Units1</value>
+  </metadata>
+  <metadata name="TypeName.Name" xml:space="preserve">
+    <value>TypeName</value>
+  </metadata>
+  <metadata name="TopMargin.Name" xml:space="preserve">
+    <value>TopMargin</value>
+  </metadata>
+  <metadata name="BottomMargin.Name" xml:space="preserve">
+    <value>BottomMargin</value>
+  </metadata>
+  <metadata name="ReportHeader.Name" xml:space="preserve">
+    <value>ReportHeader</value>
+  </metadata>
+  <metadata name="RepH_Company.Name" xml:space="preserve">
+    <value>RepH_Company</value>
+  </metadata>
+  <metadata name="xrLabel46.Name" xml:space="preserve">
+    <value>xrLabel46</value>
+  </metadata>
+  <metadata name="xrLabel49.Name" xml:space="preserve">
+    <value>xrLabel49</value>
+  </metadata>
+  <metadata name="xrLabel48.Name" xml:space="preserve">
+    <value>xrLabel48</value>
+  </metadata>
+  <metadata name="RepH_DocumentName.Name" xml:space="preserve">
+    <value>RepH_DocumentName</value>
+  </metadata>
+  <metadata name="repH_Dated_Upto.Name" xml:space="preserve">
+    <value>repH_Dated_Upto</value>
+  </metadata>
+  <metadata name="repH_Dated_From.Name" xml:space="preserve">
+    <value>repH_Dated_From</value>
+  </metadata>
+  <metadata name="repH_Shed.Name" xml:space="preserve">
+    <value>repH_Shed</value>
+  </metadata>
+  <metadata name="D32.Name" xml:space="preserve">
+    <value>D32</value>
+  </metadata>
+  <metadata name="D31.Name" xml:space="preserve">
+    <value>D31</value>
+  </metadata>
+  <metadata name="D30.Name" xml:space="preserve">
+    <value>D30</value>
+  </metadata>
+  <metadata name="D29.Name" xml:space="preserve">
+    <value>D29</value>
+  </metadata>
+  <metadata name="D28.Name" xml:space="preserve">
+    <value>D28</value>
+  </metadata>
+  <metadata name="D27.Name" xml:space="preserve">
+    <value>D27</value>
+  </metadata>
+  <metadata name="D26.Name" xml:space="preserve">
+    <value>D26</value>
+  </metadata>
+  <metadata name="D25.Name" xml:space="preserve">
+    <value>D25</value>
+  </metadata>
+  <metadata name="D24.Name" xml:space="preserve">
+    <value>D24</value>
+  </metadata>
+  <metadata name="D23.Name" xml:space="preserve">
+    <value>D23</value>
+  </metadata>
+  <metadata name="D22.Name" xml:space="preserve">
+    <value>D22</value>
+  </metadata>
+  <metadata name="D21.Name" xml:space="preserve">
+    <value>D21</value>
+  </metadata>
+  <metadata name="D20.Name" xml:space="preserve">
+    <value>D20</value>
+  </metadata>
+  <metadata name="D19.Name" xml:space="preserve">
+    <value>D19</value>
+  </metadata>
+  <metadata name="D18.Name" xml:space="preserve">
+    <value>D18</value>
+  </metadata>
+  <metadata name="D17.Name" xml:space="preserve">
+    <value>D17</value>
+  </metadata>
+  <metadata name="D16.Name" xml:space="preserve">
+    <value>D16</value>
+  </metadata>
+  <metadata name="D15.Name" xml:space="preserve">
+    <value>D15</value>
+  </metadata>
+  <metadata name="D14.Name" xml:space="preserve">
+    <value>D14</value>
+  </metadata>
+  <metadata name="D13.Name" xml:space="preserve">
+    <value>D13</value>
+  </metadata>
+  <metadata name="D12.Name" xml:space="preserve">
+    <value>D12</value>
+  </metadata>
+  <metadata name="D11.Name" xml:space="preserve">
+    <value>D11</value>
+  </metadata>
+  <metadata name="D10.Name" xml:space="preserve">
+    <value>D10</value>
+  </metadata>
+  <metadata name="D9.Name" xml:space="preserve">
+    <value>D9</value>
+  </metadata>
+  <metadata name="D8.Name" xml:space="preserve">
+    <value>D8</value>
+  </metadata>
+  <metadata name="D7.Name" xml:space="preserve">
+    <value>D7</value>
+  </metadata>
+  <metadata name="D6.Name" xml:space="preserve">
+    <value>D6</value>
+  </metadata>
+  <metadata name="D5.Name" xml:space="preserve">
+    <value>D5</value>
+  </metadata>
+  <metadata name="D4.Name" xml:space="preserve">
+    <value>D4</value>
+  </metadata>
+  <metadata name="D3.Name" xml:space="preserve">
+    <value>D3</value>
+  </metadata>
+  <metadata name="D2.Name" xml:space="preserve">
+    <value>D2</value>
+  </metadata>
+  <metadata name="D1.Name" xml:space="preserve">
+    <value>D1</value>
+  </metadata>
+  <metadata name="xrLabel1.Name" xml:space="preserve">
+    <value>xrLabel1</value>
+  </metadata>
+  <metadata name="xrLabel29.Name" xml:space="preserve">
+    <value>xrLabel29</value>
+  </metadata>
+  <metadata name="xrPageInfo2.Name" xml:space="preserve">
+    <value>xrPageInfo2</value>
+  </metadata>
+  <metadata name="xrLabel89.Name" xml:space="preserve">
+    <value>xrLabel89</value>
+  </metadata>
+  <metadata name="xrPageInfo1.Name" xml:space="preserve">
+    <value>xrPageInfo1</value>
+  </metadata>
+  <metadata name="xrLabel90.Name" xml:space="preserve">
+    <value>xrLabel90</value>
+  </metadata>
+  <metadata name="PageFooter.Name" xml:space="preserve">
+    <value>PageFooter</value>
+  </metadata>
+  <metadata name="ReportFooter.Name" xml:space="preserve">
+    <value>ReportFooter</value>
+  </metadata>
+  <metadata name="xrLabel35.Name" xml:space="preserve">
+    <value>xrLabel35</value>
+  </metadata>
+  <metadata name="AvgUnits22.Name" xml:space="preserve">
+    <value>AvgUnits22</value>
+  </metadata>
+  <metadata name="AvgUnits21.Name" xml:space="preserve">
+    <value>AvgUnits21</value>
+  </metadata>
+  <metadata name="AvgUnits24.Name" xml:space="preserve">
+    <value>AvgUnits24</value>
+  </metadata>
+  <metadata name="AvgUnits23.Name" xml:space="preserve">
+    <value>AvgUnits23</value>
+  </metadata>
+  <metadata name="AvgUnits18.Name" xml:space="preserve">
+    <value>AvgUnits18</value>
+  </metadata>
+  <metadata name="AvgUnits17.Name" xml:space="preserve">
+    <value>AvgUnits17</value>
+  </metadata>
+  <metadata name="AvgUnits20.Name" xml:space="preserve">
+    <value>AvgUnits20</value>
+  </metadata>
+  <metadata name="AvgUnits19.Name" xml:space="preserve">
+    <value>AvgUnits19</value>
+  </metadata>
+  <metadata name="AvgUnits30.Name" xml:space="preserve">
+    <value>AvgUnits30</value>
+  </metadata>
+  <metadata name="AvgUnits29.Name" xml:space="preserve">
+    <value>AvgUnits29</value>
+  </metadata>
+  <metadata name="AvgUnits32.Name" xml:space="preserve">
+    <value>AvgUnits32</value>
+  </metadata>
+  <metadata name="AvgUnits31.Name" xml:space="preserve">
+    <value>AvgUnits31</value>
+  </metadata>
+  <metadata name="AvgUnits26.Name" xml:space="preserve">
+    <value>AvgUnits26</value>
+  </metadata>
+  <metadata name="AvgUnits25.Name" xml:space="preserve">
+    <value>AvgUnits25</value>
+  </metadata>
+  <metadata name="AvgUnits28.Name" xml:space="preserve">
+    <value>AvgUnits28</value>
+  </metadata>
+  <metadata name="AvgUnits27.Name" xml:space="preserve">
+    <value>AvgUnits27</value>
+  </metadata>
+  <metadata name="AvgUnits6.Name" xml:space="preserve">
+    <value>AvgUnits6</value>
+  </metadata>
+  <metadata name="AvgUnits5.Name" xml:space="preserve">
+    <value>AvgUnits5</value>
+  </metadata>
+  <metadata name="AvgUnits8.Name" xml:space="preserve">
+    <value>AvgUnits8</value>
+  </metadata>
+  <metadata name="AvgUnits7.Name" xml:space="preserve">
+    <value>AvgUnits7</value>
+  </metadata>
+  <metadata name="AvgUnits2.Name" xml:space="preserve">
+    <value>AvgUnits2</value>
+  </metadata>
+  <metadata name="AvgUnits1.Name" xml:space="preserve">
+    <value>AvgUnits1</value>
+  </metadata>
+  <metadata name="AvgUnits4.Name" xml:space="preserve">
+    <value>AvgUnits4</value>
+  </metadata>
+  <metadata name="AvgUnits3.Name" xml:space="preserve">
+    <value>AvgUnits3</value>
+  </metadata>
+  <metadata name="AvgUnits14.Name" xml:space="preserve">
+    <value>AvgUnits14</value>
+  </metadata>
+  <metadata name="AvgUnits13.Name" xml:space="preserve">
+    <value>AvgUnits13</value>
+  </metadata>
+  <metadata name="AvgUnits16.Name" xml:space="preserve">
+    <value>AvgUnits16</value>
+  </metadata>
+  <metadata name="AvgUnits15.Name" xml:space="preserve">
+    <value>AvgUnits15</value>
+  </metadata>
+  <metadata name="AvgUnits10.Name" xml:space="preserve">
+    <value>AvgUnits10</value>
+  </metadata>
+  <metadata name="AvgUnits9.Name" xml:space="preserve">
+    <value>AvgUnits9</value>
+  </metadata>
+  <metadata name="AvgUnits12.Name" xml:space="preserve">
+    <value>AvgUnits12</value>
+  </metadata>
+  <metadata name="AvgUnits11.Name" xml:space="preserve">
+    <value>AvgUnits11</value>
+  </metadata>
+  <metadata name="xrLabel2.Name" xml:space="preserve">
+    <value>xrLabel2</value>
+  </metadata>
+  <metadata name="PageHeader.Name" xml:space="preserve">
+    <value>PageHeader</value>
+  </metadata>
+  <metadata name="GroupFooter1.Name" xml:space="preserve">
+    <value>GroupFooter1</value>
+  </metadata>
+  <metadata name="xrLabel38.Name" xml:space="preserve">
+    <value>xrLabel38</value>
+  </metadata>
+  <metadata name="GroupUnits29.Name" xml:space="preserve">
+    <value>GroupUnits29</value>
+  </metadata>
+  <metadata name="GroupUnits11.Name" xml:space="preserve">
+    <value>GroupUnits11</value>
+  </metadata>
+  <metadata name="GroupUnits19.Name" xml:space="preserve">
+    <value>GroupUnits19</value>
+  </metadata>
+  <metadata name="GroupUnits30.Name" xml:space="preserve">
+    <value>GroupUnits30</value>
+  </metadata>
+  <metadata name="GroupUnits25.Name" xml:space="preserve">
+    <value>GroupUnits25</value>
+  </metadata>
+  <metadata name="GroupUnits28.Name" xml:space="preserve">
+    <value>GroupUnits28</value>
+  </metadata>
+  <metadata name="GroupUnits31.Name" xml:space="preserve">
+    <value>GroupUnits31</value>
+  </metadata>
+  <metadata name="GroupUnits26.Name" xml:space="preserve">
+    <value>GroupUnits26</value>
+  </metadata>
+  <metadata name="GroupUnits21.Name" xml:space="preserve">
+    <value>GroupUnits21</value>
+  </metadata>
+  <metadata name="GroupUnits24.Name" xml:space="preserve">
+    <value>GroupUnits24</value>
+  </metadata>
+  <metadata name="xrLabel37.Name" xml:space="preserve">
+    <value>xrLabel37</value>
+  </metadata>
+  <metadata name="GroupUnits22.Name" xml:space="preserve">
+    <value>GroupUnits22</value>
+  </metadata>
+  <metadata name="GroupUnits17.Name" xml:space="preserve">
+    <value>GroupUnits17</value>
+  </metadata>
+  <metadata name="GroupUnits20.Name" xml:space="preserve">
+    <value>GroupUnits20</value>
+  </metadata>
+  <metadata name="GroupUnits23.Name" xml:space="preserve">
+    <value>GroupUnits23</value>
+  </metadata>
+  <metadata name="GroupUnits18.Name" xml:space="preserve">
+    <value>GroupUnits18</value>
+  </metadata>
+  <metadata name="GroupUnits27.Name" xml:space="preserve">
+    <value>GroupUnits27</value>
+  </metadata>
+  <metadata name="GroupUnits16.Name" xml:space="preserve">
+    <value>GroupUnits16</value>
+  </metadata>
+  <metadata name="GroupUnits15.Name" xml:space="preserve">
+    <value>GroupUnits15</value>
+  </metadata>
+  <metadata name="GroupUnits14.Name" xml:space="preserve">
+    <value>GroupUnits14</value>
+  </metadata>
+  <metadata name="GroupUnits13.Name" xml:space="preserve">
+    <value>GroupUnits13</value>
+  </metadata>
+  <metadata name="GroupUnits12.Name" xml:space="preserve">
+    <value>GroupUnits12</value>
+  </metadata>
+  <metadata name="GroupUnits32.Name" xml:space="preserve">
+    <value>GroupUnits32</value>
+  </metadata>
+  <metadata name="GroupUnits10.Name" xml:space="preserve">
+    <value>GroupUnits10</value>
+  </metadata>
+  <metadata name="GroupUnits9.Name" xml:space="preserve">
+    <value>GroupUnits9</value>
+  </metadata>
+  <metadata name="GroupUnits8.Name" xml:space="preserve">
+    <value>GroupUnits8</value>
+  </metadata>
+  <metadata name="GroupUnits7.Name" xml:space="preserve">
+    <value>GroupUnits7</value>
+  </metadata>
+  <metadata name="GroupUnits6.Name" xml:space="preserve">
+    <value>GroupUnits6</value>
+  </metadata>
+  <metadata name="GroupUnits5.Name" xml:space="preserve">
+    <value>GroupUnits5</value>
+  </metadata>
+  <metadata name="GroupUnits4.Name" xml:space="preserve">
+    <value>GroupUnits4</value>
+  </metadata>
+  <metadata name="GroupUnits3.Name" xml:space="preserve">
+    <value>GroupUnits3</value>
+  </metadata>
+  <metadata name="GroupUnits2.Name" xml:space="preserve">
+    <value>GroupUnits2</value>
+  </metadata>
+  <metadata name="GroupUnits1.Name" xml:space="preserve">
+    <value>GroupUnits1</value>
+  </metadata>
+  <metadata name="GroupHeader1.Name" xml:space="preserve">
+    <value>GroupHeader1</value>
+  </metadata>
+  <metadata name="$this.Name" xml:space="preserve">
+    <value>Efficiency_MonthlyUnits_ABC</value>
+  </metadata>
+</root>

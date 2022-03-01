@@ -1,0 +1,1249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_ArticleChangeSheet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Data Source=RMB-DEV-01;Initial Catalog=MachineEyes;Integrated Security=True;Persist Security Info=False" IsAppSettingsProperty="false" Modifier="Assembly" Name="Connection" ParameterPrefix="@" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="QP_ArticleChangeSheetAdapter" GeneratorDataComponentClassName="QP_ArticleChangeSheetAdapter" Name="QP_ArticleChangeSheet" UserDataComponentName="QP_ArticleChangeSheetAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Connection" DbObjectName="MachineEyes.dbo.QP_ArticleChangeSheet" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT *  FROM QP_ArticleChangeSheet</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ACSNumber" DataSetColumn="ACSNumber" />
+              <Mapping SourceColumn="Dated" DataSetColumn="Dated" />
+              <Mapping SourceColumn="ArticleNumber" DataSetColumn="ArticleNumber" />
+              <Mapping SourceColumn="ReedCount" DataSetColumn="ReedCount" />
+              <Mapping SourceColumn="ReedSpace" DataSetColumn="ReedSpace" />
+              <Mapping SourceColumn="JDN" DataSetColumn="JDN" />
+              <Mapping SourceColumn="PileHeight" DataSetColumn="PileHeight" />
+              <Mapping SourceColumn="ArticleName" DataSetColumn="ArticleName" />
+              <Mapping SourceColumn="WarpYarnCount_0" DataSetColumn="WarpYarnCount_0" />
+              <Mapping SourceColumn="WarpYarnCount_1" DataSetColumn="WarpYarnCount_1" />
+              <Mapping SourceColumn="WarpYarnCount_2" DataSetColumn="WarpYarnCount_2" />
+              <Mapping SourceColumn="WarpYarnCount_3" DataSetColumn="WarpYarnCount_3" />
+              <Mapping SourceColumn="WarpYarnCount_4" DataSetColumn="WarpYarnCount_4" />
+              <Mapping SourceColumn="WarpYarnCount_5" DataSetColumn="WarpYarnCount_5" />
+              <Mapping SourceColumn="WarpYarnPly_0" DataSetColumn="WarpYarnPly_0" />
+              <Mapping SourceColumn="WarpYarnPly_1" DataSetColumn="WarpYarnPly_1" />
+              <Mapping SourceColumn="WarpYarnPly_2" DataSetColumn="WarpYarnPly_2" />
+              <Mapping SourceColumn="WarpYarnPly_3" DataSetColumn="WarpYarnPly_3" />
+              <Mapping SourceColumn="WarpYarnPly_4" DataSetColumn="WarpYarnPly_4" />
+              <Mapping SourceColumn="WarpYarnPly_5" DataSetColumn="WarpYarnPly_5" />
+              <Mapping SourceColumn="WarpYarnBlend_0" DataSetColumn="WarpYarnBlend_0" />
+              <Mapping SourceColumn="WarpYarnBlend_1" DataSetColumn="WarpYarnBlend_1" />
+              <Mapping SourceColumn="WarpYarnBlend_2" DataSetColumn="WarpYarnBlend_2" />
+              <Mapping SourceColumn="WarpYarnBlend_3" DataSetColumn="WarpYarnBlend_3" />
+              <Mapping SourceColumn="WarpYarnBlend_4" DataSetColumn="WarpYarnBlend_4" />
+              <Mapping SourceColumn="WarpYarnBlend_5" DataSetColumn="WarpYarnBlend_5" />
+              <Mapping SourceColumn="WarpYarnDesc_0" DataSetColumn="WarpYarnDesc_0" />
+              <Mapping SourceColumn="WarpYarnDesc_1" DataSetColumn="WarpYarnDesc_1" />
+              <Mapping SourceColumn="WarpYarnDesc_2" DataSetColumn="WarpYarnDesc_2" />
+              <Mapping SourceColumn="WarpYarnDesc_3" DataSetColumn="WarpYarnDesc_3" />
+              <Mapping SourceColumn="WarpYarnDesc_4" DataSetColumn="WarpYarnDesc_4" />
+              <Mapping SourceColumn="WarpYarnDesc_5" DataSetColumn="WarpYarnDesc_5" />
+              <Mapping SourceColumn="WarpYarnColor_0" DataSetColumn="WarpYarnColor_0" />
+              <Mapping SourceColumn="WarpYarnColor_1" DataSetColumn="WarpYarnColor_1" />
+              <Mapping SourceColumn="WarpYarnColor_3" DataSetColumn="WarpYarnColor_3" />
+              <Mapping SourceColumn="WarpYarnColor_2" DataSetColumn="WarpYarnColor_2" />
+              <Mapping SourceColumn="WarpYarnColor_4" DataSetColumn="WarpYarnColor_4" />
+              <Mapping SourceColumn="WarpYarnColor_5" DataSetColumn="WarpYarnColor_5" />
+              <Mapping SourceColumn="WeftYarnCount_0" DataSetColumn="WeftYarnCount_0" />
+              <Mapping SourceColumn="WeftYarnCount_1" DataSetColumn="WeftYarnCount_1" />
+              <Mapping SourceColumn="WeftYarnCount_2" DataSetColumn="WeftYarnCount_2" />
+              <Mapping SourceColumn="WeftYarnCount_3" DataSetColumn="WeftYarnCount_3" />
+              <Mapping SourceColumn="WeftYarnCount_5" DataSetColumn="WeftYarnCount_5" />
+              <Mapping SourceColumn="WeftYarnCount_4" DataSetColumn="WeftYarnCount_4" />
+              <Mapping SourceColumn="WeftYarnPly_0" DataSetColumn="WeftYarnPly_0" />
+              <Mapping SourceColumn="WeftYarnPly_1" DataSetColumn="WeftYarnPly_1" />
+              <Mapping SourceColumn="WeftYarnPly_2" DataSetColumn="WeftYarnPly_2" />
+              <Mapping SourceColumn="WeftYarnPly_3" DataSetColumn="WeftYarnPly_3" />
+              <Mapping SourceColumn="WeftYarnPly_4" DataSetColumn="WeftYarnPly_4" />
+              <Mapping SourceColumn="WeftYarnPly_5" DataSetColumn="WeftYarnPly_5" />
+              <Mapping SourceColumn="WeftYarnBlend_0" DataSetColumn="WeftYarnBlend_0" />
+              <Mapping SourceColumn="WeftYarnBlend_1" DataSetColumn="WeftYarnBlend_1" />
+              <Mapping SourceColumn="WeftYarnBlend_2" DataSetColumn="WeftYarnBlend_2" />
+              <Mapping SourceColumn="WeftYarnBlend_3" DataSetColumn="WeftYarnBlend_3" />
+              <Mapping SourceColumn="WeftYarnBlend_4" DataSetColumn="WeftYarnBlend_4" />
+              <Mapping SourceColumn="WeftYarnBlend_5" DataSetColumn="WeftYarnBlend_5" />
+              <Mapping SourceColumn="WeftYarnDesc_0" DataSetColumn="WeftYarnDesc_0" />
+              <Mapping SourceColumn="WeftYarnDesc_1" DataSetColumn="WeftYarnDesc_1" />
+              <Mapping SourceColumn="WeftYarnDesc_2" DataSetColumn="WeftYarnDesc_2" />
+              <Mapping SourceColumn="WeftYarnDesc_3" DataSetColumn="WeftYarnDesc_3" />
+              <Mapping SourceColumn="WeftYarnDesc_4" DataSetColumn="WeftYarnDesc_4" />
+              <Mapping SourceColumn="WeftYarnDesc_5" DataSetColumn="WeftYarnDesc_5" />
+              <Mapping SourceColumn="WeftYarnColor_0" DataSetColumn="WeftYarnColor_0" />
+              <Mapping SourceColumn="WeftYarnColor_1" DataSetColumn="WeftYarnColor_1" />
+              <Mapping SourceColumn="WeftYarnColor_2" DataSetColumn="WeftYarnColor_2" />
+              <Mapping SourceColumn="WeftYarnColor_3" DataSetColumn="WeftYarnColor_3" />
+              <Mapping SourceColumn="WeftYarnColor_4" DataSetColumn="WeftYarnColor_4" />
+              <Mapping SourceColumn="WeftYarnColor_5" DataSetColumn="WeftYarnColor_5" />
+              <Mapping SourceColumn="PileWarpYarnCount_0" DataSetColumn="PileWarpYarnCount_0" />
+              <Mapping SourceColumn="PileWarpYarnCount_1" DataSetColumn="PileWarpYarnCount_1" />
+              <Mapping SourceColumn="PileWarpYarnCount_2" DataSetColumn="PileWarpYarnCount_2" />
+              <Mapping SourceColumn="PileWarpYarnCount_3" DataSetColumn="PileWarpYarnCount_3" />
+              <Mapping SourceColumn="PileWarpYarnCount_4" DataSetColumn="PileWarpYarnCount_4" />
+              <Mapping SourceColumn="PileWarpYarnCount_5" DataSetColumn="PileWarpYarnCount_5" />
+              <Mapping SourceColumn="PileWarpYarnPly_0" DataSetColumn="PileWarpYarnPly_0" />
+              <Mapping SourceColumn="PileWarpYarnPly_1" DataSetColumn="PileWarpYarnPly_1" />
+              <Mapping SourceColumn="PileWarpYarnPly_2" DataSetColumn="PileWarpYarnPly_2" />
+              <Mapping SourceColumn="PileWarpYarnPly_3" DataSetColumn="PileWarpYarnPly_3" />
+              <Mapping SourceColumn="PileWarpYarnPly_4" DataSetColumn="PileWarpYarnPly_4" />
+              <Mapping SourceColumn="PileWarpYarnPly_5" DataSetColumn="PileWarpYarnPly_5" />
+              <Mapping SourceColumn="PileWarpYarnBlend_0" DataSetColumn="PileWarpYarnBlend_0" />
+              <Mapping SourceColumn="PileWarpYarnBlend_1" DataSetColumn="PileWarpYarnBlend_1" />
+              <Mapping SourceColumn="PileWarpYarnBlend_2" DataSetColumn="PileWarpYarnBlend_2" />
+              <Mapping SourceColumn="PileWarpYarnBlend_3" DataSetColumn="PileWarpYarnBlend_3" />
+              <Mapping SourceColumn="PileWarpYarnBlend_4" DataSetColumn="PileWarpYarnBlend_4" />
+              <Mapping SourceColumn="PileWarpYarnBlend_5" DataSetColumn="PileWarpYarnBlend_5" />
+              <Mapping SourceColumn="PileWarpYarnDesc_0" DataSetColumn="PileWarpYarnDesc_0" />
+              <Mapping SourceColumn="PileWarpYarnDesc_1" DataSetColumn="PileWarpYarnDesc_1" />
+              <Mapping SourceColumn="PileWarpYarnDesc_2" DataSetColumn="PileWarpYarnDesc_2" />
+              <Mapping SourceColumn="PileWarpYarnDesc_3" DataSetColumn="PileWarpYarnDesc_3" />
+              <Mapping SourceColumn="PileWarpYarnDesc_4" DataSetColumn="PileWarpYarnDesc_4" />
+              <Mapping SourceColumn="PileWarpYarnDesc_5" DataSetColumn="PileWarpYarnDesc_5" />
+              <Mapping SourceColumn="PileWarpYarnColor_0" DataSetColumn="PileWarpYarnColor_0" />
+              <Mapping SourceColumn="PileWarpYarnColor_1" DataSetColumn="PileWarpYarnColor_1" />
+              <Mapping SourceColumn="PileWarpYarnColor_2" DataSetColumn="PileWarpYarnColor_2" />
+              <Mapping SourceColumn="PileWarpYarnColor_3" DataSetColumn="PileWarpYarnColor_3" />
+              <Mapping SourceColumn="PileWarpYarnColor_4" DataSetColumn="PileWarpYarnColor_4" />
+              <Mapping SourceColumn="PileWarpYarnColor_5" DataSetColumn="PileWarpYarnColor_5" />
+              <Mapping SourceColumn="EPI" DataSetColumn="EPI" />
+              <Mapping SourceColumn="PPI" DataSetColumn="PPI" />
+              <Mapping SourceColumn="Width" DataSetColumn="Width" />
+              <Mapping SourceColumn="ArticleWeave" DataSetColumn="ArticleWeave" />
+              <Mapping SourceColumn="InsertionType" DataSetColumn="InsertionType" />
+              <Mapping SourceColumn="ArticleSelvage" DataSetColumn="ArticleSelvage" />
+              <Mapping SourceColumn="WarpYarnends_0" DataSetColumn="WarpYarnends_0" />
+              <Mapping SourceColumn="WarpYarnends_1" DataSetColumn="WarpYarnends_1" />
+              <Mapping SourceColumn="WarpYarnends_2" DataSetColumn="WarpYarnends_2" />
+              <Mapping SourceColumn="WarpYarnends_3" DataSetColumn="WarpYarnends_3" />
+              <Mapping SourceColumn="WarpYarnends_4" DataSetColumn="WarpYarnends_4" />
+              <Mapping SourceColumn="WarpYarnends_5" DataSetColumn="WarpYarnends_5" />
+              <Mapping SourceColumn="weftyarnpicks_0" DataSetColumn="weftyarnpicks_0" />
+              <Mapping SourceColumn="weftyarnpicks_1" DataSetColumn="weftyarnpicks_1" />
+              <Mapping SourceColumn="weftyarnpicks_2" DataSetColumn="weftyarnpicks_2" />
+              <Mapping SourceColumn="weftyarnpicks_3" DataSetColumn="weftyarnpicks_3" />
+              <Mapping SourceColumn="weftyarnpicks_4" DataSetColumn="weftyarnpicks_4" />
+              <Mapping SourceColumn="weftyarnpicks_5" DataSetColumn="weftyarnpicks_5" />
+              <Mapping SourceColumn="PileWarpYarnEnds_0" DataSetColumn="PileWarpYarnEnds_0" />
+              <Mapping SourceColumn="PileWarpYarnEnds_1" DataSetColumn="PileWarpYarnEnds_1" />
+              <Mapping SourceColumn="PileWarpYarnEnds_2" DataSetColumn="PileWarpYarnEnds_2" />
+              <Mapping SourceColumn="PileWarpYarnEnds_3" DataSetColumn="PileWarpYarnEnds_3" />
+              <Mapping SourceColumn="PileWarpYarnEnds_4" DataSetColumn="PileWarpYarnEnds_4" />
+              <Mapping SourceColumn="PileWarpYarnEnds_5" DataSetColumn="PileWarpYarnEnds_5" />
+              <Mapping SourceColumn="SizeCM" DataSetColumn="SizeWidth" />
+              <Mapping SourceColumn="TotalPicksBody" DataSetColumn="TotalPicksBody" />
+              <Mapping SourceColumn="TotalPicksFancy" DataSetColumn="TotalPicksFancy" />
+              <Mapping SourceColumn="GSM" DataSetColumn="GSM" />
+              <Mapping SourceColumn="WeightGrams" DataSetColumn="SizeHeight" />
+              <Mapping SourceColumn="CMORINCHES" DataSetColumn="CMORINCHES" />
+              <Mapping SourceColumn="SizeWidth" DataSetColumn="SizeWidth" />
+              <Mapping SourceColumn="SizeHeight" DataSetColumn="SizeHeight" />
+              <Mapping SourceColumn="TotalEndsPileBeam" DataSetColumn="TotalEndsPileBeam" />
+              <Mapping SourceColumn="TotalEndsGroundBeam" DataSetColumn="TotalEndsGroundBeam" />
+              <Mapping SourceColumn="EndsPerPieceGroundSelvage1" DataSetColumn="EndsPerPieceGroundSelvage1" />
+              <Mapping SourceColumn="EndsPerPieceGroundSelvage2" DataSetColumn="EndsPerPieceGroundSelvage2" />
+              <Mapping SourceColumn="EndsPerPieceGroundBody" DataSetColumn="EndsPerPieceGroundBody" />
+              <Mapping SourceColumn="BeamSpacePile" DataSetColumn="BeamSpacePile" />
+              <Mapping SourceColumn="BeamSpaceGround" DataSetColumn="BeamSpaceGround" />
+              <Mapping SourceColumn="BeamSpacePileCMINCHES" DataSetColumn="BeamSpacePileCMINCHES" />
+              <Mapping SourceColumn="BeamSpaceGroundCMINCHES" DataSetColumn="BeamSpaceGroundCMINCHES" />
+              <Mapping SourceColumn="Remarks" DataSetColumn="Remarks" />
+              <Mapping SourceColumn="NumberofPanels" DataSetColumn="NumberofPanels" />
+              <Mapping SourceColumn="PartyID" DataSetColumn="PartyID" />
+              <Mapping SourceColumn="PartyName" DataSetColumn="PartyName" />
+              <Mapping SourceColumn="SelvageYarnSpecs" DataSetColumn="SelvageYarnSpecs" />
+              <Mapping SourceColumn="SelvageGroundYarnSpecs" DataSetColumn="SelvageGroundYarnSpecs" />
+              <Mapping SourceColumn="SelvagePrint" DataSetColumn="SelvagePrint" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="QP_ArticleChangeSheet_LoomsTableAdapter" GeneratorDataComponentClassName="QP_ArticleChangeSheet_LoomsTableAdapter" Name="QP_ArticleChangeSheet_Looms" UserDataComponentName="QP_ArticleChangeSheet_LoomsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Connection" DbObjectName="MachineEyes.dbo.QP_ArticleChangeSheet_Looms" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select * from QP_ArticleChangeSheet_Looms</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ACSNumber" DataSetColumn="ACSNumber" />
+              <Mapping SourceColumn="LoomID" DataSetColumn="LoomID" />
+              <Mapping SourceColumn="LoomName" DataSetColumn="LoomName" />
+              <Mapping SourceColumn="ShedName" DataSetColumn="ShedName" />
+              <Mapping SourceColumn="TypeName" DataSetColumn="TypeName" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_ArticleChangeSheet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DS_ArticleChangeSheet" msprop:Generator_UserDSName="DS_ArticleChangeSheet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="QP_ArticleChangeSheet" msprop:Generator_TableClassName="QP_ArticleChangeSheetDataTable" msprop:Generator_TableVarName="tableQP_ArticleChangeSheet" msprop:Generator_TablePropName="QP_ArticleChangeSheet" msprop:Generator_RowDeletingName="QP_ArticleChangeSheetRowDeleting" msprop:Generator_UserTableName="QP_ArticleChangeSheet" msprop:Generator_RowChangingName="QP_ArticleChangeSheetRowChanging" msprop:Generator_RowEvHandlerName="QP_ArticleChangeSheetRowChangeEventHandler" msprop:Generator_RowDeletedName="QP_ArticleChangeSheetRowDeleted" msprop:Generator_RowEvArgName="QP_ArticleChangeSheetRowChangeEvent" msprop:Generator_RowChangedName="QP_ArticleChangeSheetRowChanged" msprop:Generator_RowClassName="QP_ArticleChangeSheetRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ACSNumber" msprop:Generator_ColumnVarNameInTable="columnACSNumber" msprop:Generator_ColumnPropNameInRow="ACSNumber" msprop:Generator_ColumnPropNameInTable="ACSNumberColumn" msprop:Generator_UserColumnName="ACSNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Dated" msprop:Generator_ColumnVarNameInTable="columnDated" msprop:Generator_ColumnPropNameInRow="Dated" msprop:Generator_ColumnPropNameInTable="DatedColumn" msprop:Generator_UserColumnName="Dated" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ArticleNumber" msprop:Generator_ColumnVarNameInTable="columnArticleNumber" msprop:Generator_ColumnPropNameInRow="ArticleNumber" msprop:Generator_ColumnPropNameInTable="ArticleNumberColumn" msprop:Generator_UserColumnName="ArticleNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ReedCount" msprop:Generator_ColumnVarNameInTable="columnReedCount" msprop:Generator_ColumnPropNameInRow="ReedCount" msprop:Generator_ColumnPropNameInTable="ReedCountColumn" msprop:Generator_UserColumnName="ReedCount" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ReedSpace" msprop:Generator_ColumnVarNameInTable="columnReedSpace" msprop:Generator_ColumnPropNameInRow="ReedSpace" msprop:Generator_ColumnPropNameInTable="ReedSpaceColumn" msprop:Generator_UserColumnName="ReedSpace" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JDN" msprop:Generator_ColumnVarNameInTable="columnJDN" msprop:Generator_ColumnPropNameInRow="JDN" msprop:Generator_ColumnPropNameInTable="JDNColumn" msprop:Generator_UserColumnName="JDN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileHeight" msprop:Generator_ColumnVarNameInTable="columnPileHeight" msprop:Generator_ColumnPropNameInRow="PileHeight" msprop:Generator_ColumnPropNameInTable="PileHeightColumn" msprop:Generator_UserColumnName="PileHeight" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ArticleName" msprop:Generator_ColumnVarNameInTable="columnArticleName" msprop:Generator_ColumnPropNameInRow="ArticleName" msprop:Generator_ColumnPropNameInTable="ArticleNameColumn" msprop:Generator_UserColumnName="ArticleName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnCount_0" msprop:Generator_ColumnVarNameInTable="columnWarpYarnCount_0" msprop:Generator_ColumnPropNameInRow="WarpYarnCount_0" msprop:Generator_ColumnPropNameInTable="WarpYarnCount_0Column" msprop:Generator_UserColumnName="WarpYarnCount_0" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnCount_1" msprop:Generator_ColumnVarNameInTable="columnWarpYarnCount_1" msprop:Generator_ColumnPropNameInRow="WarpYarnCount_1" msprop:Generator_ColumnPropNameInTable="WarpYarnCount_1Column" msprop:Generator_UserColumnName="WarpYarnCount_1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnCount_2" msprop:Generator_ColumnVarNameInTable="columnWarpYarnCount_2" msprop:Generator_ColumnPropNameInRow="WarpYarnCount_2" msprop:Generator_ColumnPropNameInTable="WarpYarnCount_2Column" msprop:Generator_UserColumnName="WarpYarnCount_2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnCount_3" msprop:Generator_ColumnVarNameInTable="columnWarpYarnCount_3" msprop:Generator_ColumnPropNameInRow="WarpYarnCount_3" msprop:Generator_ColumnPropNameInTable="WarpYarnCount_3Column" msprop:Generator_UserColumnName="WarpYarnCount_3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnCount_4" msprop:Generator_ColumnVarNameInTable="columnWarpYarnCount_4" msprop:Generator_ColumnPropNameInRow="WarpYarnCount_4" msprop:Generator_ColumnPropNameInTable="WarpYarnCount_4Column" msprop:Generator_UserColumnName="WarpYarnCount_4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnCount_5" msprop:Generator_ColumnVarNameInTable="columnWarpYarnCount_5" msprop:Generator_ColumnPropNameInRow="WarpYarnCount_5" msprop:Generator_ColumnPropNameInTable="WarpYarnCount_5Column" msprop:Generator_UserColumnName="WarpYarnCount_5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnPly_0" msprop:Generator_ColumnVarNameInTable="columnWarpYarnPly_0" msprop:Generator_ColumnPropNameInRow="WarpYarnPly_0" msprop:Generator_ColumnPropNameInTable="WarpYarnPly_0Column" msprop:Generator_UserColumnName="WarpYarnPly_0" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnPly_1" msprop:Generator_ColumnVarNameInTable="columnWarpYarnPly_1" msprop:Generator_ColumnPropNameInRow="WarpYarnPly_1" msprop:Generator_ColumnPropNameInTable="WarpYarnPly_1Column" msprop:Generator_UserColumnName="WarpYarnPly_1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnPly_2" msprop:Generator_ColumnVarNameInTable="columnWarpYarnPly_2" msprop:Generator_ColumnPropNameInRow="WarpYarnPly_2" msprop:Generator_ColumnPropNameInTable="WarpYarnPly_2Column" msprop:Generator_UserColumnName="WarpYarnPly_2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnPly_3" msprop:Generator_ColumnVarNameInTable="columnWarpYarnPly_3" msprop:Generator_ColumnPropNameInRow="WarpYarnPly_3" msprop:Generator_ColumnPropNameInTable="WarpYarnPly_3Column" msprop:Generator_UserColumnName="WarpYarnPly_3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnPly_4" msprop:Generator_ColumnVarNameInTable="columnWarpYarnPly_4" msprop:Generator_ColumnPropNameInRow="WarpYarnPly_4" msprop:Generator_ColumnPropNameInTable="WarpYarnPly_4Column" msprop:Generator_UserColumnName="WarpYarnPly_4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnPly_5" msprop:Generator_ColumnVarNameInTable="columnWarpYarnPly_5" msprop:Generator_ColumnPropNameInRow="WarpYarnPly_5" msprop:Generator_ColumnPropNameInTable="WarpYarnPly_5Column" msprop:Generator_UserColumnName="WarpYarnPly_5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnBlend_0" msprop:Generator_ColumnVarNameInTable="columnWarpYarnBlend_0" msprop:Generator_ColumnPropNameInRow="WarpYarnBlend_0" msprop:Generator_ColumnPropNameInTable="WarpYarnBlend_0Column" msprop:Generator_UserColumnName="WarpYarnBlend_0" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnBlend_1" msprop:Generator_ColumnVarNameInTable="columnWarpYarnBlend_1" msprop:Generator_ColumnPropNameInRow="WarpYarnBlend_1" msprop:Generator_ColumnPropNameInTable="WarpYarnBlend_1Column" msprop:Generator_UserColumnName="WarpYarnBlend_1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnBlend_2" msprop:Generator_ColumnVarNameInTable="columnWarpYarnBlend_2" msprop:Generator_ColumnPropNameInRow="WarpYarnBlend_2" msprop:Generator_ColumnPropNameInTable="WarpYarnBlend_2Column" msprop:Generator_UserColumnName="WarpYarnBlend_2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnBlend_3" msprop:Generator_ColumnVarNameInTable="columnWarpYarnBlend_3" msprop:Generator_ColumnPropNameInRow="WarpYarnBlend_3" msprop:Generator_ColumnPropNameInTable="WarpYarnBlend_3Column" msprop:Generator_UserColumnName="WarpYarnBlend_3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnBlend_4" msprop:Generator_ColumnVarNameInTable="columnWarpYarnBlend_4" msprop:Generator_ColumnPropNameInRow="WarpYarnBlend_4" msprop:Generator_ColumnPropNameInTable="WarpYarnBlend_4Column" msprop:Generator_UserColumnName="WarpYarnBlend_4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnBlend_5" msprop:Generator_ColumnVarNameInTable="columnWarpYarnBlend_5" msprop:Generator_ColumnPropNameInRow="WarpYarnBlend_5" msprop:Generator_ColumnPropNameInTable="WarpYarnBlend_5Column" msprop:Generator_UserColumnName="WarpYarnBlend_5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnDesc_0" msprop:Generator_ColumnVarNameInTable="columnWarpYarnDesc_0" msprop:Generator_ColumnPropNameInRow="WarpYarnDesc_0" msprop:Generator_ColumnPropNameInTable="WarpYarnDesc_0Column" msprop:Generator_UserColumnName="WarpYarnDesc_0" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnDesc_1" msprop:Generator_ColumnVarNameInTable="columnWarpYarnDesc_1" msprop:Generator_ColumnPropNameInRow="WarpYarnDesc_1" msprop:Generator_ColumnPropNameInTable="WarpYarnDesc_1Column" msprop:Generator_UserColumnName="WarpYarnDesc_1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnDesc_2" msprop:Generator_ColumnVarNameInTable="columnWarpYarnDesc_2" msprop:Generator_ColumnPropNameInRow="WarpYarnDesc_2" msprop:Generator_ColumnPropNameInTable="WarpYarnDesc_2Column" msprop:Generator_UserColumnName="WarpYarnDesc_2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnDesc_3" msprop:Generator_ColumnVarNameInTable="columnWarpYarnDesc_3" msprop:Generator_ColumnPropNameInRow="WarpYarnDesc_3" msprop:Generator_ColumnPropNameInTable="WarpYarnDesc_3Column" msprop:Generator_UserColumnName="WarpYarnDesc_3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnDesc_4" msprop:Generator_ColumnVarNameInTable="columnWarpYarnDesc_4" msprop:Generator_ColumnPropNameInRow="WarpYarnDesc_4" msprop:Generator_ColumnPropNameInTable="WarpYarnDesc_4Column" msprop:Generator_UserColumnName="WarpYarnDesc_4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnDesc_5" msprop:Generator_ColumnVarNameInTable="columnWarpYarnDesc_5" msprop:Generator_ColumnPropNameInRow="WarpYarnDesc_5" msprop:Generator_ColumnPropNameInTable="WarpYarnDesc_5Column" msprop:Generator_UserColumnName="WarpYarnDesc_5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnColor_0" msprop:Generator_ColumnVarNameInTable="columnWarpYarnColor_0" msprop:Generator_ColumnPropNameInRow="WarpYarnColor_0" msprop:Generator_ColumnPropNameInTable="WarpYarnColor_0Column" msprop:Generator_UserColumnName="WarpYarnColor_0" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnColor_1" msprop:Generator_ColumnVarNameInTable="columnWarpYarnColor_1" msprop:Generator_ColumnPropNameInRow="WarpYarnColor_1" msprop:Generator_ColumnPropNameInTable="WarpYarnColor_1Column" msprop:Generator_UserColumnName="WarpYarnColor_1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnColor_3" msprop:Generator_ColumnVarNameInTable="columnWarpYarnColor_3" msprop:Generator_ColumnPropNameInRow="WarpYarnColor_3" msprop:Generator_ColumnPropNameInTable="WarpYarnColor_3Column" msprop:Generator_UserColumnName="WarpYarnColor_3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnColor_2" msprop:Generator_ColumnVarNameInTable="columnWarpYarnColor_2" msprop:Generator_ColumnPropNameInRow="WarpYarnColor_2" msprop:Generator_ColumnPropNameInTable="WarpYarnColor_2Column" msprop:Generator_UserColumnName="WarpYarnColor_2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnColor_4" msprop:Generator_ColumnVarNameInTable="columnWarpYarnColor_4" msprop:Generator_ColumnPropNameInRow="WarpYarnColor_4" msprop:Generator_ColumnPropNameInTable="WarpYarnColor_4Column" msprop:Generator_UserColumnName="WarpYarnColor_4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnColor_5" msprop:Generator_ColumnVarNameInTable="columnWarpYarnColor_5" msprop:Generator_ColumnPropNameInRow="WarpYarnColor_5" msprop:Generator_ColumnPropNameInTable="WarpYarnColor_5Column" msprop:Generator_UserColumnName="WarpYarnColor_5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnCount_0" msprop:Generator_ColumnVarNameInTable="columnWeftYarnCount_0" msprop:Generator_ColumnPropNameInRow="WeftYarnCount_0" msprop:Generator_ColumnPropNameInTable="WeftYarnCount_0Column" msprop:Generator_UserColumnName="WeftYarnCount_0" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnCount_1" msprop:Generator_ColumnVarNameInTable="columnWeftYarnCount_1" msprop:Generator_ColumnPropNameInRow="WeftYarnCount_1" msprop:Generator_ColumnPropNameInTable="WeftYarnCount_1Column" msprop:Generator_UserColumnName="WeftYarnCount_1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnCount_2" msprop:Generator_ColumnVarNameInTable="columnWeftYarnCount_2" msprop:Generator_ColumnPropNameInRow="WeftYarnCount_2" msprop:Generator_ColumnPropNameInTable="WeftYarnCount_2Column" msprop:Generator_UserColumnName="WeftYarnCount_2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnCount_3" msprop:Generator_ColumnVarNameInTable="columnWeftYarnCount_3" msprop:Generator_ColumnPropNameInRow="WeftYarnCount_3" msprop:Generator_ColumnPropNameInTable="WeftYarnCount_3Column" msprop:Generator_UserColumnName="WeftYarnCount_3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnCount_5" msprop:Generator_ColumnVarNameInTable="columnWeftYarnCount_5" msprop:Generator_ColumnPropNameInRow="WeftYarnCount_5" msprop:Generator_ColumnPropNameInTable="WeftYarnCount_5Column" msprop:Generator_UserColumnName="WeftYarnCount_5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnCount_4" msprop:Generator_ColumnVarNameInTable="columnWeftYarnCount_4" msprop:Generator_ColumnPropNameInRow="WeftYarnCount_4" msprop:Generator_ColumnPropNameInTable="WeftYarnCount_4Column" msprop:Generator_UserColumnName="WeftYarnCount_4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnPly_0" msprop:Generator_ColumnVarNameInTable="columnWeftYarnPly_0" msprop:Generator_ColumnPropNameInRow="WeftYarnPly_0" msprop:Generator_ColumnPropNameInTable="WeftYarnPly_0Column" msprop:Generator_UserColumnName="WeftYarnPly_0" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnPly_1" msprop:Generator_ColumnVarNameInTable="columnWeftYarnPly_1" msprop:Generator_ColumnPropNameInRow="WeftYarnPly_1" msprop:Generator_ColumnPropNameInTable="WeftYarnPly_1Column" msprop:Generator_UserColumnName="WeftYarnPly_1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnPly_2" msprop:Generator_ColumnVarNameInTable="columnWeftYarnPly_2" msprop:Generator_ColumnPropNameInRow="WeftYarnPly_2" msprop:Generator_ColumnPropNameInTable="WeftYarnPly_2Column" msprop:Generator_UserColumnName="WeftYarnPly_2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnPly_3" msprop:Generator_ColumnVarNameInTable="columnWeftYarnPly_3" msprop:Generator_ColumnPropNameInRow="WeftYarnPly_3" msprop:Generator_ColumnPropNameInTable="WeftYarnPly_3Column" msprop:Generator_UserColumnName="WeftYarnPly_3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnPly_4" msprop:Generator_ColumnVarNameInTable="columnWeftYarnPly_4" msprop:Generator_ColumnPropNameInRow="WeftYarnPly_4" msprop:Generator_ColumnPropNameInTable="WeftYarnPly_4Column" msprop:Generator_UserColumnName="WeftYarnPly_4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnPly_5" msprop:Generator_ColumnVarNameInTable="columnWeftYarnPly_5" msprop:Generator_ColumnPropNameInRow="WeftYarnPly_5" msprop:Generator_ColumnPropNameInTable="WeftYarnPly_5Column" msprop:Generator_UserColumnName="WeftYarnPly_5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnBlend_0" msprop:Generator_ColumnVarNameInTable="columnWeftYarnBlend_0" msprop:Generator_ColumnPropNameInRow="WeftYarnBlend_0" msprop:Generator_ColumnPropNameInTable="WeftYarnBlend_0Column" msprop:Generator_UserColumnName="WeftYarnBlend_0" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnBlend_1" msprop:Generator_ColumnVarNameInTable="columnWeftYarnBlend_1" msprop:Generator_ColumnPropNameInRow="WeftYarnBlend_1" msprop:Generator_ColumnPropNameInTable="WeftYarnBlend_1Column" msprop:Generator_UserColumnName="WeftYarnBlend_1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnBlend_2" msprop:Generator_ColumnVarNameInTable="columnWeftYarnBlend_2" msprop:Generator_ColumnPropNameInRow="WeftYarnBlend_2" msprop:Generator_ColumnPropNameInTable="WeftYarnBlend_2Column" msprop:Generator_UserColumnName="WeftYarnBlend_2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnBlend_3" msprop:Generator_ColumnVarNameInTable="columnWeftYarnBlend_3" msprop:Generator_ColumnPropNameInRow="WeftYarnBlend_3" msprop:Generator_ColumnPropNameInTable="WeftYarnBlend_3Column" msprop:Generator_UserColumnName="WeftYarnBlend_3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnBlend_4" msprop:Generator_ColumnVarNameInTable="columnWeftYarnBlend_4" msprop:Generator_ColumnPropNameInRow="WeftYarnBlend_4" msprop:Generator_ColumnPropNameInTable="WeftYarnBlend_4Column" msprop:Generator_UserColumnName="WeftYarnBlend_4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnBlend_5" msprop:Generator_ColumnVarNameInTable="columnWeftYarnBlend_5" msprop:Generator_ColumnPropNameInRow="WeftYarnBlend_5" msprop:Generator_ColumnPropNameInTable="WeftYarnBlend_5Column" msprop:Generator_UserColumnName="WeftYarnBlend_5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnDesc_0" msprop:Generator_ColumnVarNameInTable="columnWeftYarnDesc_0" msprop:Generator_ColumnPropNameInRow="WeftYarnDesc_0" msprop:Generator_ColumnPropNameInTable="WeftYarnDesc_0Column" msprop:Generator_UserColumnName="WeftYarnDesc_0" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnDesc_1" msprop:Generator_ColumnVarNameInTable="columnWeftYarnDesc_1" msprop:Generator_ColumnPropNameInRow="WeftYarnDesc_1" msprop:Generator_ColumnPropNameInTable="WeftYarnDesc_1Column" msprop:Generator_UserColumnName="WeftYarnDesc_1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnDesc_2" msprop:Generator_ColumnVarNameInTable="columnWeftYarnDesc_2" msprop:Generator_ColumnPropNameInRow="WeftYarnDesc_2" msprop:Generator_ColumnPropNameInTable="WeftYarnDesc_2Column" msprop:Generator_UserColumnName="WeftYarnDesc_2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnDesc_3" msprop:Generator_ColumnVarNameInTable="columnWeftYarnDesc_3" msprop:Generator_ColumnPropNameInRow="WeftYarnDesc_3" msprop:Generator_ColumnPropNameInTable="WeftYarnDesc_3Column" msprop:Generator_UserColumnName="WeftYarnDesc_3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnDesc_4" msprop:Generator_ColumnVarNameInTable="columnWeftYarnDesc_4" msprop:Generator_ColumnPropNameInRow="WeftYarnDesc_4" msprop:Generator_ColumnPropNameInTable="WeftYarnDesc_4Column" msprop:Generator_UserColumnName="WeftYarnDesc_4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnDesc_5" msprop:Generator_ColumnVarNameInTable="columnWeftYarnDesc_5" msprop:Generator_ColumnPropNameInRow="WeftYarnDesc_5" msprop:Generator_ColumnPropNameInTable="WeftYarnDesc_5Column" msprop:Generator_UserColumnName="WeftYarnDesc_5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnColor_0" msprop:Generator_ColumnVarNameInTable="columnWeftYarnColor_0" msprop:Generator_ColumnPropNameInRow="WeftYarnColor_0" msprop:Generator_ColumnPropNameInTable="WeftYarnColor_0Column" msprop:Generator_UserColumnName="WeftYarnColor_0" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnColor_1" msprop:Generator_ColumnVarNameInTable="columnWeftYarnColor_1" msprop:Generator_ColumnPropNameInRow="WeftYarnColor_1" msprop:Generator_ColumnPropNameInTable="WeftYarnColor_1Column" msprop:Generator_UserColumnName="WeftYarnColor_1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnColor_2" msprop:Generator_ColumnVarNameInTable="columnWeftYarnColor_2" msprop:Generator_ColumnPropNameInRow="WeftYarnColor_2" msprop:Generator_ColumnPropNameInTable="WeftYarnColor_2Column" msprop:Generator_UserColumnName="WeftYarnColor_2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnColor_3" msprop:Generator_ColumnVarNameInTable="columnWeftYarnColor_3" msprop:Generator_ColumnPropNameInRow="WeftYarnColor_3" msprop:Generator_ColumnPropNameInTable="WeftYarnColor_3Column" msprop:Generator_UserColumnName="WeftYarnColor_3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnColor_4" msprop:Generator_ColumnVarNameInTable="columnWeftYarnColor_4" msprop:Generator_ColumnPropNameInRow="WeftYarnColor_4" msprop:Generator_ColumnPropNameInTable="WeftYarnColor_4Column" msprop:Generator_UserColumnName="WeftYarnColor_4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WeftYarnColor_5" msprop:Generator_ColumnVarNameInTable="columnWeftYarnColor_5" msprop:Generator_ColumnPropNameInRow="WeftYarnColor_5" msprop:Generator_ColumnPropNameInTable="WeftYarnColor_5Column" msprop:Generator_UserColumnName="WeftYarnColor_5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnCount_0" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnCount_0" msprop:Generator_ColumnPropNameInRow="PileWarpYarnCount_0" msprop:Generator_ColumnPropNameInTable="PileWarpYarnCount_0Column" msprop:Generator_UserColumnName="PileWarpYarnCount_0" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnCount_1" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnCount_1" msprop:Generator_ColumnPropNameInRow="PileWarpYarnCount_1" msprop:Generator_ColumnPropNameInTable="PileWarpYarnCount_1Column" msprop:Generator_UserColumnName="PileWarpYarnCount_1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnCount_2" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnCount_2" msprop:Generator_ColumnPropNameInRow="PileWarpYarnCount_2" msprop:Generator_ColumnPropNameInTable="PileWarpYarnCount_2Column" msprop:Generator_UserColumnName="PileWarpYarnCount_2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnCount_3" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnCount_3" msprop:Generator_ColumnPropNameInRow="PileWarpYarnCount_3" msprop:Generator_ColumnPropNameInTable="PileWarpYarnCount_3Column" msprop:Generator_UserColumnName="PileWarpYarnCount_3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnCount_4" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnCount_4" msprop:Generator_ColumnPropNameInRow="PileWarpYarnCount_4" msprop:Generator_ColumnPropNameInTable="PileWarpYarnCount_4Column" msprop:Generator_UserColumnName="PileWarpYarnCount_4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnCount_5" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnCount_5" msprop:Generator_ColumnPropNameInRow="PileWarpYarnCount_5" msprop:Generator_ColumnPropNameInTable="PileWarpYarnCount_5Column" msprop:Generator_UserColumnName="PileWarpYarnCount_5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnPly_0" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnPly_0" msprop:Generator_ColumnPropNameInRow="PileWarpYarnPly_0" msprop:Generator_ColumnPropNameInTable="PileWarpYarnPly_0Column" msprop:Generator_UserColumnName="PileWarpYarnPly_0" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnPly_1" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnPly_1" msprop:Generator_ColumnPropNameInRow="PileWarpYarnPly_1" msprop:Generator_ColumnPropNameInTable="PileWarpYarnPly_1Column" msprop:Generator_UserColumnName="PileWarpYarnPly_1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnPly_2" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnPly_2" msprop:Generator_ColumnPropNameInRow="PileWarpYarnPly_2" msprop:Generator_ColumnPropNameInTable="PileWarpYarnPly_2Column" msprop:Generator_UserColumnName="PileWarpYarnPly_2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnPly_3" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnPly_3" msprop:Generator_ColumnPropNameInRow="PileWarpYarnPly_3" msprop:Generator_ColumnPropNameInTable="PileWarpYarnPly_3Column" msprop:Generator_UserColumnName="PileWarpYarnPly_3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnPly_4" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnPly_4" msprop:Generator_ColumnPropNameInRow="PileWarpYarnPly_4" msprop:Generator_ColumnPropNameInTable="PileWarpYarnPly_4Column" msprop:Generator_UserColumnName="PileWarpYarnPly_4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnPly_5" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnPly_5" msprop:Generator_ColumnPropNameInRow="PileWarpYarnPly_5" msprop:Generator_ColumnPropNameInTable="PileWarpYarnPly_5Column" msprop:Generator_UserColumnName="PileWarpYarnPly_5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnBlend_0" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnBlend_0" msprop:Generator_ColumnPropNameInRow="PileWarpYarnBlend_0" msprop:Generator_ColumnPropNameInTable="PileWarpYarnBlend_0Column" msprop:Generator_UserColumnName="PileWarpYarnBlend_0" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnBlend_1" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnBlend_1" msprop:Generator_ColumnPropNameInRow="PileWarpYarnBlend_1" msprop:Generator_ColumnPropNameInTable="PileWarpYarnBlend_1Column" msprop:Generator_UserColumnName="PileWarpYarnBlend_1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnBlend_2" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnBlend_2" msprop:Generator_ColumnPropNameInRow="PileWarpYarnBlend_2" msprop:Generator_ColumnPropNameInTable="PileWarpYarnBlend_2Column" msprop:Generator_UserColumnName="PileWarpYarnBlend_2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnBlend_3" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnBlend_3" msprop:Generator_ColumnPropNameInRow="PileWarpYarnBlend_3" msprop:Generator_ColumnPropNameInTable="PileWarpYarnBlend_3Column" msprop:Generator_UserColumnName="PileWarpYarnBlend_3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnBlend_4" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnBlend_4" msprop:Generator_ColumnPropNameInRow="PileWarpYarnBlend_4" msprop:Generator_ColumnPropNameInTable="PileWarpYarnBlend_4Column" msprop:Generator_UserColumnName="PileWarpYarnBlend_4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnBlend_5" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnBlend_5" msprop:Generator_ColumnPropNameInRow="PileWarpYarnBlend_5" msprop:Generator_ColumnPropNameInTable="PileWarpYarnBlend_5Column" msprop:Generator_UserColumnName="PileWarpYarnBlend_5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnDesc_0" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnDesc_0" msprop:Generator_ColumnPropNameInRow="PileWarpYarnDesc_0" msprop:Generator_ColumnPropNameInTable="PileWarpYarnDesc_0Column" msprop:Generator_UserColumnName="PileWarpYarnDesc_0" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnDesc_1" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnDesc_1" msprop:Generator_ColumnPropNameInRow="PileWarpYarnDesc_1" msprop:Generator_ColumnPropNameInTable="PileWarpYarnDesc_1Column" msprop:Generator_UserColumnName="PileWarpYarnDesc_1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnDesc_2" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnDesc_2" msprop:Generator_ColumnPropNameInRow="PileWarpYarnDesc_2" msprop:Generator_ColumnPropNameInTable="PileWarpYarnDesc_2Column" msprop:Generator_UserColumnName="PileWarpYarnDesc_2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnDesc_3" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnDesc_3" msprop:Generator_ColumnPropNameInRow="PileWarpYarnDesc_3" msprop:Generator_ColumnPropNameInTable="PileWarpYarnDesc_3Column" msprop:Generator_UserColumnName="PileWarpYarnDesc_3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnDesc_4" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnDesc_4" msprop:Generator_ColumnPropNameInRow="PileWarpYarnDesc_4" msprop:Generator_ColumnPropNameInTable="PileWarpYarnDesc_4Column" msprop:Generator_UserColumnName="PileWarpYarnDesc_4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnDesc_5" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnDesc_5" msprop:Generator_ColumnPropNameInRow="PileWarpYarnDesc_5" msprop:Generator_ColumnPropNameInTable="PileWarpYarnDesc_5Column" msprop:Generator_UserColumnName="PileWarpYarnDesc_5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnColor_0" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnColor_0" msprop:Generator_ColumnPropNameInRow="PileWarpYarnColor_0" msprop:Generator_ColumnPropNameInTable="PileWarpYarnColor_0Column" msprop:Generator_UserColumnName="PileWarpYarnColor_0" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnColor_1" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnColor_1" msprop:Generator_ColumnPropNameInRow="PileWarpYarnColor_1" msprop:Generator_ColumnPropNameInTable="PileWarpYarnColor_1Column" msprop:Generator_UserColumnName="PileWarpYarnColor_1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnColor_2" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnColor_2" msprop:Generator_ColumnPropNameInRow="PileWarpYarnColor_2" msprop:Generator_ColumnPropNameInTable="PileWarpYarnColor_2Column" msprop:Generator_UserColumnName="PileWarpYarnColor_2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnColor_3" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnColor_3" msprop:Generator_ColumnPropNameInRow="PileWarpYarnColor_3" msprop:Generator_ColumnPropNameInTable="PileWarpYarnColor_3Column" msprop:Generator_UserColumnName="PileWarpYarnColor_3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnColor_4" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnColor_4" msprop:Generator_ColumnPropNameInRow="PileWarpYarnColor_4" msprop:Generator_ColumnPropNameInTable="PileWarpYarnColor_4Column" msprop:Generator_UserColumnName="PileWarpYarnColor_4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnColor_5" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnColor_5" msprop:Generator_ColumnPropNameInRow="PileWarpYarnColor_5" msprop:Generator_ColumnPropNameInTable="PileWarpYarnColor_5Column" msprop:Generator_UserColumnName="PileWarpYarnColor_5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EPI" msprop:Generator_ColumnVarNameInTable="columnEPI" msprop:Generator_ColumnPropNameInRow="EPI" msprop:Generator_ColumnPropNameInTable="EPIColumn" msprop:Generator_UserColumnName="EPI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PPI" msprop:Generator_ColumnVarNameInTable="columnPPI" msprop:Generator_ColumnPropNameInRow="PPI" msprop:Generator_ColumnPropNameInTable="PPIColumn" msprop:Generator_UserColumnName="PPI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Width" msprop:Generator_ColumnVarNameInTable="columnWidth" msprop:Generator_ColumnPropNameInRow="Width" msprop:Generator_ColumnPropNameInTable="WidthColumn" msprop:Generator_UserColumnName="Width" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ArticleWeave" msprop:Generator_ColumnVarNameInTable="columnArticleWeave" msprop:Generator_ColumnPropNameInRow="ArticleWeave" msprop:Generator_ColumnPropNameInTable="ArticleWeaveColumn" msprop:Generator_UserColumnName="ArticleWeave" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="InsertionType" msprop:Generator_ColumnVarNameInTable="columnInsertionType" msprop:Generator_ColumnPropNameInRow="InsertionType" msprop:Generator_ColumnPropNameInTable="InsertionTypeColumn" msprop:Generator_UserColumnName="InsertionType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ArticleSelvage" msprop:Generator_ColumnVarNameInTable="columnArticleSelvage" msprop:Generator_ColumnPropNameInRow="ArticleSelvage" msprop:Generator_ColumnPropNameInTable="ArticleSelvageColumn" msprop:Generator_UserColumnName="ArticleSelvage" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnends_0" msprop:Generator_ColumnVarNameInTable="columnWarpYarnends_0" msprop:Generator_ColumnPropNameInRow="WarpYarnends_0" msprop:Generator_ColumnPropNameInTable="WarpYarnends_0Column" msprop:Generator_UserColumnName="WarpYarnends_0" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnends_1" msprop:Generator_ColumnVarNameInTable="columnWarpYarnends_1" msprop:Generator_ColumnPropNameInRow="WarpYarnends_1" msprop:Generator_ColumnPropNameInTable="WarpYarnends_1Column" msprop:Generator_UserColumnName="WarpYarnends_1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnends_2" msprop:Generator_ColumnVarNameInTable="columnWarpYarnends_2" msprop:Generator_ColumnPropNameInRow="WarpYarnends_2" msprop:Generator_ColumnPropNameInTable="WarpYarnends_2Column" msprop:Generator_UserColumnName="WarpYarnends_2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnends_3" msprop:Generator_ColumnVarNameInTable="columnWarpYarnends_3" msprop:Generator_ColumnPropNameInRow="WarpYarnends_3" msprop:Generator_ColumnPropNameInTable="WarpYarnends_3Column" msprop:Generator_UserColumnName="WarpYarnends_3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnends_4" msprop:Generator_ColumnVarNameInTable="columnWarpYarnends_4" msprop:Generator_ColumnPropNameInRow="WarpYarnends_4" msprop:Generator_ColumnPropNameInTable="WarpYarnends_4Column" msprop:Generator_UserColumnName="WarpYarnends_4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WarpYarnends_5" msprop:Generator_ColumnVarNameInTable="columnWarpYarnends_5" msprop:Generator_ColumnPropNameInRow="WarpYarnends_5" msprop:Generator_ColumnPropNameInTable="WarpYarnends_5Column" msprop:Generator_UserColumnName="WarpYarnends_5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="weftyarnpicks_0" msprop:Generator_ColumnVarNameInTable="columnweftyarnpicks_0" msprop:Generator_ColumnPropNameInRow="weftyarnpicks_0" msprop:Generator_ColumnPropNameInTable="weftyarnpicks_0Column" msprop:Generator_UserColumnName="weftyarnpicks_0" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="weftyarnpicks_1" msprop:Generator_ColumnVarNameInTable="columnweftyarnpicks_1" msprop:Generator_ColumnPropNameInRow="weftyarnpicks_1" msprop:Generator_ColumnPropNameInTable="weftyarnpicks_1Column" msprop:Generator_UserColumnName="weftyarnpicks_1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="weftyarnpicks_2" msprop:Generator_ColumnVarNameInTable="columnweftyarnpicks_2" msprop:Generator_ColumnPropNameInRow="weftyarnpicks_2" msprop:Generator_ColumnPropNameInTable="weftyarnpicks_2Column" msprop:Generator_UserColumnName="weftyarnpicks_2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="weftyarnpicks_3" msprop:Generator_ColumnVarNameInTable="columnweftyarnpicks_3" msprop:Generator_ColumnPropNameInRow="weftyarnpicks_3" msprop:Generator_ColumnPropNameInTable="weftyarnpicks_3Column" msprop:Generator_UserColumnName="weftyarnpicks_3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="weftyarnpicks_4" msprop:Generator_ColumnVarNameInTable="columnweftyarnpicks_4" msprop:Generator_ColumnPropNameInRow="weftyarnpicks_4" msprop:Generator_ColumnPropNameInTable="weftyarnpicks_4Column" msprop:Generator_UserColumnName="weftyarnpicks_4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="weftyarnpicks_5" msprop:Generator_ColumnVarNameInTable="columnweftyarnpicks_5" msprop:Generator_ColumnPropNameInRow="weftyarnpicks_5" msprop:Generator_ColumnPropNameInTable="weftyarnpicks_5Column" msprop:Generator_UserColumnName="weftyarnpicks_5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnEnds_0" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnEnds_0" msprop:Generator_ColumnPropNameInRow="PileWarpYarnEnds_0" msprop:Generator_ColumnPropNameInTable="PileWarpYarnEnds_0Column" msprop:Generator_UserColumnName="PileWarpYarnEnds_0" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnEnds_1" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnEnds_1" msprop:Generator_ColumnPropNameInRow="PileWarpYarnEnds_1" msprop:Generator_ColumnPropNameInTable="PileWarpYarnEnds_1Column" msprop:Generator_UserColumnName="PileWarpYarnEnds_1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnEnds_2" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnEnds_2" msprop:Generator_ColumnPropNameInRow="PileWarpYarnEnds_2" msprop:Generator_ColumnPropNameInTable="PileWarpYarnEnds_2Column" msprop:Generator_UserColumnName="PileWarpYarnEnds_2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnEnds_3" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnEnds_3" msprop:Generator_ColumnPropNameInRow="PileWarpYarnEnds_3" msprop:Generator_ColumnPropNameInTable="PileWarpYarnEnds_3Column" msprop:Generator_UserColumnName="PileWarpYarnEnds_3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnEnds_4" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnEnds_4" msprop:Generator_ColumnPropNameInRow="PileWarpYarnEnds_4" msprop:Generator_ColumnPropNameInTable="PileWarpYarnEnds_4Column" msprop:Generator_UserColumnName="PileWarpYarnEnds_4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileWarpYarnEnds_5" msprop:Generator_ColumnVarNameInTable="columnPileWarpYarnEnds_5" msprop:Generator_ColumnPropNameInRow="PileWarpYarnEnds_5" msprop:Generator_ColumnPropNameInTable="PileWarpYarnEnds_5Column" msprop:Generator_UserColumnName="PileWarpYarnEnds_5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SizeWidth" msprop:Generator_ColumnVarNameInTable="columnSizeWidth" msprop:Generator_ColumnPropNameInRow="SizeWidth" msprop:Generator_ColumnPropNameInTable="SizeWidthColumn" msprop:Generator_UserColumnName="SizeWidth" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TotalPicksBody" msprop:Generator_ColumnVarNameInTable="columnTotalPicksBody" msprop:Generator_ColumnPropNameInRow="TotalPicksBody" msprop:Generator_ColumnPropNameInTable="TotalPicksBodyColumn" msprop:Generator_UserColumnName="TotalPicksBody" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TotalPicksFancy" msprop:Generator_ColumnVarNameInTable="columnTotalPicksFancy" msprop:Generator_ColumnPropNameInRow="TotalPicksFancy" msprop:Generator_ColumnPropNameInTable="TotalPicksFancyColumn" msprop:Generator_UserColumnName="TotalPicksFancy" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GSM" msprop:Generator_ColumnVarNameInTable="columnGSM" msprop:Generator_ColumnPropNameInRow="GSM" msprop:Generator_ColumnPropNameInTable="GSMColumn" msprop:Generator_UserColumnName="GSM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SizeHeight" msprop:Generator_ColumnVarNameInTable="columnSizeHeight" msprop:Generator_ColumnPropNameInRow="SizeHeight" msprop:Generator_ColumnPropNameInTable="SizeHeightColumn" msprop:Generator_UserColumnName="SizeHeight" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CMORINCHES" msprop:Generator_ColumnVarNameInTable="columnCMORINCHES" msprop:Generator_ColumnPropNameInRow="CMORINCHES" msprop:Generator_ColumnPropNameInTable="CMORINCHESColumn" msprop:Generator_UserColumnName="CMORINCHES" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TotalEndsPileBeam" msprop:Generator_ColumnVarNameInTable="columnTotalEndsPileBeam" msprop:Generator_ColumnPropNameInRow="TotalEndsPileBeam" msprop:Generator_ColumnPropNameInTable="TotalEndsPileBeamColumn" msprop:Generator_UserColumnName="TotalEndsPileBeam" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TotalEndsGroundBeam" msprop:Generator_ColumnVarNameInTable="columnTotalEndsGroundBeam" msprop:Generator_ColumnPropNameInRow="TotalEndsGroundBeam" msprop:Generator_ColumnPropNameInTable="TotalEndsGroundBeamColumn" msprop:Generator_UserColumnName="TotalEndsGroundBeam" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EndsPerPieceGroundSelvage1" msprop:Generator_ColumnVarNameInTable="columnEndsPerPieceGroundSelvage1" msprop:Generator_ColumnPropNameInRow="EndsPerPieceGroundSelvage1" msprop:Generator_ColumnPropNameInTable="EndsPerPieceGroundSelvage1Column" msprop:Generator_UserColumnName="EndsPerPieceGroundSelvage1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EndsPerPieceGroundSelvage2" msprop:Generator_ColumnVarNameInTable="columnEndsPerPieceGroundSelvage2" msprop:Generator_ColumnPropNameInRow="EndsPerPieceGroundSelvage2" msprop:Generator_ColumnPropNameInTable="EndsPerPieceGroundSelvage2Column" msprop:Generator_UserColumnName="EndsPerPieceGroundSelvage2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EndsPerPieceGroundBody" msprop:Generator_ColumnVarNameInTable="columnEndsPerPieceGroundBody" msprop:Generator_ColumnPropNameInRow="EndsPerPieceGroundBody" msprop:Generator_ColumnPropNameInTable="EndsPerPieceGroundBodyColumn" msprop:Generator_UserColumnName="EndsPerPieceGroundBody" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BeamSpacePile" msprop:Generator_ColumnVarNameInTable="columnBeamSpacePile" msprop:Generator_ColumnPropNameInRow="BeamSpacePile" msprop:Generator_ColumnPropNameInTable="BeamSpacePileColumn" msprop:Generator_UserColumnName="BeamSpacePile" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BeamSpaceGround" msprop:Generator_ColumnVarNameInTable="columnBeamSpaceGround" msprop:Generator_ColumnPropNameInRow="BeamSpaceGround" msprop:Generator_ColumnPropNameInTable="BeamSpaceGroundColumn" msprop:Generator_UserColumnName="BeamSpaceGround" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BeamSpacePileCMINCHES" msprop:Generator_ColumnVarNameInTable="columnBeamSpacePileCMINCHES" msprop:Generator_ColumnPropNameInRow="BeamSpacePileCMINCHES" msprop:Generator_ColumnPropNameInTable="BeamSpacePileCMINCHESColumn" msprop:Generator_UserColumnName="BeamSpacePileCMINCHES" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BeamSpaceGroundCMINCHES" msprop:Generator_ColumnVarNameInTable="columnBeamSpaceGroundCMINCHES" msprop:Generator_ColumnPropNameInRow="BeamSpaceGroundCMINCHES" msprop:Generator_ColumnPropNameInTable="BeamSpaceGroundCMINCHESColumn" msprop:Generator_UserColumnName="BeamSpaceGroundCMINCHES" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Remarks" msprop:Generator_ColumnVarNameInTable="columnRemarks" msprop:Generator_ColumnPropNameInRow="Remarks" msprop:Generator_ColumnPropNameInTable="RemarksColumn" msprop:Generator_UserColumnName="Remarks" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NumberofPanels" msprop:Generator_ColumnVarNameInTable="columnNumberofPanels" msprop:Generator_ColumnPropNameInRow="NumberofPanels" msprop:Generator_ColumnPropNameInTable="NumberofPanelsColumn" msprop:Generator_UserColumnName="NumberofPanels" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PartyID" msprop:Generator_ColumnVarNameInTable="columnPartyID" msprop:Generator_ColumnPropNameInRow="PartyID" msprop:Generator_ColumnPropNameInTable="PartyIDColumn" msprop:Generator_UserColumnName="PartyID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PartyName" msprop:Generator_ColumnVarNameInTable="columnPartyName" msprop:Generator_ColumnPropNameInRow="PartyName" msprop:Generator_ColumnPropNameInTable="PartyNameColumn" msprop:Generator_UserColumnName="PartyName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SelvageYarnSpecs" msprop:Generator_ColumnVarNameInTable="columnSelvageYarnSpecs" msprop:Generator_ColumnPropNameInRow="SelvageYarnSpecs" msprop:Generator_ColumnPropNameInTable="SelvageYarnSpecsColumn" msprop:Generator_UserColumnName="SelvageYarnSpecs" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SelvageGroundYarnSpecs" msprop:Generator_ColumnVarNameInTable="columnSelvageGroundYarnSpecs" msprop:Generator_ColumnPropNameInRow="SelvageGroundYarnSpecs" msprop:Generator_ColumnPropNameInTable="SelvageGroundYarnSpecsColumn" msprop:Generator_UserColumnName="SelvageGroundYarnSpecs" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SelvagePrint" msprop:Generator_ColumnVarNameInTable="columnSelvagePrint" msprop:Generator_ColumnPropNameInRow="SelvagePrint" msprop:Generator_ColumnPropNameInTable="SelvagePrintColumn" msprop:Generator_UserColumnName="SelvagePrint" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="QP_ArticleChangeSheet_Looms" msprop:Generator_TableClassName="QP_ArticleChangeSheet_LoomsDataTable" msprop:Generator_TableVarName="tableQP_ArticleChangeSheet_Looms" msprop:Generator_TablePropName="QP_ArticleChangeSheet_Looms" msprop:Generator_RowDeletingName="QP_ArticleChangeSheet_LoomsRowDeleting" msprop:Generator_UserTableName="QP_ArticleChangeSheet_Looms" msprop:Generator_RowChangingName="QP_ArticleChangeSheet_LoomsRowChanging" msprop:Generator_RowEvHandlerName="QP_ArticleChangeSheet_LoomsRowChangeEventHandler" msprop:Generator_RowDeletedName="QP_ArticleChangeSheet_LoomsRowDeleted" msprop:Generator_RowEvArgName="QP_ArticleChangeSheet_LoomsRowChangeEvent" msprop:Generator_RowChangedName="QP_ArticleChangeSheet_LoomsRowChanged" msprop:Generator_RowClassName="QP_ArticleChangeSheet_LoomsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ACSNumber" msprop:Generator_ColumnVarNameInTable="columnACSNumber" msprop:Generator_ColumnPropNameInRow="ACSNumber" msprop:Generator_ColumnPropNameInTable="ACSNumberColumn" msprop:Generator_UserColumnName="ACSNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LoomID" msprop:Generator_ColumnVarNameInTable="columnLoomID" msprop:Generator_ColumnPropNameInRow="LoomID" msprop:Generator_ColumnPropNameInTable="LoomIDColumn" msprop:Generator_UserColumnName="LoomID" type="xs:int" minOccurs="0" />
+              <xs:element name="LoomName" msprop:Generator_ColumnVarNameInTable="columnLoomName" msprop:Generator_ColumnPropNameInRow="LoomName" msprop:Generator_ColumnPropNameInTable="LoomNameColumn" msprop:Generator_UserColumnName="LoomName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ShedName" msprop:Generator_ColumnVarNameInTable="columnShedName" msprop:Generator_ColumnPropNameInRow="ShedName" msprop:Generator_ColumnPropNameInTable="ShedNameColumn" msprop:Generator_UserColumnName="ShedName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TypeName" msprop:Generator_ColumnVarNameInTable="columnTypeName" msprop:Generator_ColumnPropNameInRow="TypeName" msprop:Generator_ColumnPropNameInTable="TypeNameColumn" msprop:Generator_UserColumnName="TypeName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//QP_ArticleChangeSheet" />
+      <xs:field xpath="ACSNumber" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

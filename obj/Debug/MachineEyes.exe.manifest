@@ -1,0 +1,1204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MachineEyes.exe" version="1.0.0.15" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Icons\infox 128x128.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MachineEyes" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MachineEyes.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.BonusSkins.v10.1.dll" size="5208576">
+      <assemblyIdentity name="DevExpress.BonusSkins.v10.1" version="10.1.4.0" publicKeyToken="95FC6C5621878F0A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>BxEJEsqcu8DATxuXHvb7UaEB+us=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.Charts.v10.1.Core.dll" size="141824">
+      <assemblyIdentity name="DevExpress.Charts.v10.1.Core" version="10.1.4.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>kednjNH7L3HWBiMFVc9QdWzM14Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.OfficeSkins.v10.1.dll" size="1906176">
+      <assemblyIdentity name="DevExpress.OfficeSkins.v10.1" version="10.1.4.0" publicKeyToken="95FC6C5621878F0A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>M7xKX4puP8DVNKCSi1DwrYC/NDc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.RichEdit.v10.1.Core.dll" size="2863104">
+      <assemblyIdentity name="DevExpress.RichEdit.v10.1.Core" version="10.1.4.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>HfhbYd18/wU8HCM7QHzZFmkEvbA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.Tutorials.v10.1.dll" size="160768">
+      <assemblyIdentity name="DevExpress.Tutorials.v10.1" version="10.1.4.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>b4sHEVu/bNffjkVdJQDGmXGjP1c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraBars.v10.1.dll" size="1808384">
+      <assemblyIdentity name="DevExpress.XtraBars.v10.1" version="10.1.4.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>wqs0U+vVtdKa8csQSbsBs0hStyc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraCharts.v10.1.dll" size="6775808">
+      <assemblyIdentity name="DevExpress.XtraCharts.v10.1" version="10.1.4.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>XgmI8iIy3fGPmF+MOiuc8jf1Nkw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraCharts.v10.1.UI.dll" size="46592">
+      <assemblyIdentity name="DevExpress.XtraCharts.v10.1.UI" version="10.1.4.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>cZQxNxKMOx8INvCaJWnRnSTFH54=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraEditors.v10.1.dll" size="1644544">
+      <assemblyIdentity name="DevExpress.XtraEditors.v10.1" version="10.1.4.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>0p0CmmvEyNOJpYQsKw1nH3E2PH0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraGauges.v10.1.Core.dll" size="1714176">
+      <assemblyIdentity name="DevExpress.XtraGauges.v10.1.Core" version="10.1.4.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Y/c74HC/rJ82pLvXqq5oof4iqC8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraGauges.v10.1.Win.dll" size="240128">
+      <assemblyIdentity name="DevExpress.XtraGauges.v10.1.Win" version="10.1.4.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>q0iVtRiYz0CrkOPISgXIngt11wc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraGrid.v10.1.dll" size="1751040">
+      <assemblyIdentity name="DevExpress.XtraGrid.v10.1" version="10.1.4.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>WXPlOf33rPshC1joXbMncMzhfDU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraLayout.v10.1.dll" size="698368">
+      <assemblyIdentity name="DevExpress.XtraLayout.v10.1" version="10.1.4.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>JmTe2gXIFY+q6M7AD7RJNhpnC30=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraNavBar.v10.1.dll" size="293888">
+      <assemblyIdentity name="DevExpress.XtraNavBar.v10.1" version="10.1.4.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>EHuJjUWf9qRd6eqkNbDNx5jXeeI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraPivotGrid.v10.1.dll" size="435712">
+      <assemblyIdentity name="DevExpress.XtraPivotGrid.v10.1" version="10.1.4.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Fgiljdbou0HI4hQJygBT6yyGRmc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraPivotGrid.v10.1.Core.dll" size="598528">
+      <assemblyIdentity name="DevExpress.XtraPivotGrid.v10.1.Core" version="10.1.4.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>8lazWpCfQyNoDJB1OS4SNgIZNII=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraReports.v10.1.dll" size="928256">
+      <assemblyIdentity name="DevExpress.XtraReports.v10.1" version="10.1.4.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>XSJojaJpRlg3cFDo0P7rBNc/MLo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraRichEdit.v10.1.dll" size="1130496">
+      <assemblyIdentity name="DevExpress.XtraRichEdit.v10.1" version="10.1.4.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>bfNayBn1yDwVru0J1ysYXHFX//I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraScheduler.v10.1.dll" size="1454080">
+      <assemblyIdentity name="DevExpress.XtraScheduler.v10.1" version="10.1.4.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Y25aZPVvmOv/RyRzmw8drvMAbcg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraScheduler.v10.1.Core.dll" size="773120">
+      <assemblyIdentity name="DevExpress.XtraScheduler.v10.1.Core" version="10.1.4.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>EMP+WY90oat4M5+U7F0azv6DJFc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraTreeList.v10.1.dll" size="589824">
+      <assemblyIdentity name="DevExpress.XtraTreeList.v10.1" version="10.1.4.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>WRW2F9LXLWTnwAKCumnbnjJYxD8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraVerticalGrid.v10.1.dll" size="464896">
+      <assemblyIdentity name="DevExpress.XtraVerticalGrid.v10.1" version="10.1.4.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>+Ree5CaNB//PvkJvETkOXRFKcek=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraWizard.v10.1.dll" size="103936">
+      <assemblyIdentity name="DevExpress.XtraWizard.v10.1" version="10.1.4.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>lsnYxoLs1H6JnrxVJlCb9OA68Zs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MachineEyes.exe" size="16441344">
+      <assemblyIdentity name="MachineEyes" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>M5Op7XUHv3038YRS3SosFm5HquA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="bin\Debug\Configurations.XML" size="639" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0FHg19q+LAQ0o5gxO8c2owvhg5A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\DevExpress.BonusSkins.v10.1.dll" size="5208576">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>BxEJEsqcu8DATxuXHvb7UaEB+us=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\DevExpress.Charts.v10.1.Core.dll" size="141824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>kednjNH7L3HWBiMFVc9QdWzM14Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\DevExpress.Data.v10.1.dll" size="2464768">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bvr7pAUkCbJ+JSgmyk7s2VoCAnU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\DevExpress.OfficeSkins.v10.1.dll" size="1906176">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>M7xKX4puP8DVNKCSi1DwrYC/NDc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\DevExpress.RichEdit.v10.1.Core.dll" size="2863104">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>HfhbYd18/wU8HCM7QHzZFmkEvbA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\DevExpress.Tutorials.v10.1.dll" size="160768">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>b4sHEVu/bNffjkVdJQDGmXGjP1c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\DevExpress.Utils.v10.1.dll" size="2938880">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zgIUvxYYqvfzlqhNnT5ajzBi8sU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\DevExpress.XtraBars.v10.1.dll" size="1808384">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wqs0U+vVtdKa8csQSbsBs0hStyc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\DevExpress.XtraCharts.v10.1.dll" size="6775808">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XgmI8iIy3fGPmF+MOiuc8jf1Nkw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\DevExpress.XtraCharts.v10.1.UI.dll" size="46592">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cZQxNxKMOx8INvCaJWnRnSTFH54=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\DevExpress.XtraEditors.v10.1.dll" size="1644544">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0p0CmmvEyNOJpYQsKw1nH3E2PH0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\DevExpress.XtraGauges.v10.1.Core.dll" size="1714176">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Y/c74HC/rJ82pLvXqq5oof4iqC8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\DevExpress.XtraGauges.v10.1.Win.dll" size="240128">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>q0iVtRiYz0CrkOPISgXIngt11wc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\DevExpress.XtraGrid.v10.1.dll" size="1751040">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>WXPlOf33rPshC1joXbMncMzhfDU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\DevExpress.XtraLayout.v10.1.dll" size="698368">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JmTe2gXIFY+q6M7AD7RJNhpnC30=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\DevExpress.XtraNavBar.v10.1.dll" size="293888">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>EHuJjUWf9qRd6eqkNbDNx5jXeeI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\DevExpress.XtraPivotGrid.v10.1.Core.dll" size="598528">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>8lazWpCfQyNoDJB1OS4SNgIZNII=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\DevExpress.XtraPivotGrid.v10.1.dll" size="435712">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Fgiljdbou0HI4hQJygBT6yyGRmc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\DevExpress.XtraReports.v10.1.dll" size="928256">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XSJojaJpRlg3cFDo0P7rBNc/MLo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\DevExpress.XtraRichEdit.v10.1.dll" size="1130496">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bfNayBn1yDwVru0J1ysYXHFX//I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\DevExpress.XtraScheduler.v10.1.Core.dll" size="773120">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>EMP+WY90oat4M5+U7F0azv6DJFc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\DevExpress.XtraScheduler.v10.1.dll" size="1454080">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Y25aZPVvmOv/RyRzmw8drvMAbcg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\DevExpress.XtraTreeList.v10.1.dll" size="589824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>WRW2F9LXLWTnwAKCumnbnjJYxD8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\DevExpress.XtraVerticalGrid.v10.1.dll" size="464896">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+Ree5CaNB//PvkJvETkOXRFKcek=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\DevExpress.XtraWizard.v10.1.dll" size="103936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>lsnYxoLs1H6JnrxVJlCb9OA68Zs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\MachineEyes.vshost.exe" size="24216">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/rYyTgP0/VJqu5J5mC9ziEHuQ80=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Release\AutomaticUpdater.dll" size="82848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Smyet8ZHZ2ruLSDLDFzn348ev8w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Release\AutomaticUpdater.xml" size="31745" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>H3n83qxNVqnCWd97ZscCKeLT1RA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Release\MachineEyes.exe" size="15867904">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wT/PMw9K+UjGF0V+9pa1Z8tUa18=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Release\MachineEyes.vshost.exe" size="24216">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/rYyTgP0/VJqu5J5mC9ziEHuQ80=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Release\MachineEyes.XmlSerializers.dll" size="422400">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MHGEGCqo0gyQInkkL3NXgEvmi+M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x64\Debug\AutomaticUpdater.dll" size="82848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Smyet8ZHZ2ruLSDLDFzn348ev8w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x64\Debug\AutomaticUpdater.xml" size="31745" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>H3n83qxNVqnCWd97ZscCKeLT1RA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x64\Debug\BarcodeLib.dll" size="107008">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>K+f9MIjzAMq+BQV3iytUuFAhN4c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x64\Debug\Configurations.XML" size="508" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>X9aSJx1wSfBJUHvc+1vf90+VObw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x64\Debug\MachineEyes.exe" size="16068608">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>U0tK69li3AwL+zNffQAWGU2Wsnc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x64\Debug\MachineEyes.pdb" size="12551680">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>3No6a5wm2VzMcqMukTsxGGR/o5A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x64\Debug\MachineEyes.vshost.exe" size="11592">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JzUroOaAJbYDODct2BpA0rW1XyE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x64\Release\MachineEyes.vshost.exe" size="11592">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JzUroOaAJbYDODct2BpA0rW1XyE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\app.publish\setup.exe" size="397200">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4U7A+omMk25B6yUueJ6IsjTJ9CI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.BonusSkins.v10.1.dll" size="5208576">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>BxEJEsqcu8DATxuXHvb7UaEB+us=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.Charts.v10.1.Core.dll" size="141824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>kednjNH7L3HWBiMFVc9QdWzM14Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.Data.v10.1.dll" size="2464768">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bvr7pAUkCbJ+JSgmyk7s2VoCAnU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.OfficeSkins.v10.1.dll" size="1906176">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>M7xKX4puP8DVNKCSi1DwrYC/NDc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.RichEdit.v10.1.Core.dll" size="2863104">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>HfhbYd18/wU8HCM7QHzZFmkEvbA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.RichEdit.v10.1.Core.xml" size="573254" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>q5fagSdpmdhZILgxskqSP2OLcD4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.Tutorials.v10.1.dll" size="160768">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>b4sHEVu/bNffjkVdJQDGmXGjP1c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.Utils.v10.1.dll" size="2938880">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zgIUvxYYqvfzlqhNnT5ajzBi8sU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraBars.v10.1.dll" size="1808384">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wqs0U+vVtdKa8csQSbsBs0hStyc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraBars.v10.1.xml" size="868231" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>RYpp5s/QIGetwC6PU7zGeXMrD9g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraCharts.v10.1.dll" size="6775808">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XgmI8iIy3fGPmF+MOiuc8jf1Nkw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraCharts.v10.1.UI.dll" size="46592">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cZQxNxKMOx8INvCaJWnRnSTFH54=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraCharts.v10.1.UI.xml" size="48095" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>HWUkSuLTBy0vjBzleuO7BR0AzMk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraCharts.v10.1.xml" size="1230844" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>fDzvNT7FEtAZ201XSYYKysu9v1w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraEditors.v10.1.dll" size="1644544">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0p0CmmvEyNOJpYQsKw1nH3E2PH0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraEditors.v10.1.xml" size="1067335" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+D7aGY9BZxQf4wstTJn5un2Q2yA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraGauges.v10.1.Core.dll" size="1714176">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Y/c74HC/rJ82pLvXqq5oof4iqC8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraGauges.v10.1.Core.xml" size="148903" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ORiODa3VJzb3wHJj0NaIDXjtrlc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraGauges.v10.1.Win.dll" size="240128">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>q0iVtRiYz0CrkOPISgXIngt11wc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraGauges.v10.1.Win.xml" size="93918" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Ly75iGgEoHLgPa8m/6CGC+6Itqw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraGrid.v10.1.dll" size="1751040">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>WXPlOf33rPshC1joXbMncMzhfDU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraGrid.v10.1.xml" size="1178748" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Mv8LHIsavM+9q0tdoUBMoBPjla8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraLayout.v10.1.dll" size="698368">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JmTe2gXIFY+q6M7AD7RJNhpnC30=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraLayout.v10.1.xml" size="301822" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qipENpjoTntvO68hPmVYD/wKoDI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraNavBar.v10.1.dll" size="293888">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>EHuJjUWf9qRd6eqkNbDNx5jXeeI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraNavBar.v10.1.xml" size="166549" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>85RbJge6X2AMM4ldz40cVAKNrcE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraPivotGrid.v10.1.Core.dll" size="598528">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>8lazWpCfQyNoDJB1OS4SNgIZNII=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraPivotGrid.v10.1.Core.xml" size="238453" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>2JJsjCnaomO11zcnMzbCMq1Q55w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraPivotGrid.v10.1.dll" size="435712">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Fgiljdbou0HI4hQJygBT6yyGRmc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraPivotGrid.v10.1.xml" size="353361" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>nl99ZaERe9ve9yfKmqjALUyFo5o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraReports.v10.1.dll" size="928256">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XSJojaJpRlg3cFDo0P7rBNc/MLo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraReports.v10.1.xml" size="603535" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>swgBEhSTCzpKc0eP/X4noLZOH8M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraRichEdit.v10.1.dll" size="1130496">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bfNayBn1yDwVru0J1ysYXHFX//I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraRichEdit.v10.1.xml" size="74448" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>3423PvokFDUkgftHUcrDkVsyf/s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraScheduler.v10.1.Core.dll" size="773120">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>EMP+WY90oat4M5+U7F0azv6DJFc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraScheduler.v10.1.Core.xml" size="617163" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>b7plrwHN7Mtc9DkUr15Vv3C+cyA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraScheduler.v10.1.dll" size="1454080">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Y25aZPVvmOv/RyRzmw8drvMAbcg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraScheduler.v10.1.xml" size="310620" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>yv5nwTboJgAGr6vEIROXz7apgYM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraTreeList.v10.1.dll" size="589824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>WRW2F9LXLWTnwAKCumnbnjJYxD8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraTreeList.v10.1.xml" size="441116" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>T5ClPYmz9lR+CEFpokORw11Oblk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraVerticalGrid.v10.1.dll" size="464896">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+Ree5CaNB//PvkJvETkOXRFKcek=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraVerticalGrid.v10.1.xml" size="300826" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4pFZPvkUIdyJTmRGrquonnw39gk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraWizard.v10.1.dll" size="103936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>lsnYxoLs1H6JnrxVJlCb9OA68Zs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\DevExpress.XtraWizard.v10.1.xml" size="57434" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GzsiftUjTM6+kDSyZEKSU+RxkoU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\MachineEyes.exe" size="16154624">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>fHK6g4Ss9tDng/bH0utxL4wEjOA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Debug\MachineEyes.pdb" size="12310016">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ODOmTOvPQwZ4xK1NJLKu+1zA1VQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="cmd.exe" size="301568" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>sblBQgMz/W9CIOmPoYwEccrIo4s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Configurations.XML" size="515">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wOyh09zQXpEi9fXV5Tc6cdhP0Rk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DevExpress.Data.v10.1.dll" size="2464768" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bvr7pAUkCbJ+JSgmyk7s2VoCAnU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DevExpress.Utils.v10.1.dll" size="2938880" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zgIUvxYYqvfzlqhNnT5ajzBi8sU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="gacutil.exe" size="103248" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>WYNsOUH2L8TtAkbq7TDgdCSV5YA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Icons\infox 128x128.ico" size="19518">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>tQPYbRSRTfyB2Ev+XaT+vFXdTno=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MachineEyes.exe.config" size="1190">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>uk2hZ8GmNhgoJRLkRWRlywer0v4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Register.bat" size="489" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>KV+BIZjQguDMD0n9cFzxeglH/bM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="sn.exe" size="95552" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>nxrR19BC1jGVcUAdXaAkRIqTEIs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+</asmv1:assembly>

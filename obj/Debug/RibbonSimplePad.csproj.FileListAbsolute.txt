@@ -1,0 +1,17 @@
+C:\Documents and Settings\All Users\Documents\DevExpress 2010.1 Demos\Components\XtraBars\CS\RibbonSimplePad\bin\Debug\RibbonSimplePad.exe
+C:\Documents and Settings\All Users\Documents\DevExpress 2010.1 Demos\Components\XtraBars\CS\RibbonSimplePad\bin\Debug\RibbonSimplePad.pdb
+C:\Documents and Settings\All Users\Documents\DevExpress 2010.1 Demos\Components\XtraBars\CS\RibbonSimplePad\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\All Users\Documents\DevExpress 2010.1 Demos\Components\XtraBars\CS\RibbonSimplePad\obj\Debug\DevExpress.XtraBars.Demos.RibbonSimplePad.frmMain.resources
+C:\Documents and Settings\All Users\Documents\DevExpress 2010.1 Demos\Components\XtraBars\CS\RibbonSimplePad\obj\Debug\DevExpress.XtraBars.Demos.RibbonSimplePad.frmPad.resources
+C:\Documents and Settings\All Users\Documents\DevExpress 2010.1 Demos\Components\XtraBars\CS\RibbonSimplePad\obj\Debug\RibbonSimplePad.csproj.GenerateResource.Cache
+C:\Documents and Settings\All Users\Documents\DevExpress 2010.1 Demos\Components\XtraBars\CS\RibbonSimplePad\obj\Debug\RibbonSimplePad.exe.licenses
+C:\Documents and Settings\All Users\Documents\DevExpress 2010.1 Demos\Components\XtraBars\CS\RibbonSimplePad\obj\Debug\RibbonSimplePad.exe
+C:\Documents and Settings\All Users\Documents\DevExpress 2010.1 Demos\Components\XtraBars\CS\RibbonSimplePad\obj\Debug\RibbonSimplePad.pdb
+E:\Projects\MachineEyes\RibbonSimplePad\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\MachineEyes\RibbonSimplePad\obj\Debug\RibbonSimplePad.csproj.GenerateResource.Cache
+E:\Projects\MachineEyes\RibbonSimplePad\obj\Debug\MachineEyes.exe.licenses
+E:\Projects\MachineEyes\RibbonSimplePad\obj\Debug\DevExpress.XtraBars.Demos.MachineEyes.frmMain.resources
+E:\Projects\MachineEyes\RibbonSimplePad\bin\Debug\MachineEyes.exe
+E:\Projects\MachineEyes\RibbonSimplePad\bin\Debug\MachineEyes.pdb
+E:\Projects\MachineEyes\RibbonSimplePad\obj\Debug\MachineEyes.exe
+E:\Projects\MachineEyes\RibbonSimplePad\obj\Debug\MachineEyes.pdb

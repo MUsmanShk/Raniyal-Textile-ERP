@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DailyShift_Summary" targetNamespace="http://tempuri.org/DailyShift_Summary.xsd" xmlns:mstns="http://tempuri.org/DailyShift_Summary.xsd" xmlns="http://tempuri.org/DailyShift_Summary.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Data Source=RMB-DEV-01;Initial Catalog=MachineEyes;Integrated Security=True;Persist Security Info=False" IsAppSettingsProperty="false" Modifier="Assembly" Name="RMB-DEV-01.MachineEyes" ParameterPrefix="@" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="RP_DailyShiftSummaryTableAdapter" GeneratorDataComponentClassName="RP_DailyShiftSummaryTableAdapter" Name="RP_DailyShiftSummary" UserDataComponentName="RP_DailyShiftSummaryTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="RMB-DEV-01.MachineEyes" DbObjectName="MachineEyes.dbo.RP_DailyShiftSummary" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT ShiftDate, LoomID, ArticleNumber, ACSNumber, DesignNumber, SetNo, BeamNo, PileSetNo, PileBeamNo, A_RPM, T_RPM, T_Eff, T_Units, A_Units, C_Units, A_Eff, A_WarpStops, T_WarpStops, A_WeftStops, T_WeftStops, A_OtherStops, A_WarpETime, T_WarpETime, A_WeftETime, T_WeftETime, A_OtherETime, A_MechanicalETime, A_ElectricalETime, A_KnottingETime, A_ArticleETime, A_LongOtherETime, B_RPM, B_Units, B_Eff, B_WarpStops, B_WeftStops, B_OtherStops, B_WarpETime, B_WeftETime, B_OtherETime, B_MechanicalETime, B_ElectricalETime, B_KnottingETime, B_ArticleETime, B_LongOtherETime, C_RPM, C_Picks, C_Eff, C_WarpStops, C_WeftStops, C_OtherStops, C_WarpETime, C_WeftETime, C_OtherETime, C_MechanicalETime, C_ElectricalETime, C_KnottingETime, C_ArticleETime, C_LongOtherETime, ArticleName, LoomName, LoomSize, LoomMake, PartyID, PartyName, SetNo2, BeamNo2, A_BeamShortETime, A_PowerOffETime, A_TotalETime, A_LongTime, B_BeamShortETime, B_PowerOffETime, B_TotalETime, B_LongTime, C_BeamShortETime, C_PowerOffETime, C_TotalETime, C_LongTime, A_WarpAvgTime, A_WeftAvgTime, B_WarpAvgTime, B_WeftAvgTime, C_WarpAvgTime, C_WeftAvgTime, T_WarpAvgTime, T_WeftAvgTime, T_OtherETime, T_MechanicalETime, T_ElectricalETime, T_KnottingETime, T_ArticleETime, T_BeamShortETime, T_PowerOffETime, T_LongOtherETime, T_TotalETime, T_LongTime, WeaverID_A, WeaverID_B, WeaverID_C, GroupNumber, Activated, ShedID, TypeID, SectionID, A_ShiftSeconds, B_ShiftSeconds, C_ShiftSeconds, T_ShiftSeconds, B_Warpperhour, A_Warpperhour, C_Warpperhour, T_Warpperhour, B_Weftperhour, A_Weftperhour, C_Weftperhour, T_Weftperhour, A_Meters, B_Meters, C_Meters, T_Meters, GroupName, ArticleShortName, WeightGrams, TypeName, SetEnds, Set2Ends, PileSetEnds FROM RP_DailyShiftSummary</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ShiftDate" DataSetColumn="ShiftDate" />
+              <Mapping SourceColumn="LoomID" DataSetColumn="LoomID" />
+              <Mapping SourceColumn="ArticleNumber" DataSetColumn="ArticleNumber" />
+              <Mapping SourceColumn="ACSNumber" DataSetColumn="ACSNumber" />
+              <Mapping SourceColumn="DesignNumber" DataSetColumn="DesignNumber" />
+              <Mapping SourceColumn="SetNo" DataSetColumn="SetNo" />
+              <Mapping SourceColumn="BeamNo" DataSetColumn="BeamNo" />
+              <Mapping SourceColumn="PileSetNo" DataSetColumn="PileSetNo" />
+              <Mapping SourceColumn="PileBeamNo" DataSetColumn="PileBeamNo" />
+              <Mapping SourceColumn="A_RPM" DataSetColumn="A_RPM" />
+              <Mapping SourceColumn="A_Units" DataSetColumn="A_Units" />
+              <Mapping SourceColumn="A_Eff" DataSetColumn="A_Eff" />
+              <Mapping SourceColumn="A_WarpStops" DataSetColumn="A_WarpStops" />
+              <Mapping SourceColumn="A_WeftStops" DataSetColumn="A_WeftStops" />
+              <Mapping SourceColumn="A_OtherStops" DataSetColumn="A_OtherStops" />
+              <Mapping SourceColumn="A_WarpETime" DataSetColumn="A_WarpETime" />
+              <Mapping SourceColumn="A_WeftETime" DataSetColumn="A_WeftETime" />
+              <Mapping SourceColumn="A_OtherETime" DataSetColumn="A_OtherETime" />
+              <Mapping SourceColumn="A_MechanicalETime" DataSetColumn="A_MechanicalETime" />
+              <Mapping SourceColumn="A_ElectricalETime" DataSetColumn="A_ElectricalETime" />
+              <Mapping SourceColumn="A_KnottingETime" DataSetColumn="A_KnottingETime" />
+              <Mapping SourceColumn="A_ArticleETime" DataSetColumn="A_ArticleETime" />
+              <Mapping SourceColumn="A_LongOtherETime" DataSetColumn="A_LongOtherETime" />
+              <Mapping SourceColumn="B_RPM" DataSetColumn="B_RPM" />
+              <Mapping SourceColumn="B_Units" DataSetColumn="B_Units" />
+              <Mapping SourceColumn="B_Eff" DataSetColumn="B_Eff" />
+              <Mapping SourceColumn="B_WarpStops" DataSetColumn="B_WarpStops" />
+              <Mapping SourceColumn="B_WeftStops" DataSetColumn="B_WeftStops" />
+              <Mapping SourceColumn="B_OtherStops" DataSetColumn="B_OtherStops" />
+              <Mapping SourceColumn="B_WarpETime" DataSetColumn="B_WarpETime" />
+              <Mapping SourceColumn="B_WeftETime" DataSetColumn="B_WeftETime" />
+              <Mapping SourceColumn="B_OtherETime" DataSetColumn="B_OtherETime" />
+              <Mapping SourceColumn="B_MechanicalETime" DataSetColumn="B_MechanicalETime" />
+              <Mapping SourceColumn="B_ElectricalETime" DataSetColumn="B_ElectricalETime" />
+              <Mapping SourceColumn="B_KnottingETime" DataSetColumn="B_KnottingETime" />
+              <Mapping SourceColumn="B_ArticleETime" DataSetColumn="B_ArticleETime" />
+              <Mapping SourceColumn="B_LongOtherETime" DataSetColumn="B_LongOtherETime" />
+              <Mapping SourceColumn="C_RPM" DataSetColumn="C_RPM" />
+              <Mapping SourceColumn="C_Picks" DataSetColumn="C_Picks" />
+              <Mapping SourceColumn="C_Eff" DataSetColumn="C_Eff" />
+              <Mapping SourceColumn="C_WarpStops" DataSetColumn="C_WarpStops" />
+              <Mapping SourceColumn="C_WeftStops" DataSetColumn="C_WeftStops" />
+              <Mapping SourceColumn="C_OtherStops" DataSetColumn="C_OtherStops" />
+              <Mapping SourceColumn="C_WarpETime" DataSetColumn="C_WarpETime" />
+              <Mapping SourceColumn="C_WeftETime" DataSetColumn="C_WeftETime" />
+              <Mapping SourceColumn="C_OtherETime" DataSetColumn="C_OtherETime" />
+              <Mapping SourceColumn="C_MechanicalETime" DataSetColumn="C_MechanicalETime" />
+              <Mapping SourceColumn="C_ElectricalETime" DataSetColumn="C_ElectricalETime" />
+              <Mapping SourceColumn="C_KnottingETime" DataSetColumn="C_KnottingETime" />
+              <Mapping SourceColumn="C_ArticleETime" DataSetColumn="C_ArticleETime" />
+              <Mapping SourceColumn="C_LongOtherETime" DataSetColumn="C_LongOtherETime" />
+              <Mapping SourceColumn="ArticleName" DataSetColumn="ArticleName" />
+              <Mapping SourceColumn="LoomName" DataSetColumn="LoomName" />
+              <Mapping SourceColumn="AB_RPM" DataSetColumn="AB_RPM" />
+              <Mapping SourceColumn="AB_Eff" DataSetColumn="AB_Eff" />
+              <Mapping SourceColumn="AB_Units" DataSetColumn="AB_Units" />
+              <Mapping SourceColumn="AB_WarpStops" DataSetColumn="AB_WarpStops" />
+              <Mapping SourceColumn="AB_WeftStops" DataSetColumn="AB_WeftStops" />
+              <Mapping SourceColumn="AB_WarpETime" DataSetColumn="AB_WarpETime" />
+              <Mapping SourceColumn="AB_WeftETime" DataSetColumn="AB_WeftETime" />
+              <Mapping SourceColumn="LoomSize" DataSetColumn="LoomSize" />
+              <Mapping SourceColumn="LoomMake" DataSetColumn="LoomMake" />
+              <Mapping SourceColumn="PartyID" DataSetColumn="PartyID" />
+              <Mapping SourceColumn="PartyName" DataSetColumn="PartyName" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DailyShift_Summary" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DailyShift_Summary" msprop:Generator_UserDSName="DailyShift_Summary">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RP_DailyShiftSummary" msprop:Generator_TableClassName="RP_DailyShiftSummaryDataTable" msprop:Generator_TableVarName="tableRP_DailyShiftSummary" msprop:Generator_RowChangedName="RP_DailyShiftSummaryRowChanged" msprop:Generator_TablePropName="RP_DailyShiftSummary" msprop:Generator_RowDeletingName="RP_DailyShiftSummaryRowDeleting" msprop:Generator_RowChangingName="RP_DailyShiftSummaryRowChanging" msprop:Generator_RowEvHandlerName="RP_DailyShiftSummaryRowChangeEventHandler" msprop:Generator_RowDeletedName="RP_DailyShiftSummaryRowDeleted" msprop:Generator_RowClassName="RP_DailyShiftSummaryRow" msprop:Generator_UserTableName="RP_DailyShiftSummary" msprop:Generator_RowEvArgName="RP_DailyShiftSummaryRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ShiftDate" msprop:Generator_ColumnVarNameInTable="columnShiftDate" msprop:Generator_ColumnPropNameInRow="ShiftDate" msprop:Generator_ColumnPropNameInTable="ShiftDateColumn" msprop:Generator_UserColumnName="ShiftDate" type="xs:dateTime" />
+              <xs:element name="LoomID" msprop:Generator_ColumnVarNameInTable="columnLoomID" msprop:Generator_ColumnPropNameInRow="LoomID" msprop:Generator_ColumnPropNameInTable="LoomIDColumn" msprop:Generator_UserColumnName="LoomID" type="xs:unsignedByte" />
+              <xs:element name="ArticleNumber" msprop:Generator_ColumnVarNameInTable="columnArticleNumber" msprop:Generator_ColumnPropNameInRow="ArticleNumber" msprop:Generator_ColumnPropNameInTable="ArticleNumberColumn" msprop:Generator_UserColumnName="ArticleNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ACSNumber" msprop:Generator_ColumnVarNameInTable="columnACSNumber" msprop:Generator_ColumnPropNameInRow="ACSNumber" msprop:Generator_ColumnPropNameInTable="ACSNumberColumn" msprop:Generator_UserColumnName="ACSNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DesignNumber" msprop:Generator_ColumnVarNameInTable="columnDesignNumber" msprop:Generator_ColumnPropNameInRow="DesignNumber" msprop:Generator_ColumnPropNameInTable="DesignNumberColumn" msprop:Generator_UserColumnName="DesignNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SetNo" msprop:Generator_ColumnVarNameInTable="columnSetNo" msprop:Generator_ColumnPropNameInRow="SetNo" msprop:Generator_ColumnPropNameInTable="SetNoColumn" msprop:Generator_UserColumnName="SetNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BeamNo" msprop:Generator_ColumnVarNameInTable="columnBeamNo" msprop:Generator_ColumnPropNameInRow="BeamNo" msprop:Generator_ColumnPropNameInTable="BeamNoColumn" msprop:Generator_UserColumnName="BeamNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileSetNo" msprop:Generator_ColumnVarNameInTable="columnPileSetNo" msprop:Generator_ColumnPropNameInRow="PileSetNo" msprop:Generator_ColumnPropNameInTable="PileSetNoColumn" msprop:Generator_UserColumnName="PileSetNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PileBeamNo" msprop:Generator_ColumnVarNameInTable="columnPileBeamNo" msprop:Generator_ColumnPropNameInRow="PileBeamNo" msprop:Generator_ColumnPropNameInTable="PileBeamNoColumn" msprop:Generator_UserColumnName="PileBeamNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="A_RPM" msprop:Generator_ColumnVarNameInTable="columnA_RPM" msprop:Generator_ColumnPropNameInRow="A_RPM" msprop:Generator_ColumnPropNameInTable="A_RPMColumn" msprop:Generator_UserColumnName="A_RPM" type="xs:double" minOccurs="0" />
+              <xs:element name="A_Units" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnA_Units" msprop:Generator_ColumnPropNameInRow="A_Units" msprop:Generator_ColumnPropNameInTable="A_UnitsColumn" msprop:Generator_UserColumnName="A_Units" type="xs:double" minOccurs="0" />
+              <xs:element name="A_Eff" msprop:Generator_ColumnVarNameInTable="columnA_Eff" msprop:Generator_ColumnPropNameInRow="A_Eff" msprop:Generator_ColumnPropNameInTable="A_EffColumn" msprop:Generator_UserColumnName="A_Eff" type="xs:double" minOccurs="0" />
+              <xs:element name="A_WarpStops" msprop:Generator_ColumnVarNameInTable="columnA_WarpStops" msprop:Generator_ColumnPropNameInRow="A_WarpStops" msprop:Generator_ColumnPropNameInTable="A_WarpStopsColumn" msprop:Generator_UserColumnName="A_WarpStops" type="xs:decimal" minOccurs="0" />
+              <xs:element name="A_WeftStops" msprop:Generator_ColumnVarNameInTable="columnA_WeftStops" msprop:Generator_ColumnPropNameInRow="A_WeftStops" msprop:Generator_ColumnPropNameInTable="A_WeftStopsColumn" msprop:Generator_UserColumnName="A_WeftStops" type="xs:decimal" minOccurs="0" />
+              <xs:element name="A_OtherStops" msprop:Generator_ColumnVarNameInTable="columnA_OtherStops" msprop:Generator_ColumnPropNameInRow="A_OtherStops" msprop:Generator_ColumnPropNameInTable="A_OtherStopsColumn" msprop:Generator_UserColumnName="A_OtherStops" type="xs:decimal" minOccurs="0" />
+              <xs:element name="A_WarpETime" msprop:Generator_ColumnVarNameInTable="columnA_WarpETime" msprop:Generator_ColumnPropNameInRow="A_WarpETime" msprop:Generator_ColumnPropNameInTable="A_WarpETimeColumn" msprop:Generator_UserColumnName="A_WarpETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="A_WeftETime" msprop:Generator_ColumnVarNameInTable="columnA_WeftETime" msprop:Generator_ColumnPropNameInRow="A_WeftETime" msprop:Generator_ColumnPropNameInTable="A_WeftETimeColumn" msprop:Generator_UserColumnName="A_WeftETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="A_OtherETime" msprop:Generator_ColumnVarNameInTable="columnA_OtherETime" msprop:Generator_ColumnPropNameInRow="A_OtherETime" msprop:Generator_ColumnPropNameInTable="A_OtherETimeColumn" msprop:Generator_UserColumnName="A_OtherETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="A_MechanicalETime" msprop:Generator_ColumnVarNameInTable="columnA_MechanicalETime" msprop:Generator_ColumnPropNameInRow="A_MechanicalETime" msprop:Generator_ColumnPropNameInTable="A_MechanicalETimeColumn" msprop:Generator_UserColumnName="A_MechanicalETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="A_ElectricalETime" msprop:Generator_ColumnVarNameInTable="columnA_ElectricalETime" msprop:Generator_ColumnPropNameInRow="A_ElectricalETime" msprop:Generator_ColumnPropNameInTable="A_ElectricalETimeColumn" msprop:Generator_UserColumnName="A_ElectricalETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="A_KnottingETime" msprop:Generator_ColumnVarNameInTable="columnA_KnottingETime" msprop:Generator_ColumnPropNameInRow="A_KnottingETime" msprop:Generator_ColumnPropNameInTable="A_KnottingETimeColumn" msprop:Generator_UserColumnName="A_KnottingETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="A_ArticleETime" msprop:Generator_ColumnVarNameInTable="columnA_ArticleETime" msprop:Generator_ColumnPropNameInRow="A_ArticleETime" msprop:Generator_ColumnPropNameInTable="A_ArticleETimeColumn" msprop:Generator_UserColumnName="A_ArticleETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="A_LongOtherETime" msprop:Generator_ColumnVarNameInTable="columnA_LongOtherETime" msprop:Generator_ColumnPropNameInRow="A_LongOtherETime" msprop:Generator_ColumnPropNameInTable="A_LongOtherETimeColumn" msprop:Generator_UserColumnName="A_LongOtherETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="B_RPM" msprop:Generator_ColumnVarNameInTable="columnB_RPM" msprop:Generator_ColumnPropNameInRow="B_RPM" msprop:Generator_ColumnPropNameInTable="B_RPMColumn" msprop:Generator_UserColumnName="B_RPM" type="xs:double" minOccurs="0" />
+              <xs:element name="B_Units" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnB_Units" msprop:Generator_ColumnPropNameInRow="B_Units" msprop:Generator_ColumnPropNameInTable="B_UnitsColumn" msprop:Generator_UserColumnName="B_Units" type="xs:double" minOccurs="0" />
+              <xs:element name="B_Eff" msprop:Generator_ColumnVarNameInTable="columnB_Eff" msprop:Generator_ColumnPropNameInRow="B_Eff" msprop:Generator_ColumnPropNameInTable="B_EffColumn" msprop:Generator_UserColumnName="B_Eff" type="xs:double" minOccurs="0" />
+              <xs:element name="B_WarpStops" msprop:Generator_ColumnVarNameInTable="columnB_WarpStops" msprop:Generator_ColumnPropNameInRow="B_WarpStops" msprop:Generator_ColumnPropNameInTable="B_WarpStopsColumn" msprop:Generator_UserColumnName="B_WarpStops" type="xs:decimal" minOccurs="0" />
+              <xs:element name="B_WeftStops" msprop:Generator_ColumnVarNameInTable="columnB_WeftStops" msprop:Generator_ColumnPropNameInRow="B_WeftStops" msprop:Generator_ColumnPropNameInTable="B_WeftStopsColumn" msprop:Generator_UserColumnName="B_WeftStops" type="xs:decimal" minOccurs="0" />
+              <xs:element name="B_OtherStops" msprop:Generator_ColumnVarNameInTable="columnB_OtherStops" msprop:Generator_ColumnPropNameInRow="B_OtherStops" msprop:Generator_ColumnPropNameInTable="B_OtherStopsColumn" msprop:Generator_UserColumnName="B_OtherStops" type="xs:decimal" minOccurs="0" />
+              <xs:element name="B_WarpETime" msprop:Generator_ColumnVarNameInTable="columnB_WarpETime" msprop:Generator_ColumnPropNameInRow="B_WarpETime" msprop:Generator_ColumnPropNameInTable="B_WarpETimeColumn" msprop:Generator_UserColumnName="B_WarpETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="B_WeftETime" msprop:Generator_ColumnVarNameInTable="columnB_WeftETime" msprop:Generator_ColumnPropNameInRow="B_WeftETime" msprop:Generator_ColumnPropNameInTable="B_WeftETimeColumn" msprop:Generator_UserColumnName="B_WeftETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="B_OtherETime" msprop:Generator_ColumnVarNameInTable="columnB_OtherETime" msprop:Generator_ColumnPropNameInRow="B_OtherETime" msprop:Generator_ColumnPropNameInTable="B_OtherETimeColumn" msprop:Generator_UserColumnName="B_OtherETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="B_MechanicalETime" msprop:Generator_ColumnVarNameInTable="columnB_MechanicalETime" msprop:Generator_ColumnPropNameInRow="B_MechanicalETime" msprop:Generator_ColumnPropNameInTable="B_MechanicalETimeColumn" msprop:Generator_UserColumnName="B_MechanicalETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="B_ElectricalETime" msprop:Generator_ColumnVarNameInTable="columnB_ElectricalETime" msprop:Generator_ColumnPropNameInRow="B_ElectricalETime" msprop:Generator_ColumnPropNameInTable="B_ElectricalETimeColumn" msprop:Generator_UserColumnName="B_ElectricalETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="B_KnottingETime" msprop:Generator_ColumnVarNameInTable="columnB_KnottingETime" msprop:Generator_ColumnPropNameInRow="B_KnottingETime" msprop:Generator_ColumnPropNameInTable="B_KnottingETimeColumn" msprop:Generator_UserColumnName="B_KnottingETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="B_ArticleETime" msprop:Generator_ColumnVarNameInTable="columnB_ArticleETime" msprop:Generator_ColumnPropNameInRow="B_ArticleETime" msprop:Generator_ColumnPropNameInTable="B_ArticleETimeColumn" msprop:Generator_UserColumnName="B_ArticleETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="B_LongOtherETime" msprop:Generator_ColumnVarNameInTable="columnB_LongOtherETime" msprop:Generator_ColumnPropNameInRow="B_LongOtherETime" msprop:Generator_ColumnPropNameInTable="B_LongOtherETimeColumn" msprop:Generator_UserColumnName="B_LongOtherETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="C_RPM" msprop:Generator_ColumnVarNameInTable="columnC_RPM" msprop:Generator_ColumnPropNameInRow="C_RPM" msprop:Generator_ColumnPropNameInTable="C_RPMColumn" msprop:Generator_UserColumnName="C_RPM" type="xs:double" minOccurs="0" />
+              <xs:element name="C_Picks" msprop:Generator_ColumnVarNameInTable="columnC_Picks" msprop:Generator_ColumnPropNameInRow="C_Picks" msprop:Generator_ColumnPropNameInTable="C_PicksColumn" msprop:Generator_UserColumnName="C_Picks" type="xs:double" minOccurs="0" />
+              <xs:element name="C_Eff" msprop:Generator_ColumnVarNameInTable="columnC_Eff" msprop:Generator_ColumnPropNameInRow="C_Eff" msprop:Generator_ColumnPropNameInTable="C_EffColumn" msprop:Generator_UserColumnName="C_Eff" type="xs:double" minOccurs="0" />
+              <xs:element name="C_WarpStops" msprop:Generator_ColumnVarNameInTable="columnC_WarpStops" msprop:Generator_ColumnPropNameInRow="C_WarpStops" msprop:Generator_ColumnPropNameInTable="C_WarpStopsColumn" msprop:Generator_UserColumnName="C_WarpStops" type="xs:decimal" minOccurs="0" />
+              <xs:element name="C_WeftStops" msprop:Generator_ColumnVarNameInTable="columnC_WeftStops" msprop:Generator_ColumnPropNameInRow="C_WeftStops" msprop:Generator_ColumnPropNameInTable="C_WeftStopsColumn" msprop:Generator_UserColumnName="C_WeftStops" type="xs:decimal" minOccurs="0" />
+              <xs:element name="C_OtherStops" msprop:Generator_ColumnVarNameInTable="columnC_OtherStops" msprop:Generator_ColumnPropNameInRow="C_OtherStops" msprop:Generator_ColumnPropNameInTable="C_OtherStopsColumn" msprop:Generator_UserColumnName="C_OtherStops" type="xs:decimal" minOccurs="0" />
+              <xs:element name="C_WarpETime" msprop:Generator_ColumnVarNameInTable="columnC_WarpETime" msprop:Generator_ColumnPropNameInRow="C_WarpETime" msprop:Generator_ColumnPropNameInTable="C_WarpETimeColumn" msprop:Generator_UserColumnName="C_WarpETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="C_WeftETime" msprop:Generator_ColumnVarNameInTable="columnC_WeftETime" msprop:Generator_ColumnPropNameInRow="C_WeftETime" msprop:Generator_ColumnPropNameInTable="C_WeftETimeColumn" msprop:Generator_UserColumnName="C_WeftETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="C_OtherETime" msprop:Generator_ColumnVarNameInTable="columnC_OtherETime" msprop:Generator_ColumnPropNameInRow="C_OtherETime" msprop:Generator_ColumnPropNameInTable="C_OtherETimeColumn" msprop:Generator_UserColumnName="C_OtherETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="C_MechanicalETime" msprop:Generator_ColumnVarNameInTable="columnC_MechanicalETime" msprop:Generator_ColumnPropNameInRow="C_MechanicalETime" msprop:Generator_ColumnPropNameInTable="C_MechanicalETimeColumn" msprop:Generator_UserColumnName="C_MechanicalETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="C_ElectricalETime" msprop:Generator_ColumnVarNameInTable="columnC_ElectricalETime" msprop:Generator_ColumnPropNameInRow="C_ElectricalETime" msprop:Generator_ColumnPropNameInTable="C_ElectricalETimeColumn" msprop:Generator_UserColumnName="C_ElectricalETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="C_KnottingETime" msprop:Generator_ColumnVarNameInTable="columnC_KnottingETime" msprop:Generator_ColumnPropNameInRow="C_KnottingETime" msprop:Generator_ColumnPropNameInTable="C_KnottingETimeColumn" msprop:Generator_UserColumnName="C_KnottingETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="C_ArticleETime" msprop:Generator_ColumnVarNameInTable="columnC_ArticleETime" msprop:Generator_ColumnPropNameInRow="C_ArticleETime" msprop:Generator_ColumnPropNameInTable="C_ArticleETimeColumn" msprop:Generator_UserColumnName="C_ArticleETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="C_LongOtherETime" msprop:Generator_ColumnVarNameInTable="columnC_LongOtherETime" msprop:Generator_ColumnPropNameInRow="C_LongOtherETime" msprop:Generator_ColumnPropNameInTable="C_LongOtherETimeColumn" msprop:Generator_UserColumnName="C_LongOtherETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ArticleName" msprop:Generator_ColumnVarNameInTable="columnArticleName" msprop:Generator_ColumnPropNameInRow="ArticleName" msprop:Generator_ColumnPropNameInTable="ArticleNameColumn" msprop:Generator_UserColumnName="ArticleName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LoomName" msprop:Generator_ColumnVarNameInTable="columnLoomName" msprop:Generator_ColumnPropNameInRow="LoomName" msprop:Generator_ColumnPropNameInTable="LoomNameColumn" msprop:Generator_UserColumnName="LoomName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AB_RPM" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAB_RPM" msprop:Generator_ColumnPropNameInRow="AB_RPM" msprop:Generator_ColumnPropNameInTable="AB_RPMColumn" msprop:Generator_UserColumnName="AB_RPM" type="xs:double" minOccurs="0" />
+              <xs:element name="AB_Eff" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAB_Eff" msprop:Generator_ColumnPropNameInRow="AB_Eff" msprop:Generator_ColumnPropNameInTable="AB_EffColumn" msprop:Generator_UserColumnName="AB_Eff" type="xs:double" minOccurs="0" />
+              <xs:element name="AB_Units" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAB_Units" msprop:Generator_ColumnPropNameInRow="AB_Units" msprop:Generator_ColumnPropNameInTable="AB_UnitsColumn" msprop:Generator_UserColumnName="AB_Units" type="xs:double" minOccurs="0" />
+              <xs:element name="AB_WarpStops" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAB_WarpStops" msprop:Generator_ColumnPropNameInRow="AB_WarpStops" msprop:Generator_ColumnPropNameInTable="AB_WarpStopsColumn" msprop:Generator_UserColumnName="AB_WarpStops" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AB_WeftStops" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAB_WeftStops" msprop:Generator_ColumnPropNameInRow="AB_WeftStops" msprop:Generator_ColumnPropNameInTable="AB_WeftStopsColumn" msprop:Generator_UserColumnName="AB_WeftStops" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AB_WarpETime" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAB_WarpETime" msprop:Generator_ColumnPropNameInRow="AB_WarpETime" msprop:Generator_ColumnPropNameInTable="AB_WarpETimeColumn" msprop:Generator_UserColumnName="AB_WarpETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AB_WeftETime" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAB_WeftETime" msprop:Generator_ColumnPropNameInRow="AB_WeftETime" msprop:Generator_ColumnPropNameInTable="AB_WeftETimeColumn" msprop:Generator_UserColumnName="AB_WeftETime" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LoomSize" msprop:Generator_ColumnVarNameInTable="columnLoomSize" msprop:Generator_ColumnPropNameInRow="LoomSize" msprop:Generator_ColumnPropNameInTable="LoomSizeColumn" msprop:Generator_UserColumnName="LoomSize" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LoomMake" msprop:Generator_ColumnVarNameInTable="columnLoomMake" msprop:Generator_ColumnPropNameInRow="LoomMake" msprop:Generator_ColumnPropNameInTable="LoomMakeColumn" msprop:Generator_UserColumnName="LoomMake" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PartyID" msprop:Generator_ColumnVarNameInTable="columnPartyID" msprop:Generator_ColumnPropNameInRow="PartyID" msprop:Generator_ColumnPropNameInTable="PartyIDColumn" msprop:Generator_UserColumnName="PartyID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PartyName" msprop:Generator_ColumnVarNameInTable="columnPartyName" msprop:Generator_ColumnPropNameInRow="PartyName" msprop:Generator_ColumnPropNameInTable="PartyNameColumn" msprop:Generator_UserColumnName="PartyName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:RP_DailyShiftSummary" />
+      <xs:field xpath="mstns:ShiftDate" />
+      <xs:field xpath="mstns:LoomID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
